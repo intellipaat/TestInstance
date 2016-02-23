@@ -1,0 +1,4255 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vibe Course Module v1.8.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-03 16:02+0530\n"
+"PO-Revision-Date: 2015-08-03 16:02+0530\n"
+"Last-Translator: vibethemes@gmail.com <vibethemes@gmail.com>\n"
+"Language-Team: partyfave <service@partyfave.me>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-"
+"course-module\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wplms/wp-content/plugins/"
+"vibe-course-module\n"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr "请输入Envato Marketplace用户名"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr "请输入Envato Marketplace API秘钥"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr "API \"set\" 为必填参数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr "Envato Marketplace \"ID de item\" 为必填参数"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:376
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "API请求时HTTP出现意外错误"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:376
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:541
+msgid "Try again"
+msgstr "再试"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:417
+msgid "An unknown error occurred"
+msgstr "出现未知错误"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:453
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr "插件已更新，但未被激活，请手动激活"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:454
+msgid "Plugin reactivated successfully. "
+msgstr "插件成功启用"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:476
+msgid " Plugin Updates"
+msgstr "升级插件"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:515
+msgid "Username: "
+msgstr "用户名"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:519
+msgid "Email: "
+msgstr "邮箱:"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:525
+msgid "Key: "
+msgstr "密码:"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:531
+msgid "<p>Your plugin update is <span style=\"color:green\">active</span></p>"
+msgstr "<p>您的插件更新已<span style=\"color:green\">激活</span></p>"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:535
+msgid ""
+"<p>Your input is <span style=\"color:red\">not valid</span>, automatic "
+"updates is <span style=\"color:red\">not active</span>.</p>"
+msgstr ""
+"<p>你输入的<span style=\"color:red\">无效</span>, 自动更新 <span style="
+"\"color:red\">无法启动</span>.</p>"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:536
+msgid "Edit Key"
+msgstr "重置密码"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:540
+msgid "<p>Unable to validate update activation.</p>"
+msgstr "编辑密码"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:546
+msgid "Add Key"
+msgstr "添加密码"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:632
+msgid "User name"
+msgstr "用户名"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:638
+msgid "Email"
+msgstr "邮箱"
+
+# @ text-domain
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/autoupdate/class-plugin-update.php:647
+msgid "Themeforest User name ( for Auto-Updates )"
+msgstr "Themeforest用户名 (用于自动更新)"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:20
+msgid "Removed a student from Course"
+msgstr "删除课程中的学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:21
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:25
+msgid "Student submitted a Course"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:22
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:24
+msgid "Student started a Course"
+msgstr "学员开始课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:23
+msgid "Student submitted a Quiz"
+msgstr "学员提交考试答卷"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:26
+msgid "Course reset for Student"
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:27
+msgid "Bulk action by instructor"
+msgstr "讲师批量操作"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:28
+msgid "Course Evaluated for student"
+msgstr "为学员评估课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:29
+msgid "Student got a Badge"
+msgstr "学员获得徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:30
+msgid "Student got a certificate"
+msgstr "学员获得证书 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:31
+msgid "Quiz Evaluated for student"
+msgstr "为学员批改考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:32
+msgid "Student subscribed for course"
+msgstr "学员订购课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:50
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:52
+msgid "per"
+msgstr "每个"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:69
+msgid "SUBSCRIPTION FOR"
+msgstr "订购"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:227
+#, php-format
+msgid "All Instructors <span>%s</span>"
+msgstr "全部教员 <span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:236
+#, fuzzy
+msgid "Expired Course"
+msgstr "课程 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:237
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:222
+#, fuzzy
+msgid "Start Course"
+msgstr "给课程 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:238
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:223
+#, fuzzy
+msgid "Continue Course"
+msgstr "考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:239
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:258
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:224
+msgid "Under Evaluation"
+msgstr "评估为"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:240
+#, fuzzy
+msgid "Course Finished"
+msgstr "课程过期"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:245
+#, fuzzy
+msgid "Filter by Status"
+msgstr "过滤结果"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:251
+msgid "Enter student name/email"
+msgstr "输入学员姓名/邮箱"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:252
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:134
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:358
+msgid "Search"
+msgstr "搜索"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:289
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:513
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:832
+msgid "EXPIRED"
+msgstr "已过期"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:289
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:297
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:300
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:306
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:309
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:315
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:318
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:324
+msgid "COURSE"
+msgstr "课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:297
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:315
+msgid "START"
+msgstr "开始"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:300
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:318
+msgid "CONTINUE"
+msgstr "继续"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:303
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:321
+msgid "UNDER"
+msgstr "在"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:303
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:321
+msgid "EVALUATION"
+msgstr "评估"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:306
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:324
+msgid "FINISHED"
+msgstr "已完成"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:309
+msgid "ENABLED"
+msgstr "已激活"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-actions.php:392
+msgid "This Course can not be taken. Contact Administrator."
+msgstr "无法学习该课程，请联系管理员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:165
+#, fuzzy, php-format
+msgid "Announcement for Course %s "
+msgstr "学员课程成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:179
+#, fuzzy, php-format
+msgid "News published for Course %s "
+msgstr "订购课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:188
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:619
+#, fuzzy, php-format
+msgid "Student subscribed for course %s"
+msgstr "订阅课程的学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:189
+#, fuzzy, php-format
+msgid "Student %s subscribed for course %s"
+msgstr "订阅课程的学员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:202
+msgid "Student started course "
+msgstr "学员已开始课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:203
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:273
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:282
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:302
+msgid "Student "
+msgstr "学员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:203
+msgid " started the course "
+msgstr "课程已开始"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:219
+#, php-format
+msgid "Student %s finished and submitted the course %s"
+msgstr "学员 %s 已完成并提交 %s 课程 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:221
+msgid "Student Submitted the course "
+msgstr "课程已提交评估"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:233
+msgid "Instructor evaluated Course for Student"
+msgstr "讲师为用户评估课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:234
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:999
+#, fuzzy, php-format
+msgid "Student %s got %s in course %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:252
+msgid "Course reset for student "
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:253
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:263
+msgid "Course "
+msgstr "课程: "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:253
+msgid " reset for student "
+msgstr "为学员重置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:262
+#, fuzzy
+msgid "Student retake Course "
+msgstr "学员已开始课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:263
+#, fuzzy
+msgid " retake by student "
+msgstr "学员需补考"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:272
+msgid "Student got a Badge in the course "
+msgstr "学员获得课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:273
+msgid " got a badge in the course "
+msgstr "学员获得课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:281
+msgid "Student got a Certificate in course"
+msgstr "学员获得课程证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:282
+msgid " got a certificate in the course "
+msgstr "学员获得课程证书"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:291
+#, fuzzy, php-format
+msgid "Student reviewed Course %s"
+msgstr "学员已重新开始课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:292
+#, fuzzy, php-format
+msgid "Student %s reviewd the Course %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:301
+#, fuzzy
+msgid "Student unsubsribed from course "
+msgstr "订阅课程的学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:302
+msgid " removed from the course "
+msgstr "已从课程中删除"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:311
+#, fuzzy
+msgid "Course code applied"
+msgstr "课程过期"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:321
+msgid "Student renewed a course"
+msgstr "学员已重新开始课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:322
+#, php-format
+msgid "Student %s renewd the course %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:330
+msgid "Student started a unit"
+msgstr "学员开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:331
+msgid "Student started the unit "
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:331
+msgid " in course "
+msgstr "课程 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:340
+msgid "Student finished unit "
+msgstr "学员完成单元学习"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:341
+#, php-format
+msgid "Student %s finished the unit %s in course %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:355
+#, fuzzy
+msgid "Student posted comment on unit "
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:356
+#, fuzzy, php-format
+msgid "Student %s posted comment on unit %s"
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:365
+msgid "Student started a quiz"
+msgstr "学员开始考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:366
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2052
+#, fuzzy, php-format
+msgid "Student %s started the quiz %s"
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:375
+msgid "Student submitted the Quiz"
+msgstr "学员提交考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:376
+#, fuzzy, php-format
+msgid "Quiz %s was submitted by student"
+msgstr "学员提交测试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:387
+msgid "Instructor evaluated Quiz for student "
+msgstr "讲师为学员评估考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:389
+#, fuzzy, php-format
+msgid "Student %s got %s out of %s in Quiz %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:403
+msgid "Quiz retake by Student"
+msgstr "学员需补考"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:404
+#, fuzzy, php-format
+msgid "Student %s  initiated retake for quiz %s"
+msgstr "学员开始考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:413
+msgid "Instructor Reseted the Quiz for User"
+msgstr "讲师为用户重置考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:414
+#, fuzzy, php-format
+msgid "Quiz %s  was reset by the Instructor for user %s"
+msgstr "讲师已为用户重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:425
+msgid "Instructor added students in course  "
+msgstr "讲师添加课程新学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:426
+#, fuzzy, php-format
+msgid "Instructor added %s students in course "
+msgstr "讲师添加课程新学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:433
+#, fuzzy
+msgid "Instructor changed course status  "
+msgstr "讲师添加课程新学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:434
+#, fuzzy, php-format
+msgid "Instructor changed Course Status for %s students in course "
+msgstr "讲师为用户评估课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:441
+#, fuzzy
+msgid "Instructor sent Bulk message to students"
+msgstr "讲师批量给学员批量发送信息: "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:442
+#, fuzzy, php-format
+msgid "Bulk Message sent to %s students "
+msgstr "批量给学员批量发送信息"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:449
+#, fuzzy
+msgid "Instructor extended Course subscription"
+msgstr "讲师为用户评估课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:450
+#, fuzzy, php-format
+msgid "Course subscription extended for %s students "
+msgstr "学员 %d 订阅已延长继续"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:460
+#, fuzzy
+msgid "Instructor assigned/removed Certificate/Badges"
+msgstr "讲师分配/删除证书/徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:461
+#, fuzzy, php-format
+msgid "Instructor added/removed Badges/Certificates from %s students in course"
+msgstr "讲师添加/删除徽章/证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:482
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1742
+#, fuzzy, php-format
+msgid "Student started assignment %s"
+msgstr "学员开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:483
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2082
+#, fuzzy, php-format
+msgid "Student %s started the assignment %s"
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:501
+#, fuzzy
+msgid "Student submitted assignment "
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:502
+#, fuzzy, php-format
+msgid "Student % submitted the assignment %s"
+msgstr "学员提交考试"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:518
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1772
+#, php-format
+msgid "Results available for assignment %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:519
+#, php-format
+msgid "Student %s got marks %s out of %s in assignment %s "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:536
+#, fuzzy
+msgid "Instructor Reseted the Assignment for User"
+msgstr "讲师为用户重置考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:537
+#, fuzzy, php-format
+msgid "Assignment %s was reset by the Instructor for user %s"
+msgstr "讲师已为用户重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:555
+#, php-format
+msgid "%1$s wrote a new %2$s, %3$s, on the site %4$s"
+msgstr "%1$s 写一个新的%2$s, %3$s, 在网站中 %4$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:557
+#, php-format
+msgid "%1$s wrote a new %2$s, %3$s"
+msgstr "%1$s 写一个新的 %2$s, %3$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:567
+#, php-format
+msgid "%1$s reviewed the %2$s, %3$s, on the site %4$s"
+msgstr "%1$s 重写%2$s, %3$s,在网站中 %4$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:569
+#, php-format
+msgid "%1$s reviewed the %2$s, %3$s"
+msgstr "%1$s 重写 %2$s, %3$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:573
+#, php-format
+msgid "%1$s answered the %2$s, %3$s, on the site %4$s"
+msgstr "%1$s 已回复 %2$s, %3$s, 在网站中 %4$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-activity.php:575
+#, php-format
+msgid "%1$s answered the %2$s, %3$s"
+msgstr "%1$s 已回复 %2$s, %3$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:37
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1734
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1925
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2170
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2340
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2356
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2405
+msgid "Security check Failed. Contact Administrator."
+msgstr "安全检查失败，请联系管理员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:79
+msgid "Answer Reset"
+msgstr "重新回答"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:81
+msgid "Unable to Reset"
+msgstr "无法重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:92
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:213
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:288
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:415
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:458
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:532
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:583
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:670
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:725
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1220
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1423
+msgid "Security check failed !"
+msgstr "安检无效!"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:97
+msgid "Incorrect Course selected."
+msgstr "课程选择错误"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:197
+msgid "Statistics successfully calculated. Reloading..."
+msgstr "统计计算完成，重读..."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:199
+msgid "Unable to calculate Average."
+msgstr "无法计算平均值"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:210
+msgid "SHOW STATS"
+msgstr "显示成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:210
+msgid "HIDE"
+msgstr "隐藏"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:218
+msgid "Incorrect User selected."
+msgstr "用户选择错误"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:229
+msgid "This User has not started the course."
+msgstr "该用户未开始课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:231
+msgid "This User has completed the course."
+msgstr "该用户已完成课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:232
+msgid "Student Score for Course "
+msgstr "学员课程成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:232
+msgid " out of 100"
+msgstr "百分之一"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:242
+msgid "Course Started : "
+msgstr "课程开始:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:247
+msgid "Curriculum :"
+msgstr "全部课程:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:248
+msgid "Quizes"
+msgstr "测试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:258
+msgid "Marks Obtained : "
+msgstr "获得成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:273
+msgid "Units Completed "
+msgstr "单元完成"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:273
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:695
+msgid " out of "
+msgstr "之"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:313
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:755
+msgid "Marked Answer :"
+msgstr "答案得分:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:323
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2242
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:402
+msgid "FALSE"
+msgstr "错误"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:323
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2242
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:402
+msgid "TRUE"
+msgstr "真"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:374
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:818
+msgid "Correct Answer :"
+msgstr "正确答案:"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:375
+msgid "View answer explanation"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:380
+#, fuzzy
+msgid "Total Marks :"
+msgstr "总计"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:384
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:386
+msgid "MARKS OBTAINED"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:390
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:828
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:833
+msgid "Marks Obtained"
+msgstr "获得成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:402
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:837
+msgid "Total Marks"
+msgstr "总计"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:420
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:463
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:537
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:675
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:730
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:773
+msgid " Incorrect User selected."
+msgstr "用户选择错误"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:434
+msgid "User removed from the Course"
+msgstr "从课程中删除用户"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:446
+msgid ""
+"There was issue in removing this user from the Course. Please contact admin."
+msgstr "删除课程用户出现错误，请联系管理员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:515
+msgid "Course Reset for User"
+msgstr "为用户重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:520
+msgid ""
+"There was issue in resetting this course for the user. Please contact admin."
+msgstr "为课程用户重置出现错误，请联系管理员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:555
+msgid "Quiz Reset for Selected User"
+msgstr "为用户重置考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:557
+msgid "Could not find Quiz results for User. Contact Admin."
+msgstr "无法找打用户考试结果，请联系管理员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:635
+msgid "COURSE MARKED COMPLETE"
+msgstr "课程完成打分"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:695
+msgid "MARKS: "
+msgstr "分数: "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:695
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:700
+msgid " PENDING"
+msgstr "处理中"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:700
+msgid "DONE"
+msgstr "完成"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:709
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:843
+msgid "Total"
+msgstr "总计"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:710
+msgid "Course Percentage (Out of 100)"
+msgstr "课程比例( 100%)"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:710
+msgid "Course Percentage out of 100"
+msgstr "课程比例( 100%)"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:711
+msgid "Mark Course Complete"
+msgstr "课程打分完成"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:735
+msgid " Incorrect Quiz Id."
+msgstr "考试ID错误"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:828
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:833
+msgid "Give marks"
+msgstr "打分"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:829
+msgid "Update Marks"
+msgstr "更新成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:834
+msgid "Give Marks"
+msgstr "打分"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:844
+msgid "Mark Quiz as Checked"
+msgstr "测试考试已检查"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:865
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:870
+msgid "Set a Subject for the message"
+msgstr "设置消息标题"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:881
+msgid "Messages Sent to "
+msgstr "信息发送至"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:881
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1085
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1202
+msgid " members"
+msgstr "会员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:883
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1093
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1117
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1208
+msgid "Please select members"
+msgstr "选择会员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:946
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:993
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:89
+msgid "Reset Course for User"
+msgstr "为用户重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:947
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:994
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:90
+msgid "See Course stats for User"
+msgstr "查看用户课程成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:948
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:995
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:92
+msgid "Remove User from this Course"
+msgstr "将用户从课程中删除"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1025
+msgid "Select Assign Value"
+msgstr "选择设定值"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1085
+msgid "Action assigned to "
+msgstr "操作分配至"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1090
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1205
+msgid "Could not assign action to members"
+msgstr "无法给会员发送指令"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1112
+msgid "Please enter extension amount"
+msgstr "请输入扩大量"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1137
+#, php-format
+msgid "Subscription extended for %d students, unable to extend for %d students"
+msgstr "学员 %d 订阅已延长继续，无法学员 %d 订阅"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1139
+#, php-format
+msgid "Subscription extended for %d students"
+msgstr "学员 %d 订阅已延长继续"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1161
+#, fuzzy
+msgid "Select Course Status"
+msgstr "选择课程目录"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1202
+#, fuzzy
+msgid "Course status changed for "
+msgstr "查看用户课程成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1224
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1427
+msgid "User does not have capability to download stats !"
+msgstr "用户无权限下载统计表"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1261
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1460
+msgid "START DATE"
+msgstr "开始日期"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1269
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1281
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1329
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1476
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1493
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1670
+msgid "N.A"
+msgstr "N.A"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1273
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1479
+msgid "COMPLETION DATE"
+msgstr "完成日期"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1284
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1497
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1699
+msgid "ID"
+msgstr "ID"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1291
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1504
+msgid "NAME"
+msgstr "名字"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1338
+msgid "BADGE"
+msgstr "徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1350
+msgid "CERTIFICATE"
+msgstr "证书 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1362
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1534
+msgid "SCORE"
+msgstr "成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1624
+msgid "User not allowed to access stats"
+msgstr "用户无权限查看统计表"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1650
+msgid "No data available"
+msgstr "无有效数据"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1659
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:371
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:26
+msgid "Stats"
+msgstr "统计"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1666
+msgid "Average"
+msgstr "平均"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1667
+msgid "Max"
+msgstr "最大"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1668
+msgid "Min"
+msgstr "最小"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1674
+msgid "Leaderboard"
+msgstr "积分榜"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1694
+msgid "Download Stats"
+msgstr "下载统计表"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1697
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-group-extension.php:60
+msgid "Start Date/Time"
+msgstr "开始日期/时间"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1698
+msgid "End Date/Time"
+msgstr "完成日期/时间"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1700
+msgid "Student Name"
+msgstr "学员姓名"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1701
+msgid "Score"
+msgstr "成绩"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1704
+msgid "Question scores (* for static quizzes only)"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1714
+msgid "All students"
+msgstr "全体学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1715
+msgid "Students who finished"
+msgstr "已完成的学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1718
+msgid "Process Stats"
+msgstr "统计"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1741
+#, fuzzy
+msgid "Unit not in Course"
+msgstr "课程 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1759
+msgid "Course Expired."
+msgstr "课程过期"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1759
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:274
+msgid "Click to renew"
+msgstr "点击刷新"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1799
+msgid "Unit will be available in "
+msgstr "单元将可在"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1810
+msgid "Unit can not be accessed."
+msgstr "单元无法访问"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1835
+msgid " Minutes"
+msgstr "分钟"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1835
+msgid " seconds"
+msgstr "秒"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1837
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/curriculum.php:57
+msgid " Hours"
+msgstr "小时"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1837
+msgid " minutes"
+msgstr "分钟"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1839
+msgid " Days"
+msgstr "天数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1839
+msgid " hours"
+msgstr "小时"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1865
+#, fuzzy
+msgid "Previous Quiz"
+msgstr "上一题"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1867
+msgid "Previous Unit"
+msgstr "上一单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1876
+msgid "Check Results"
+msgstr "检查结果"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1879
+#, fuzzy
+msgid "Continue Quiz"
+msgstr "考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1883
+msgid "Start Quiz"
+msgstr "开始考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1886
+msgid "Mark this Unit Complete"
+msgstr "完成全部作业可以完成该单元的学习"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1907
+msgid "Proceed to Quiz"
+msgstr "继续考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1909
+msgid "Next Unit"
+msgstr "下一单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1931
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1998
+#, fuzzy
+msgid "Invalid submission time."
+msgstr "评估提交考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:1936
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2003
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2185
+#, fuzzy
+msgid "Questions not set."
+msgstr "设置协助描述"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2066
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2119
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2152
+msgid "Quiz Timed Out ."
+msgstr "考试时间到"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2067
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2120
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2153
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2157
+msgid "If you want to attempt again, Contact Instructor to reset the quiz."
+msgstr "若想重新考试，请联系课程讲师"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2073
+msgid "Quiz Already Attempted."
+msgstr "考试已体验完"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2074
+msgid "Security Check Failed. Contact Site Admin."
+msgstr "安全检查失败，请联系管理员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2124
+msgid "Start Quiz to begin quiz."
+msgstr "开始考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2125
+msgid "Click \"Start Quiz\" button to start the Quiz."
+msgstr "点击 \"开始考试\" 按钮开始考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2129
+msgid "Quiz not active."
+msgstr "考试没有激活"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2130
+msgid "Contact your instructor or site admin."
+msgstr "讲师权限无法保存，请联系管理员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2156
+msgid "Quiz Already Attempted ."
+msgstr "考试已完成"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2229
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:357
+msgid "SHOW HINT"
+msgstr "显示提示"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2230
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:358
+msgid "HINT"
+msgstr "提示"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2304
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2307
+#, fuzzy
+msgid "Type Answer"
+msgstr "答案得分:"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2314
+msgid "PAGES"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2360
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2395
+#, fuzzy
+msgid "Unable to add message"
+msgstr "无法重置"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-ajax.php:2388
+msgid "JUST NOW"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:23
+msgid "Too Fast or Answer not marked."
+msgstr "太快或答案未打分"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:24
+msgid "Answer Saved."
+msgstr "保存答案"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:25
+msgid "Processing..."
+msgstr "处理中..."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:26
+msgid "Saving Answer...please wait"
+msgstr "保存答案中"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:27
+msgid ""
+"This step is irreversible. Are you sure you want to remove the User from the "
+"course ?"
+msgstr "本步骤无法恢复，你确定要从课程中删除用户？"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:28
+msgid "Confirm, Remove User from Course"
+msgstr "确认，将用户从课程中删除"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:29
+msgid "Confirm"
+msgstr "确认"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:30
+msgid "Cancel"
+msgstr "取消"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:31
+msgid ""
+"This step is irreversible. All Units, Quiz results would be reset for this "
+"user. Are you sure you want to Reset the Course for this User?"
+msgstr "本步骤无法恢复，确认要为该用户重置单元、考试么?"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:32
+msgid "Confirm, Reset Course for this User"
+msgstr "确认，为用户重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:33
+msgid ""
+"This step is irreversible. All Questions answers would be reset for this "
+"user. Are you sure you want to Reset the Quiz for this User? "
+msgstr "本步骤无法恢复，确认要为该用户重置所有问题答案?"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:34
+msgid "Confirm, Reset Quiz for this User"
+msgstr "确认，为用户重置考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:35
+msgid "Marks Saved"
+msgstr "保存分数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:36
+msgid "Quiz Marks Saved"
+msgstr "考试成绩已保存"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:37
+msgid "Submit Quiz"
+msgstr "提交考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:38
+msgid "Sending Messages ..."
+msgstr "发送信息"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:39
+msgid "Adding Students to Course ..."
+msgstr "为课程添加学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:40
+msgid "Students successfully added to Course"
+msgstr "学员已成功添加"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:41
+msgid "Unable to Add students to Course"
+msgstr "无法添加学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:42
+msgid "Please select fields to download"
+msgstr "请选择下载区域"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:43
+msgid "Download"
+msgstr "下载"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:44
+msgid "TIMEOUT"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:47
+msgid "for Course"
+msgstr "给课程 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:48
+msgid "Active Filters"
+msgstr "激活过滤器"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:49
+msgid "Clear all filters"
+msgstr "清除过滤器"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:50
+msgid "Are you sure you want to remove this note?"
+msgstr "你确定要删除这个笔记？"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:51
+msgid "Confirm, remove note"
+msgstr "确认，删除笔记"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:52
+msgid "Make Private"
+msgstr "变成私人的"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:53
+msgid "Add your note"
+msgstr "添加你的笔记"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:54
+msgid "Please add questions or retake the quiz !"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:55
+msgid "Are you sure you want to remove this Annoucement?"
+msgstr "你确定要删除这个通知？"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:56
+msgid "You're about to start the Quiz. Please click confirm to begin the quiz."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:57
+msgid ""
+"Are you sure you want to submit the quiz. Submitting the quiz will freeze "
+"all your answers, you can not change them.  Please confirm."
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:58
+#, fuzzy
+msgid "Check results"
+msgstr "检查结果"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:59
+#, fuzzy
+msgid "Correct"
+msgstr "正确答案:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:60
+#, fuzzy
+msgid "Incorrect"
+msgstr "考试ID错误"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-cssjs.php:61
+msgid "You have few unanswered questions. Are you sure you want to continue ?"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-filters.php:242
+msgid "No Courses found."
+msgstr "未找到课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:49
+msgid "Course Directory"
+msgstr "课程目录"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:50
+msgid "All Courses by all instructors"
+msgstr "全部教员课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:82
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:418
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:39
+msgid "Home"
+msgstr "首页"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:88
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:40
+msgid "Curriculum"
+msgstr "全部课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:94
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:17
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:41
+msgid "Members"
+msgstr "成员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:153
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:291
+msgid "TAKE THIS COURSE"
+msgstr "学习本课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:206
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:233
+msgid "START COURSE"
+msgstr "开始课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:210
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:237
+msgid "CONTINUE COURSE"
+msgstr "继续课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:214
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:241
+msgid "COURSE UNDER EVALUATION"
+msgstr "评估课程中"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:219
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:246
+msgid "FINISHED COURSE"
+msgstr "已完成课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:222
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:249
+msgid "COURSE FINISHED"
+msgstr "课程已完成"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:226
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:261
+msgid "COURSE ENABLED"
+msgstr "课程已开始"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:226
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:261
+msgid "CONTACT ADMIN TO ENABLE"
+msgstr "练习管理员开始"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:274
+msgid "Course Expired"
+msgstr "课程过期"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:293
+msgid "PRIVATE COURSE"
+msgstr "私人课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:320
+msgid "* REQUIRES"
+msgstr "*要求"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:323
+msgid "SEATS"
+msgstr "座位"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:324
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:76
+msgid "Course Badge"
+msgstr "课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:325
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:69
+msgid "Course Certificate"
+msgstr "课程证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:466
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:476
+#, fuzzy
+msgid "Type answer"
+msgstr "答案得分:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:509
+#, fuzzy
+msgid "Unlimited Time"
+msgstr "无时间限制"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:550
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:558
+msgid "Next Question"
+msgstr "下一题"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:554
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:557
+msgid "Previous Question"
+msgstr "上一题"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:607
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:645
+msgid "Duration not Set"
+msgstr "设置协助描述"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:617
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1071
+msgid "Time Remaining"
+msgstr "剩余时间"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:618
+msgid "Mins"
+msgstr "分"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:618
+msgid "Secs"
+msgstr "秒"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:653
+msgid "Progress"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:704
+msgid "Please set questions in quiz or reset quiz !"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:753
+msgid "QUESTION"
+msgstr "问题"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:773
+msgid "Security Error"
+msgstr "安全错误"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:815
+msgid "year"
+msgstr "本年度月订购"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:815
+msgid "years"
+msgstr "年"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:817
+msgid "month"
+msgstr "本月度订购"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:817
+msgid "months"
+msgstr "月"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:819
+msgid "week"
+msgstr "周"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:819
+msgid "weeks"
+msgstr "周"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:821
+msgid "day"
+msgstr "日"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:821
+msgid "days"
+msgstr "天数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:823
+msgid "hour"
+msgstr "小时"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:823
+msgid "hours"
+msgstr "小时"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:825
+msgid "minute"
+msgstr "分钟"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:825
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/curriculum.php:57
+msgid "minutes"
+msgstr "分钟"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:827
+msgid "second"
+msgstr "秒"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:827
+msgid "seconds"
+msgstr "秒"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:901
+msgid "Course Curriculum Not Set."
+msgstr "课程大纲未设置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:956
+msgid "Have Questions ? Ask in the Unit Forums"
+msgstr "有问题? 在单元论坛中进行提问"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1001
+msgid "Attachments"
+msgstr "附件"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1029
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:125
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:285
+msgid "Instructor"
+msgstr "讲师"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1242
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1245
+msgid "Certificate not valid for user"
+msgstr "用户无法使用证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1309
+msgid "Evaluate course submissions"
+msgstr "评估提交课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1324
+msgid "Evaluate Quiz submissions"
+msgstr "评估提交考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1329
+msgid "Manage Students"
+msgstr "管理学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1330
+msgid "See Stats"
+msgstr "查看统计"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1331
+msgid "See all Activity"
+msgstr "查看活动"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1378
+msgid "Seconds"
+msgstr "秒"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1379
+msgid "Minutes"
+msgstr "分钟"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1380
+msgid "Hours"
+msgstr "小时"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1381
+msgid "Days"
+msgstr "天数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1382
+msgid "Weeks"
+msgstr "周"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1383
+msgid "Months"
+msgstr "月"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-functions.php:1384
+msgid "Years"
+msgstr "年"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-group-extension.php:28
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:66
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:253
+msgid "Course"
+msgstr "课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-group-extension.php:33
+#, fuzzy
+msgid "Save Course Settings"
+msgstr "设置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-group-extension.php:50
+#, fuzzy
+msgid "Connect with Course"
+msgstr "考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-group-extension.php:54
+#, fuzzy
+msgid "Select a Course"
+msgstr "选择课程目录"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:264
+msgid "Search ..."
+msgstr "搜索"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:313
+#, php-format
+msgid "Courses <span>%s</span>"
+msgstr "课程<span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:351
+msgid "My Courses"
+msgstr "我的课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:361
+msgid "Results"
+msgstr "结果"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:382
+msgid "Instructing Courses"
+msgstr "课程指导"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-loader.php:620
+msgid "Please Update the WPLMS theme to latest version"
+msgstr "请升级WPLMS主题至最新版本"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:46
+#, php-format
+msgid "Click %s to Activate account."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:46
+msgid "this link"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:123
+msgid "Profile"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:123
+#, fuzzy
+msgid "Courses"
+msgstr "课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-mailer.php:125
+msgid "Link"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:34
+#, fuzzy
+msgid "Annoucements"
+msgstr "讲师通知"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:41
+msgid "News"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:48
+#, fuzzy
+msgid "Course Subscribed"
+msgstr "课程开始:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:55
+#, fuzzy
+msgid "User added to Course"
+msgstr "从课程中删除用户"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:62
+#, fuzzy
+msgid "User Starts a Course "
+msgstr "给课程 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:84
+#, fuzzy
+msgid "Course Reset by Instructor"
+msgstr "全部教员课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:91
+#, fuzzy
+msgid "Course Retake by User"
+msgstr "为用户重置课程"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:98
+#, fuzzy
+msgid "Course Submit"
+msgstr "课程题目"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:105
+#, fuzzy
+msgid "Course Evaluation"
+msgstr "课程评估"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:112
+#, fuzzy
+msgid "Course Reviews"
+msgstr "BuddyPress课程小工具"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:119
+#, fuzzy
+msgid "Unsubscribe Course"
+msgstr "订购课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:126
+msgid "Unit marked complete by User"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:133
+msgid "Unit comment added by User"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:141
+#, fuzzy
+msgid "Quiz Start by user"
+msgstr "学员需补考"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:148
+#, fuzzy
+msgid "Quiz Submitted by user"
+msgstr "考试已提交评估"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:155
+#, fuzzy
+msgid "Quiz Reset by Instructor"
+msgstr "选择讲师"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:162
+#, fuzzy
+msgid "Quiz Retake by User"
+msgstr "学员需补考"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:169
+#, fuzzy
+msgid "Quiz Evaluation"
+msgstr "考试测评"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:176
+#, fuzzy
+msgid "Assignment Start by user"
+msgstr "为用户重置作业"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:183
+#, fuzzy
+msgid "Assignment Submitted by user"
+msgstr "课程已提交评估"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:190
+#, fuzzy
+msgid "Assignment Evaluation"
+msgstr "批改作业"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:197
+msgid "Assignment Reset by Instructor"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:254
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:286
+msgid "Yes"
+msgstr "是"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:255
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:287
+msgid "No"
+msgstr "否"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:317
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:428
+#, fuzzy, php-format
+msgid "Announcement for course %s"
+msgstr "讲师为学员添加课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:421
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:446
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1959
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1962
+#, fuzzy, php-format
+msgid "Announcement for Course %s"
+msgstr "学员课程成绩"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:462
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:508
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:520
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:549
+msgid "Read more"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:464
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:507
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:548
+#, fuzzy, php-format
+msgid "News for Course %s"
+msgstr "给课程 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:519
+#, fuzzy, php-format
+msgid "News for course %s"
+msgstr "给课程 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:560
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:582
+#, fuzzy, php-format
+msgid "You're subscribed for course : %s"
+msgstr "订购课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:562
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:581
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:597
+#, fuzzy
+msgid "Subscribed for Course"
+msgstr "订购课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:595
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:620
+#, fuzzy, php-format
+msgid "Student %s subscribed for course : %s"
+msgstr "订阅课程的学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:635
+#, fuzzy, php-format
+msgid "You're added to course : %s"
+msgstr "讲师为学员添加课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:637
+#, fuzzy
+msgid "Added to Course"
+msgstr "选择课程目录"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:666
+#, fuzzy, php-format
+msgid "Added to course %s"
+msgstr "课程已开始"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:667
+#, fuzzy, php-format
+msgid "You've been added to course : %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:682
+#, fuzzy, php-format
+msgid "Student %s added to course : %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:684
+#, fuzzy
+msgid "Student added to Course"
+msgstr "学员开始课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:721
+#, fuzzy, php-format
+msgid "Students added to course %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:722
+#, fuzzy, php-format
+msgid "%d students added to course : %s , %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:733
+#, fuzzy, php-format
+msgid "You started the course : %s"
+msgstr "课程已开始"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:735
+#, fuzzy
+msgid "Started a Course"
+msgstr "给课程 "
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:756
+#, fuzzy, php-format
+msgid "You started course %s"
+msgstr "课程已开始"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:757
+#, fuzzy, php-format
+msgid "You've started the course : %s"
+msgstr "课程已开始"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:770
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:797
+#, fuzzy, php-format
+msgid "Student %s started the course : %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:772
+#, fuzzy, php-format
+msgid "Student started the course %s"
+msgstr "学员已开始课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:796
+#, fuzzy, php-format
+msgid "Student started course %s"
+msgstr "学员已开始课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:806
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:828
+#, fuzzy, php-format
+msgid "You've submitted the course : %s"
+msgstr "课程已提交评估"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:808
+#, fuzzy
+msgid "Course submitted"
+msgstr "课程题目"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:827
+#, fuzzy, php-format
+msgid "Course %s submitted"
+msgstr "课程题目"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:838
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:861
+#, fuzzy, php-format
+msgid "Student %s submitted the course : %s"
+msgstr "课程已提交评估"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:840
+#, fuzzy, php-format
+msgid "Student submitted the course %s"
+msgstr "课程已提交评估"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:860
+#, fuzzy, php-format
+msgid "Student submitted course %s"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:870
+#, fuzzy, php-format
+msgid "The Course %s was reset by Course instructor "
+msgstr "讲师已为用户重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:872
+#, fuzzy
+msgid "Course reset"
+msgstr "课程: "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:888
+#, fuzzy, php-format
+msgid "Course %s reset"
+msgstr "为用户重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:889
+#, fuzzy, php-format
+msgid "%s Course was reset by Instructor"
+msgstr "讲师已为用户重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:895
+#, fuzzy, php-format
+msgid "%s course reset for student : %s"
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:897
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:948
+#, fuzzy, php-format
+msgid "Course %s reset for student"
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:914
+#, fuzzy, php-format
+msgid "Course %s reset for Student"
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:915
+#, fuzzy, php-format
+msgid "Course %s was reset for student %s "
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:922
+#, fuzzy, php-format
+msgid "You retook the Course %s "
+msgstr "已从课程中删除"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:924
+#, fuzzy
+msgid "Course retake"
+msgstr "课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:939
+#, fuzzy, php-format
+msgid "You retook the course Course %s"
+msgstr "已从课程中删除"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:940
+#, fuzzy, php-format
+msgid "You've retaken the Course %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:946
+#, fuzzy, php-format
+msgid "Student %s retook the course %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:965
+#, fuzzy, php-format
+msgid "Course %s retaken by the Student"
+msgstr "学员需补考"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:966
+#, fuzzy, php-format
+msgid "Course %s was retaken by the student %s "
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:975
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:993
+#, fuzzy, php-format
+msgid "You've obtained %s  in Course : %s"
+msgstr "您已获得"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:977
+msgid "Course results available"
+msgstr "课程结果可见"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:992
+#, fuzzy, php-format
+msgid "Course %s results available"
+msgstr "课程结果可见"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1001
+#, fuzzy, php-format
+msgid "Course %s evaluated for student"
+msgstr "为学员评估课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1017
+#, fuzzy, php-format
+msgid "Course %s evaluated for Student"
+msgstr "为学员评估课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1018
+#, fuzzy, php-format
+msgid "Student %s got %s in Course %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1027
+#, fuzzy, php-format
+msgid "Congratulations ! You've obtained a badge in Course : %s"
+msgstr "恭喜！你已获得"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1029
+#, fuzzy
+msgid "You got a new Badge !"
+msgstr "学员获得徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1048
+#, fuzzy, php-format
+msgid "You got a Badge in Course %s"
+msgstr "学员获得课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1049
+#, fuzzy, php-format
+msgid "You've obtained a Badge in Course : %s"
+msgstr "学员获得课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1057
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1177
+#, fuzzy, php-format
+msgid "Student %s got a Badge in course %s"
+msgstr "学员获得课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1059
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1079
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1179
+#, fuzzy, php-format
+msgid "Student got a Badge in Course %s"
+msgstr "学员获得课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1080
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2016
+#, fuzzy, php-format
+msgid "Student %s got a Badge in Course %s"
+msgstr "学员获得课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1089
+#, fuzzy, php-format
+msgid "Congratulations ! You've obtained a Certificate in Course : %s"
+msgstr "恭喜！你已获得"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1091
+#, fuzzy
+msgid "You got a new Certifiacte !"
+msgstr "学员获得证书 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1110
+#, fuzzy, php-format
+msgid "You got a Certificate in Course %s"
+msgstr "学员获得课程证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1111
+#, fuzzy, php-format
+msgid "You've obtained a certificate in Course : %s"
+msgstr "学员获得课程证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1119
+#, fuzzy, php-format
+msgid "Student %s got a Certificate in course %s"
+msgstr "学员获得课程证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1121
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1141
+#, fuzzy, php-format
+msgid "Student got a Certificate in Course %s"
+msgstr "学员获得课程证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1142
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2022
+#, fuzzy, php-format
+msgid "Student %s got a Certificate in Course %s"
+msgstr "学员获得课程证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1150
+#, fuzzy, php-format
+msgid "You've submitted a review of Course : %s"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1152
+#, fuzzy
+msgid "You submitted a course review"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1169
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2025
+#, fuzzy, php-format
+msgid "You submitted a review for Course %s"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1170
+#, fuzzy, php-format
+msgid "You submitted a review Course : %s"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1197
+#, fuzzy, php-format
+msgid "Student submitted a review for Course %s"
+msgstr "学员已订阅课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1198
+#, fuzzy, php-format
+msgid "Student %s submitted a review for the Course %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1206
+#, fuzzy, php-format
+msgid "You're unsubscribed from Course : %s"
+msgstr "订购课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1208
+#, fuzzy
+msgid "You unsubscribed from course"
+msgstr "订购课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1223
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1273
+#, fuzzy
+msgid "You're unsubscribed from course"
+msgstr "订购课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1224
+#, fuzzy, php-format
+msgid "You're unsubscribed from course Course %s"
+msgstr "订购课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1230
+#, fuzzy, php-format
+msgid "Student %s unsubscribed course %s"
+msgstr "订阅课程的学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1232
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1248
+#, fuzzy, php-format
+msgid "Student unsubscribed from Course %s"
+msgstr "订阅课程的学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1249
+#, fuzzy, php-format
+msgid "Student %s unsubscribed from Course %s"
+msgstr "订阅课程的学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1256
+#, fuzzy, php-format
+msgid "You applied a code for Course : %s"
+msgstr "学员课程成绩"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1258
+msgid "You applied a course code"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1274
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2031
+#, fuzzy, php-format
+msgid "You're unsubscribed from Course %s"
+msgstr "订购课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1281
+#, fuzzy, php-format
+msgid "Student %s used course code %s for course %s"
+msgstr "订阅课程的学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1283
+#, fuzzy, php-format
+msgid "Student applied Course code for Course %s"
+msgstr "学员课程成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1299
+#, fuzzy, php-format
+msgid "Student applied code forCourse %s"
+msgstr "学员课程成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1300
+#, fuzzy, php-format
+msgid "Student %s applied code %s for Course %s"
+msgstr "学员课程成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1308
+#, fuzzy, php-format
+msgid "You've completed the unit %s in Course : %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1310
+msgid "You completed a unit"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1328
+msgid "You completed unit"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1329
+#, fuzzy, php-format
+msgid "You completed a unit %s in Course %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1336
+#, fuzzy, php-format
+msgid "Student %s completed the unit %s in course %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1338
+#, fuzzy, php-format
+msgid "Student completed a unit in Course %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1356
+#, fuzzy, php-format
+msgid "Student completed unit in Course %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1357
+#, fuzzy, php-format
+msgid "Student %s completed unit %s in Course %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1364
+#, php-format
+msgid "You've submitted a comment on unit : %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1366
+msgid "You submitted a question/comment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1381
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1382
+#, php-format
+msgid "You added a comment on Unit %s"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1389
+#, fuzzy, php-format
+msgid "Student %s submitted a comment on unit %s "
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1391
+#, fuzzy
+msgid "Student submitted a comment on Unit"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1410
+#, fuzzy, php-format
+msgid "Student added comment in unit %s"
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1411
+#, fuzzy, php-format
+msgid "Student %s added a comment in unit %s "
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1421
+#, fuzzy, php-format
+msgid "You've started the quiz : %s"
+msgstr "开始考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1423
+#, fuzzy
+msgid "You started a Quiz"
+msgstr "学员开始考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1438
+#, fuzzy, php-format
+msgid "You started quiz %s"
+msgstr "开始考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1439
+#, fuzzy, php-format
+msgid "You started a quiz %s"
+msgstr "开始考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1445
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1466
+#, fuzzy, php-format
+msgid "Student %s started the quiz %s "
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1447
+#, fuzzy, php-format
+msgid "Student started the quiz %s"
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1465
+#, fuzzy, php-format
+msgid "Student started quiz %s"
+msgstr "学员开始考试"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1477
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1496
+#, php-format
+msgid "You obtained %d out of %s in Quiz : "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1479
+msgid "Quiz results available"
+msgstr "考试结果可见"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1495
+#, fuzzy, php-format
+msgid "Results available for quiz %s"
+msgstr "考试结果可见"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1502
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1523
+#, php-format
+msgid "Student %s got %s from %s in quiz %s "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1504
+#, fuzzy, php-format
+msgid "Quiz %s evaluated for student"
+msgstr "为学员批改考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1522
+#, fuzzy, php-format
+msgid "Quiz %s evaluated for Student"
+msgstr "为学员批改考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1535
+#, fuzzy, php-format
+msgid "You submitted the Quiz : %s"
+msgstr "学员提交考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1537
+#, fuzzy, php-format
+msgid "You submitted quiz %s "
+msgstr "学员提交考试答卷"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1554
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1555
+#, fuzzy, php-format
+msgid "You submitted quiz %s"
+msgstr "学员提交考试答卷"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1568
+#, fuzzy, php-format
+msgid "Quiz %s submitted by student %s"
+msgstr "学员提交测试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1570
+#, fuzzy, php-format
+msgid "Quiz %s submitted by Student"
+msgstr "学员提交测试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1586
+#, fuzzy, php-format
+msgid "Student submitted quiz %s"
+msgstr "学员提交考试答卷"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1587
+#, fuzzy, php-format
+msgid "Student %s submitted quiz %s"
+msgstr "学员提交考试答卷"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1594
+#, php-format
+msgid "You retook the Quiz : %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1596
+msgid "You retook a Quiz"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1611
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1612
+#, php-format
+msgid "You retook quiz %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1618
+#, fuzzy, php-format
+msgid "Student %s retook the Quiz : %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1620
+#, fuzzy, php-format
+msgid "Student retook the Quiz %s"
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1636
+#, fuzzy, php-format
+msgid "Student retook the quiz %s"
+msgstr "学员已开始学习单元"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1637
+#, fuzzy, php-format
+msgid "Student %s retook the quiz %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1644
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1662
+#, fuzzy, php-format
+msgid "Quiz %s was reset by Instructor"
+msgstr "讲师已为用户重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1646
+#, fuzzy
+msgid "Quiz reset by Instructor"
+msgstr "选择讲师"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1661
+#, fuzzy, php-format
+msgid "Quiz %s reset"
+msgstr "测试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1668
+#, fuzzy, php-format
+msgid "Quiz %s reset for Student %s"
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1670
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1688
+#, fuzzy, php-format
+msgid "Quiz %s reset for Student"
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1689
+#, fuzzy, php-format
+msgid "Quiz %s was reset for Student %s"
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1698
+#, fuzzy, php-format
+msgid "You've started the assignemtn : %s"
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1700
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1715
+#, fuzzy, php-format
+msgid "You started assignment %s"
+msgstr "批改作业"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1716
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2079
+#, fuzzy, php-format
+msgid "You started the assignment %s"
+msgstr "课程已开始"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1722
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1743
+#, fuzzy, php-format
+msgid "Student %s started the assignment %s "
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1724
+#, fuzzy, php-format
+msgid "Student started an assignment %s "
+msgstr "学员开始学习单元"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1754
+#, php-format
+msgid "You obtained %d out of %s in Assignment : %s "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1756
+#, fuzzy
+msgid "Assignment results available"
+msgstr "课程结果可见"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1773
+#, php-format
+msgid "You obtained %d out of %s in Assignment : "
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1779
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1800
+#, php-format
+msgid "Student %s got %s from %s in assignment %s "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1781
+#, fuzzy, php-format
+msgid "Assignment %s evaluated for student"
+msgstr "为学员自动测评"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1799
+#, fuzzy, php-format
+msgid "Assignment %s evaluated for Student"
+msgstr "批改作业"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1813
+#, php-format
+msgid "You submitted the assignment : %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1815
+#, php-format
+msgid "You submitted the assignment %s "
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1832
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1833
+#, fuzzy, php-format
+msgid "You submitted assignment %s"
+msgstr "学员提交测试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1845
+#, fuzzy, php-format
+msgid "Assignment %s submitted by student %s"
+msgstr "学员提交测试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1847
+#, fuzzy, php-format
+msgid "Assignment %s submitted by Student"
+msgstr "学员提交测试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1863
+#, fuzzy, php-format
+msgid "Student submitted assignment %s"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1864
+#, fuzzy, php-format
+msgid "Student %s submitted assignment %s"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1872
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1890
+#, fuzzy, php-format
+msgid "Assignment %s was reset by Instructor"
+msgstr "讲师已为用户重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1874
+#, fuzzy
+msgid "Assignment reset by Instructor"
+msgstr "讲师已为用户重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1889
+#, fuzzy, php-format
+msgid "Assignment %s reset"
+msgstr "批改作业"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1896
+#, fuzzy, php-format
+msgid "Assignment %s reset for Student %s"
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1898
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1916
+#, fuzzy, php-format
+msgid "Assignment %s reset for Student"
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1917
+#, fuzzy, php-format
+msgid "Assignment %s was reset for Student %s"
+msgstr "给学员重置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1965
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1971
+#, fuzzy, php-format
+msgid "Added to Course %s"
+msgstr "为课程添加学员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1968
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1974
+#, fuzzy, php-format
+msgid "Student %s added to Course %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1977
+#, fuzzy, php-format
+msgid "You've subscribed to Course %s"
+msgstr "订购课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1980
+#, fuzzy, php-format
+msgid "Student %s subscribed to Course %s"
+msgstr "订阅课程的学员"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1983
+#, fuzzy, php-format
+msgid "You started the course %s"
+msgstr "课程已开始"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1986
+#, fuzzy, php-format
+msgid "Student %s started course %s"
+msgstr "学员已开始课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1989
+#, fuzzy, php-format
+msgid "You submitted the course %s"
+msgstr "课程已提交评估"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1992
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1995
+#, fuzzy, php-format
+msgid "Student %s submitted course %s"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:1998
+#, fuzzy, php-format
+msgid "Course %s was reset for Student %s"
+msgstr "给学员重置课程"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2001
+#, fuzzy, php-format
+msgid "Student %s retook the course course %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2004
+#, fuzzy, php-format
+msgid "Course %s was retaken by Student %s"
+msgstr "学员需补考"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2007
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2010
+#, fuzzy, php-format
+msgid "Course %s evaluated for Student %s"
+msgstr "为学员评估课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2013
+#, fuzzy, php-format
+msgid "Congratulations ! You got a badge in Course %s"
+msgstr "恭喜！你已获得"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2019
+#, fuzzy, php-format
+msgid "Congratulations ! You got a certificate in Course %s"
+msgstr "学员获得课程证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2028
+#, fuzzy, php-format
+msgid "Student %s submitted a review for Course %s"
+msgstr "学员已订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2034
+#, fuzzy, php-format
+msgid "Student %s is unsubscribed from Course %s"
+msgstr "订阅课程的学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2037
+#, fuzzy, php-format
+msgid "You completed the unit %s in course %s"
+msgstr "学员  %s 完成 %s 单元的 %s 课"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2040
+#, fuzzy, php-format
+msgid "Student %s completed the unit %s"
+msgstr "学员已开始学习单元"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2043
+#, php-format
+msgid "You added a comment in unit %s"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2046
+#, fuzzy, php-format
+msgid "Student %s added a comment in unit %s"
+msgstr "学员已开始学习单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2049
+#, fuzzy, php-format
+msgid "You started the quiz %s"
+msgstr "开始考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2055
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2085
+#, fuzzy, php-format
+msgid "You submitted the quiz %s"
+msgstr "学员提交考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2058
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2088
+#, fuzzy, php-format
+msgid "Student %s submitted the quiz %s"
+msgstr "学员提交考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2061
+#, fuzzy, php-format
+msgid "Quiz %s results available"
+msgstr "考试结果可见"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2064
+#, fuzzy, php-format
+msgid "Quiz %s results available for student %s"
+msgstr "考试结果可见"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2067
+#, fuzzy, php-format
+msgid "Quiz %s reset by Instructor"
+msgstr "讲师已为用户重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2070
+#, fuzzy, php-format
+msgid "Quiz %s reset for student %s"
+msgstr "为学员重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2073
+#, fuzzy, php-format
+msgid "You retook the quiz %s"
+msgstr "开始考试"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2076
+#, fuzzy, php-format
+msgid "Student %s retook the Quiz %s"
+msgstr "学员 %s 已重新开始课程 %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2091
+#, fuzzy, php-format
+msgid "Assignment %s results available"
+msgstr "课程 %s 结果有效"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2094
+#, php-format
+msgid "Assignment %s results available for student %s"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2097
+#, fuzzy, php-format
+msgid "Assignment %s reset by Instructor"
+msgstr "讲师已为用户重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-notifications.php:2100
+#, fuzzy, php-format
+msgid "Assignment %s reset for student %s"
+msgstr "为学员重置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:96
+msgid "Course Settings Header"
+msgstr "设置课程顶部"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:100
+msgid "Course Settings"
+msgstr "设置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:108
+msgid "Changes Saved."
+msgstr "保存修改"
+
+# @ bp-course
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:114
+msgid "Do you love clicking checkboxes?"
+msgstr "你喜欢点击回复框么?"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:116
+msgid "Save Settings"
+msgstr "保存设置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:150
+msgid "Send Bulk Message"
+msgstr "批量发送消息"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:160
+#, php-format
+msgid "Enter extend amount ( in %s"
+msgstr "输入扩大量（ %s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:161
+msgid "Extend Subscription"
+msgstr "扩大订阅"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:172
+msgid "Type Message Subject"
+msgstr "输入消息题目"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:173
+msgid "Type Message"
+msgstr "输入消息"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:174
+msgid "Send Message"
+msgstr "发送消息"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:187
+msgid "Enter Student Usernames/Emails, separated by comma"
+msgstr "输入用户姓名/邮箱并用逗号分开"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:188
+msgid "Add Students"
+msgstr "添加学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:203
+msgid "ASSIGN COURSE BADGE"
+msgstr "分配课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:204
+msgid "ASSIGN COURSE CERTIFICATE"
+msgstr "分配课程证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:205
+msgid "REMOVE COURSE BADGE"
+msgstr "删除课程徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:206
+msgid "REMOVE COURSE CERTIFICATE"
+msgstr "删除课程证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:208
+msgid "Assign Action"
+msgstr "指定动作"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:225
+#, fuzzy
+msgid "Finished Course"
+msgstr "课程 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:227
+#, fuzzy
+msgid "Enter marks"
+msgstr "打分"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-screens.php:228
+#, fuzzy
+msgid "Change Course Status"
+msgstr "设置课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:342
+#, php-format
+msgid "Viewing page %1$s of %2$s"
+msgstr "查看页数 %1$s 至 %2$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:559
+msgid "REVIEWS"
+msgstr "查看"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:564
+msgid "STUDENTS"
+msgstr "学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:689
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/curriculum.php:43
+msgid "FREE"
+msgstr "免费"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:763
+msgid "PRIVATE"
+msgstr "私人"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:919
+#, fuzzy, php-format
+msgid "Viewing page %d of %d "
+msgstr "查看页数 %1$s 至 %2$s"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1446
+msgid "COURSE EVALUATED "
+msgstr "课程已评估"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1479
+msgid "Congratulations ! You've earned the "
+msgstr "恭喜！你已获得"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1479
+msgid "Badge"
+msgstr "徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1499
+msgid ""
+"Congratulations ! You've successfully passed the course and earned the "
+"Course Completion Certificate !"
+msgstr "恭喜！你已成功完成本课程并获得毕业证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1499
+msgid "View Certificate"
+msgstr "查看证书"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1508
+#, fuzzy, php-format
+msgid "You've obtained %s in course %s "
+msgstr "您已获得"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1514
+msgid "COURSE SUBMITTED FOR EVALUATION"
+msgstr "课程已提交评估"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1527
+msgid "UNIT"
+msgstr "单元"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1530
+msgid "ASSIGNMENT"
+msgstr "作业"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1533
+msgid "QUIZ"
+msgstr "考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1536
+msgid "PLEASE COMPLETE THE "
+msgstr "请填写"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-template.php:1540
+msgid "COURSE CURRICULUM NOT SET"
+msgstr "课程目录未设置"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:35
+msgid "BuddyPress Course Widget"
+msgstr "BuddyPress课程小工具"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:92
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:233
+msgid "by"
+msgstr "由"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:152
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:264
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:395
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:518
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:855
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1036
+msgid "Widget Title"
+msgstr "小工具标题"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:153
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:859
+msgid "Style"
+msgstr "类型"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:155
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:861
+msgid "Single"
+msgstr "单独"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:156
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:862
+msgid "List"
+msgstr "列表"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:157
+msgid "Ratings List"
+msgstr "列表"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:158
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:863
+msgid "Carousel"
+msgstr "滑动"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:161
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:303
+msgid "Select Course Category"
+msgstr "选择课程目录"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:163
+msgid "None"
+msgstr "无"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:171
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:866
+msgid "Order By"
+msgstr "排列方式"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:173
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:869
+msgid "Random"
+msgstr "随机"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:174
+msgid "Name"
+msgstr "名字"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:175
+msgid "Course Title"
+msgstr "课程题目"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:176
+msgid "Number of Reviews"
+msgstr "已查看人数"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:177
+msgid "Date Published"
+msgstr "发布日期"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:178
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:870
+msgid "Rating"
+msgstr "排行"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:179
+msgid "Number of Students"
+msgstr "学员人数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:182
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:873
+msgid "Sort "
+msgstr "种类"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:184
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:875
+msgid "Ascending"
+msgstr "上升"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:185
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:876
+msgid "Decending"
+msgstr "下降"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:188
+msgid "Specific Courses (enter comma saperated ids)"
+msgstr "课程详情(id用逗号分开)"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:189
+msgid "Number of Courses to show"
+msgstr "已显示的课程数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:203
+msgid "BuddyPress Instructor Widget"
+msgstr "BuddyPress讲师小工具"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:227
+msgid "Check all Courses created by "
+msgstr "查看全部课程创建人"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:228
+msgid "More Courses by "
+msgstr "更多课程由"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:265
+msgid "Fallback Instructor ID"
+msgstr "备选讲师ID"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:266
+msgid "Number of Courses by the Instructor to show"
+msgstr "显示有讲师创建的课程数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:278
+msgid "BuddyPress Course Search Widget"
+msgstr "BuddyPress课程搜索小工具 "
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:336
+msgid "Select Instructor"
+msgstr "选择讲师"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:350
+msgid "Select Course Level"
+msgstr "选择课程级别"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:357
+msgid "Type Keywords.."
+msgstr "输入关键字..."
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:396
+msgid "Show Course Category Dropdown"
+msgstr "显示课程分类下拉表"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:397
+msgid "Show Instructor Dropdown"
+msgstr "显示讲师下拉列表"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:401
+msgid "Show Level Dropdown"
+msgstr "下拉显示级别"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:415
+msgid "BuddyPress Course Stats Widget"
+msgstr "BuddyPress课程小工具"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:486
+msgid "TOTAL STUDENTS"
+msgstr "学员总人数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:488
+msgid "BADGES"
+msgstr "徽章"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:489
+msgid "CERTIFICATES"
+msgstr "证书总数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:519
+msgid "Select Course"
+msgstr "选择课程目录"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:521
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:636
+msgid "All"
+msgstr "全部"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:522
+msgid "Current Course (defaults to all)"
+msgstr "课程对全部成员免费"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:533
+msgid "Show Students Stats"
+msgstr "显示成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:534
+msgid "Show Badge/Certificates Stats"
+msgstr "显示成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:544
+msgid "BuddyPress Course Filter Widget"
+msgstr "BuddyPress课程小工具"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:637
+msgid "Free"
+msgstr "免费"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:638
+msgid "Paid"
+msgstr "付费"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:642
+msgid "Filter Results"
+msgstr "过滤结果"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:665
+msgid "Course Categories"
+msgstr "课程分类"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:667
+msgid "Levels"
+msgstr "级别"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:669
+msgid "Type"
+msgstr "类型"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:671
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/course-header.php:40
+msgid "Instructors"
+msgstr "讲师"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:690
+msgid "Show Course category filter"
+msgstr "显示课程分类下拉表"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:691
+msgid "Course Categories Label"
+msgstr "课程分类"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:693
+msgid "Show Free/Paid/All filter"
+msgstr "显示免费/付费/全部过滤器"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:694
+msgid "Free/Paid Label"
+msgstr "免费/付费标签"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:699
+msgid "Show Levels filter"
+msgstr "全部级别"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:700
+msgid "Levels Label"
+msgstr "导航标签"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:704
+#, fuzzy
+msgid "Show Instructor filter"
+msgstr "显示讲师下拉列表"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:705
+#, fuzzy
+msgid "Instructor Label"
+msgstr "讲师已添加"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:706
+msgid "Exclude Category/Level Slugs (comma saperated)"
+msgstr "排除种类/级别标签（逗号分开）"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:719
+#, fuzzy
+msgid "Course Reviews Widget"
+msgstr "BuddyPress课程小工具"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:785
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:806
+msgid "Default avatar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:856
+msgid "Course ID (optional)"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:868
+msgid "Recent"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:879
+#, fuzzy
+msgid "Specific Reviews/Comments (enter comma saperated ids)"
+msgstr "课程详情(id用逗号分开)"
+
+# @ default
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:880
+#, fuzzy
+msgid "Number of Reviews to show"
+msgstr "已查看人数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:894
+#, fuzzy
+msgid "BuddyPress Related Courses Widget"
+msgstr "BuddyPress课程小工具"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:995
+#, fuzzy
+msgid "No related courses found !"
+msgstr "未找到课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1037
+#, fuzzy
+msgid "Show from same Course Category"
+msgstr "选择课程目录"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1038
+#, fuzzy
+msgid "Show from same Instructor"
+msgstr "显示讲师下拉列表"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1042
+#, fuzzy
+msgid "Show from same Course Level"
+msgstr "选择课程级别"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1047
+msgid "Show from same Linkage"
+msgstr ""
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1051
+#, fuzzy
+msgid "Numer of Courses"
+msgstr "已显示的课程数"
+
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/bp-course-widgets.php:1052
+#, fuzzy
+msgid "Comma saperated courses"
+msgstr "课程已开始"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/course-loop.php:93
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/my-courses.php:98
+msgid "You have not subscribed to any courses."
+msgstr "您暂未订阅课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:58
+#, php-format
+msgid "All Courses <span>%s</span>"
+msgstr "所有的课程 <span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:62
+#, php-format
+msgid "My Courses <span>%s</span>"
+msgstr "我的课程 <span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:65
+#, php-format
+msgid "Instructing Courses <span>%s</span>"
+msgstr "指导课程 <span>%s</span>"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:83
+msgid "Order By:"
+msgstr "排列方式"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:85
+msgid "Select Order"
+msgstr "选择方式"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:86
+msgid "Newly Published"
+msgstr "发布日期"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:87
+msgid "Alphabetical"
+msgstr "字母"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:88
+msgid "Most Members"
+msgstr "最多会员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/index.php:89
+msgid "Highest Rated"
+msgstr "排行最高"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/instructor-courses.php:89
+msgid "You have not created any Course."
+msgstr "您暂未创建任何课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/activity.php:34
+msgid "Load More"
+msgstr "更多"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/activity.php:48
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr "抱歉，未找到相应的活动，请选择其他的筛选方式"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:20
+msgid "Submissions"
+msgstr "提交"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:23
+msgid "Activity"
+msgstr "激活"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:53
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/members.php:19
+msgid "Total number of Students in course"
+msgstr "课程全部学员数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:54
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/members.php:20
+msgid "Students Currently taking this course"
+msgstr "目前正在学习的学员数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:91
+msgid "See User Activity in Course"
+msgstr "查看课程中用户活动"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:102
+msgid "No Students found."
+msgstr "未找到学员"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/admin.php:107
+msgid "BULK ACTIONS"
+msgstr "批量发送"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/curriculum.php:19
+msgid "Course Curriculum"
+msgstr "课程大纲"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/events.php:18
+msgid " Events"
+msgstr "活动"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/front.php:34
+msgid " STUDENTS ENROLLED"
+msgstr "学员已登记"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/front.php:76
+msgid "READ MORE"
+msgstr "阅读更多"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/front.php:85
+msgid "LESS"
+msgstr "较少"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:49
+msgid "Group"
+msgstr "群组"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:55
+msgid "Forum"
+msgstr "论坛"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/home.php:60
+msgid "Admin"
+msgstr "管理"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:22
+msgid "Total Number of Students who took this course"
+msgstr "参加该课程的全部学员人数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:23
+msgid "Average Percentage obtained by Students"
+msgstr "学员平均通过率"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:23
+msgid "out of 100"
+msgstr "百分之"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:24
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:31
+msgid "Number of Students who got a Badge"
+msgstr "获得徽章的学员人数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:25
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:30
+msgid "Number of Passed Students"
+msgstr "完成课程学员数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:26
+msgid "Number of Students who did not pass "
+msgstr "未完成课程学员数"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:29
+msgid "Average Marks obtained by Students"
+msgstr "学员平均成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:38
+msgid "No curriculum defined"
+msgstr "课程目录未定义全"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:63
+msgid "Average Marks in Quiz "
+msgstr "考试平均成绩"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:71
+msgid "Calculate :"
+msgstr "计算:"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/stats.php:72
+msgid "Calculate Statistics for Course"
+msgstr "课程统计"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:20
+msgid "ASSIGNMENTS SUBMISSIONS"
+msgstr "提交作业"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:51
+msgid "Reset Assignment for User"
+msgstr "为用户重置作业"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:52
+msgid "Evaluate Assignment : "
+msgstr "批改作业"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:69
+msgid "QUIZ SUBMISSIONS"
+msgstr "提交考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:106
+msgid "Reset Quiz for User"
+msgstr "为用户重置考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:107
+msgid "Evaluate Quiz for User"
+msgstr "为用户评估考试"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:124
+msgid "COURSE SUBMISSIONS"
+msgstr "提交课程"
+
+# @ vibe
+#: /Applications/MAMP/htdocs/wplms/wp-content/plugins/vibe-course-module/includes/templates/course/single/submissions.php:153
+msgid "Evaluate Course for User"
+msgstr "为用户评估课程"
+
+# @ vibe
+#~ msgid "Unlimited Duration"
+#~ msgstr "无时间限制"
+
+# @ vibe
+#~ msgid " got ="
+#~ msgstr "得分："
+
+# @ vibe
+#~ msgid " for "
+#~ msgstr "为"
+
+# @ vibe
+#~ msgid " removed from course "
+#~ msgstr "已从课程中删除"
+
+# @ vibe
+#~ msgid " ago"
+#~ msgstr "之前"
+
+# @ vibe
+#~ msgid "Quiz "
+#~ msgstr "考试"
+
+# @ vibe
+#~ msgid "FAILED TO MARK COURSE, CONTACT ADMIN"
+#~ msgstr "课程打分失败，请联系管理员"
+
+# @ vibe
+#~ msgid " in Quiz"
+#~ msgstr "考试"
+
+# @ vibe
+#~ msgid " got "
+#~ msgstr "得到"
+
+# @ vibe
+#~ msgid " in Quiz "
+#~ msgstr "考试"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Instructor added Student "
+#~ msgstr "教员添加学员"
+
+# @ vibe
+#~ msgid "Instructor added "
+#~ msgstr "讲师已添加"
+
+# @ vibe
+#~ msgid " students in course "
+#~ msgstr "课程学员"
+
+# @ vibe
+#~ msgid " initiated quiz retake "
+#~ msgstr "开始重考"
+
+# @ vibe
+#~ msgid " in quiz "
+#~ msgstr "考试"
+
+# @ vibe
+#~ msgid "Quiz Auto Evaluated"
+#~ msgstr "自动评估考试"
+
+# @ vibe
+#~ msgid " with marks "
+#~ msgstr "分数: "
+
+# @ vibe
+#~ msgid "/"
+#~ msgstr "/"
+
+# @ vibe
+#~ msgid "Quiz %s submitted by student %s for evaluation"
+#~ msgstr "考试 %s 已被学员 %s 提交申请评估"
+
+# @ vibe
+#~ msgid " days"
+#~ msgstr "天"
+
+# @ vibe
+#~ msgid "Course expire warning notifications"
+#~ msgstr "课程到期警告通知"
+
+# @ vibe
+#~ msgid "Quizes evaluated"
+#~ msgstr "考试已测评"
+
+# @ vibe
+#~ msgid "%d Quizes evaluated !"
+#~ msgstr "%d 考试已测评"
+
+# @ vibe
+#~ msgid "%s Quiz evaluated!"
+#~ msgstr "%s 考试已测评"
+
+# @ vibe
+#~ msgid ""
+#~ "Results for %s are avaialble. You've recieved %s marks. see results %s ,"
+#~ "evaluated by %s [%s]"
+#~ msgstr " %s 考试结果有效， 你获得  %s  分， 查看结果  %s ，由 %s 评估 [%s] "
+
+# @ vibe
+#~ msgid "To disable these notifications please log in and go to: %s"
+#~ msgstr "要使通知无效，请登录后进入： %s"
+
+# @ vibe
+#~ msgid "Auto evaluated Course for Student"
+#~ msgstr "为学员自动评估"
+
+# @ vibe
+#~ msgid "Student got a Certificate in the course "
+#~ msgstr "学员获得课程证书"
+
+# @ vibe
+#~ msgid "Student submitted course for evaluation"
+#~ msgstr "课程已提交评估"
+
+# @ vibe
+#, fuzzy
+#~ msgid "Marks"
+#~ msgstr "打分"
