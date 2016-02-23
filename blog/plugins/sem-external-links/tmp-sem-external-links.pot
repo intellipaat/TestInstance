@@ -1,0 +1,192 @@
+# Copyright (C) 2015 External Links
+# This file is distributed under the same license as the External Links package.
+msgid ""
+msgstr ""
+"Project-Id-Version: External Links 6.7\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sem-external-"
+"links\n"
+"POT-Creation-Date: 2015-10-11 21:03:55+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: sem-external-links-admin.php:112
+msgid "Settings saved."
+msgstr ""
+
+#: sem-external-links-admin.php:136
+msgid ""
+"Note: Your rel=nofollow preferences is being ignored because the dofollow "
+"plugin is enabled on your site."
+msgstr ""
+
+#: sem-external-links-admin.php:141
+msgid "External Links Settings"
+msgstr ""
+
+#: sem-external-links-admin.php:147
+msgid "Apply Globally"
+msgstr ""
+
+#: sem-external-links-admin.php:155
+msgid ""
+"Apply these settings to all outbound links on the site except those in "
+"scripts, styles and the html head section."
+msgstr ""
+
+#: sem-external-links-admin.php:162
+msgid "Apply to Text Widgets"
+msgstr ""
+
+#: sem-external-links-admin.php:170
+msgid ""
+"Apply these settings to any text widgets in addition to post, page and "
+"comments content."
+msgstr ""
+
+#: sem-external-links-admin.php:177
+msgid "Treat Subdomains as Local"
+msgstr ""
+
+#: sem-external-links-admin.php:185
+msgid "Treat any subdomains for this site as a local link."
+msgstr ""
+
+#: sem-external-links-admin.php:188
+msgid ""
+"Example: If your site is at domain.com and you also have store.domain.com, "
+"any link to store.domain.com will be treated as local."
+msgstr ""
+
+#: sem-external-links-admin.php:194
+msgid "Auto Convert Text Urls"
+msgstr ""
+
+#: sem-external-links-admin.php:202
+msgid "Automatically converts text urls into clickable urls."
+msgstr ""
+
+#: sem-external-links-admin.php:205
+msgid ""
+"Note: If this option is enabled then if www.example.com is found in your "
+"text, it will be converted to an html &lt;a&gt; link.\""
+msgstr ""
+
+#: sem-external-links-admin.php:207
+msgid ""
+"This conversion will occur first so external link treatment for nofollow, "
+"icon and target will be applied to this auto links."
+msgstr ""
+
+#: sem-external-links-admin.php:213
+msgid "Add No Follow"
+msgstr ""
+
+#: sem-external-links-admin.php:221
+msgid "Add a rel=\"nofollow\" attribute to outbound links."
+msgstr ""
+
+#: sem-external-links-admin.php:224
+msgid ""
+"Note: You can override this behavior by adding the attribute rel=\"follow\" "
+"to individual links."
+msgstr ""
+
+#: sem-external-links-admin.php:230
+msgid "Add Icons"
+msgstr ""
+
+#: sem-external-links-admin.php:238
+msgid "Mark outbound links with an icon."
+msgstr ""
+
+#: sem-external-links-admin.php:241
+msgid ""
+"Note: You can override this behavior by adding a class=\"no_icon\" or "
+"\"noicon\" to individual links."
+msgstr ""
+
+#: sem-external-links-admin.php:247
+msgid "Open in New Windows"
+msgstr ""
+
+#: sem-external-links-admin.php:255
+msgid "Open outbound links in new windows."
+msgstr ""
+
+#: sem-external-links-admin.php:258
+msgid ""
+"Note: Some usability experts discourage this, claiming that <a href=\"http://"
+"www.useit.com/alertbox/9605.html\">this can damage your visitors' trust</a> "
+"towards your site. Others highlight that computer-illiterate users do not "
+"always know how to use the back button, and encourage the practice for that "
+"reason."
+msgstr ""
+
+#: sem-external-links-admin.php:264
+msgid "Exclude HTML Code Blocks"
+msgstr ""
+
+#: sem-external-links-admin.php:272
+msgid "Do not process links in html code blocks."
+msgstr ""
+
+#: sem-external-links-admin.php:275
+msgid ""
+"Links found inside either &ltcode&gt or &ltpre&gt html tags will be ignored."
+msgstr ""
+
+#: sem-external-links-admin.php:281
+msgid "Domains to Exclude"
+msgstr ""
+
+#: sem-external-links-admin.php:285
+msgid "External site domains that should be excluded from processing:"
+msgstr ""
+
+#: sem-external-links-admin.php:289
+msgid ""
+"Domains and subdomains should be separated by a comma, space or carriage "
+"return. &nbsp;http://, https://, www. should not be included and will be "
+"stripped off."
+msgstr ""
+
+#: sem-external-links-admin.php:291
+msgid ""
+"Example: domain.com, domain.net, sub.domain.com, somesite.com, external.org."
+msgstr ""
+
+#: sem-external-links-admin.php:300
+msgid "Save Changes"
+msgstr ""
+
+#. #-#-#-#-#  tmp-sem-external-links.pot (External Links 6.7)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: sem-external-links-info.php:2 sem-external-links.php:869
+#: sem-external-links.php:870
+msgid "External Links"
+msgstr ""
+
+#. #-#-#-#-#  tmp-sem-external-links.pot (External Links 6.7)  #-#-#-#-#
+#. Description of the plugin/theme
+#: sem-external-links-info.php:3
+msgid ""
+"Marks outbound links as such, with various effects that are configurable "
+"under <a href=\"options-general.php?page=external-links\">Settings / "
+"External Links</a>."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.semiologic.com/software/external-links/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Denis de Bernardy & Mike Koepke"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.semiologic.com"
+msgstr ""

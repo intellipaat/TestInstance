@@ -1,0 +1,1721 @@
+/**
+
+Theme Name: Intellipaat
+Theme URI: http://intellipaat.com
+Description: This is specially customised for Intellipaat softwares.
+Author: Intellipaat Softwares
+Author URI: http://intellipaat.com
+Template: wplms
+Version: 3.0
+*/
+
+/*
+0. CSS Defaults
+1. Header
+	1.1 Logo
+	1.2 Top Menu
+	1.3 Browse course
+	1.4 top search
+2. Footer
+3. Home
+4. Course Page
+	4.1 Course wdiget
+	4.2 Course review
+	4.3 Course category page
+	4.4	Start course
+	4.5	Course Certificate
+5. Woocommerce
+	5.1 Product page
+	5.2 Cart
+	5.3 Checkout page
+	5.4 Thank you page
+6. Widgets
+7. Search Page
+8. All course page
+9. Pages
+	9.1 Tutorial pages
+	9.2 Job & inteview Page
+	9.3 Forums
+10. Forms and fields
+11. Responsive
+*/
+
+/* =Theme customization starts here
+================================*/
+
+/*****************************************************************************
+	0. CSS Defaults
+*****************************************************************************/
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clearfix {
+    display: /*inline-block*/ block;
+}
+html[xmlns] .clearfix {
+    display: block;
+}
+* html .clearfix {
+    height: 1%;
+}
+/*---------------------*/
+a:hover{color:#0b99bc !important}
+a.button:hover{background:#EAEAEA;border-color: #d1d1d1;color:#0b99bc}
+
+.fl{ float:left;}
+.fr{ float:right;}
+
+.bold{font-weight:600 !important;}
+
+section.stripe{padding-bottom: 30px;}
+.post-navigation a{ font-size:15px; font-weight:600;}
+
+.h1 {font-size: 28px;font-family: "Open Sans";font-weight: 400;}
+.h2 {font-size: 22px;}
+.h3 {font-family: "Open Sans"; font-weight: 400;font-size: 18px; color:#474747;}
+.h4 {font-family: "Open Sans";font-weight: 400;font-size: 16px;}
+.h4,.h4.block_title a {   color: #474747;}
+.h5 {font-family: "Open Sans";font-weight: 400;font-size: 14px;}
+.h6 {font-weight: 400;font-size: 12px;}
+.h1, .h2, .h3 {   margin-top: 20px;   margin-bottom: 10px;}
+.h1, .h2, .h3, .h4, .h5, .h6 {line-height: 1.35em;}
+#buddypress #item-body .h3{ margin-top:0;}
+
+img[src*="googleads"] { position:fixed; top:-500px;}
+iframe[name="google_conversion_frame"] {height: 0; width: 0;display:none;}
+
+/****************************************************************************
+	0.1. css for Theme my login plugin
+*****************************************************************************/
+
+.login {
+	padding: 5px;
+}
+.login p.error {
+	padding: 5px;
+	border: 1px solid #c00;
+	background-color: #ffebe8;
+	color: #333;
+}
+.login p.message {
+	padding: 5px;
+	border: 1px solid #e6db55;
+	background-color: #ffffe0;
+	color: #333;
+}
+.login form label {
+	display: block;
+}
+.login form p.forgetmenot label {
+	display: inline;
+}
+.login input {
+	margin: 5px 0;
+}
+.profile .screen-reader-text,
+.profile .screen-reader-text span {
+	height: 1px;
+	left: -1000em;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+}
+.mu_register .hint {
+	font-size: 12px;
+	margin-bottom: 10px;
+	display: block;
+}
+.mu_register label.checkbox {
+	display: inline;
+}
+#pass-strength-result {
+    border-style: solid;
+    border-width: 1px;
+    margin: 12px 5px 5px 1px;
+    padding: 3px 5px;
+    text-align: center;
+    width: 200px;
+}
+#pass-strength-result.strong,
+#pass-strength-result.short {
+    font-weight: bold;
+}
+#pass-strength-result {
+    background-color: #eee;
+    border-color: #ddd !important;
+}
+
+#pass-strength-result.bad {
+    background-color: #ffb78c;
+    border-color: #ff853c !important;
+}
+
+#pass-strength-result.good {
+    background-color: #ffec8b;
+    border-color: #fc0 !important;
+}
+#pass-strength-result.short {
+    background-color: #ffa0a0;
+    border-color: #f04040 !important;
+}
+#pass-strength-result.strong {
+    background-color: #c3ff88;
+    border-color: #8dff1c !important;
+}
+/******* additional css for social login *****/
+
+.wp-social-login-connect-with {  text-transform: none;}
+.wp-social-login-widget { text-align: center; }
+.loginwrapper .wp-social-login-widget {
+    padding-top: 70px;
+    margin-top: 35px;
+    padding-bottom: 70px;
+    border-right: 1px solid #BFBFBF;
+}
+.loginwrapper .wp-social-login-widget:after {
+    content: "OR";
+    float: right;
+    position: relative;
+    right: -20px;
+    background-color: #E8E8E8;
+    border: 1px solid #BFBFBF;
+    border-radius: 20px;
+    padding: 10px;
+    top: -45px;
+}
+
+/****************************************************************************
+	1. Header
+*****************************************************************************/
+#headertop{ padding:0;font-size:13px}
+
+/****************************************************************************
+	1.1 Logo
+*****************************************************************************/
+/****************************************************************************
+	1.2 Top Menu
+*****************************************************************************/
+
+nav .menu > li:first-child > a { margin-left: 0;padding-left:0;}
+nav .menu > li:last-child > a {margin-right: 0;}
+
+#headertop li{ margin-left:0;padding-left:0;border-color: #4b4b4b !important;}
+#headertop .topmenu a{text-transform:capitalize; display: block;height:55px;padding: 20px 15px;}
+
+.topmenu > li.menu-item:hover > a, .topmenu > li.menu-item > a:hover, .topmenu > li.current-menu-item.menu-item > a, .topmenu > li.current_page_item.menu-item > a{border-bottom:4px solid; background:#0b99bc; color:#fff !important;}
+
+.topmenu .menu-item.woo-cart-menu{ position:relative;}
+.topmenu .menu-item.woo-cart-menu a{ padding-left:45px !important;}
+.topmenu .menu-item.woo-cart-menu a i{font-size:30px;position: absolute;left:10px;top:13px;}
+.topmenu .menu-item.woo-cart-menu a span.cart_count {background:#0b99bc;border-radius: 7px;display: block;padding: 2px 7px;}
+
+/** css by another developer **/
+/*.topmenu li:hover a, .topmenu li a:hover, .topmenu li.current-menu-item a, .topmenu li.current_page_item a{ background:none!important; border-bottom:none!important;}*/
+.topmenu .menu-item{ position:relative;}
+.topmenu .menu-item-has-children:hover > a::before {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent #48575a;
+    border-image: none;
+    border-style: solid;
+    border-width: 10px;
+    bottom: 0;
+    content: "";
+    height: 15px;
+    left: 20px;
+    position: absolute;
+    width: 15px;
+}
+.topmenu .menu-item .sub-menu {
+    background: #48575a;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    display: none;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 99;
+	width: 176px;
+}
+
+.topmenu .menu-item:hover > .sub-menu {
+    display: block;
+    opacity: 1;
+    transition: fadeInFromNone 1s ease-in-out 0s;
+}
+.topmenu .menu-item > .sub-menu li{ width:100%!important;}
+.topmenu .menu-item > a, .topmenu .menu-item > .sub-menu li a{ color:rgb(49,59,61);}
+.topmenu .menu-item > .sub-menu li a{ border-bottom:1px dotted rgba(255, 255, 255, 0.3)!important;}
+.topmenu .menu-item > .sub-menu li:last-child a{ border-bottom:none!important;}
+/**ends**/
+
+.countrydropdownmenu span[class*="t.com"], .countrydropdownmenu span[class*="g.us"] {background-position: 0 0 ;}
+.countrydropdownmenu span[class*="t.in"] {background-position: 0 -18px ;}
+.countrydropdownmenu span[class*="t.uk"] {background-position: 0 -36px;}
+.countrydropdownmenu span[class*="t.ca"] {background-position: 0 -54px ;}
+.countrydropdownmenu span[class*="intellipaat"], .countrydropdownmenu span[class*="bigdataonlinetraining"]{
+	background-image: url("images/flags.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 12px;
+    margin-right: 2px;
+    width: 28px;
+}
+.current_flag {border-left:1px solid #4b4b4b;display:block;height:55px;overflow:hidden;padding:25px 7px 15px;width:56px;transition:none 0s ease 0s  !important;}
+
+.countrydropdownmenu:hover .current_flag{background:#f1f1f1;}
+.arrow {background-image: url("images/arrow.png");display: block; height: 7px;margin-left: 2px;margin-top: 4px;width: 7px;}
+#countrydropdownmenu a {text-decoration: none;}
+#countrydropdownmenu > li {float: none !important;border: none !important;margin: 0 !important;padding: 0 !important;}
+#countrydropdownmenu li:hover a > .arrow{background-position: 0 6px;}
+#menu-country-wide-menu {
+    background-color: #f1f1f1;
+    visibility:hidden;
+	opacity:0;
+    padding: 0 10px;
+    position: absolute;
+    right: 15px;
+    text-align: left;
+    top: 100%;
+    width: 90px;
+    z-index: 9999;
+	-webkit-transition:all 300ms ease 0s !important;-moz-transition:all 300ms ease 0s !important;transition:all 300ms ease 0s !important;
+}
+#menu-country-wide-menu li{margin:0 !important;padding: 0 !important;}
+#menu-country-wide-menu li:first-child {margin-top: 10px !important;}
+#menu-country-wide-menu li{margin-bottom: 9px;border: none !important;float: right;}
+#menu-country-wide-menu li a{color: #000000;font-size: 10px;display:block;text-align:right;}
+#menu-country-wide-menu li a[href*="t.com"] .flag, #menu-country-wide-menu li a[href*="g.us"] .flag{background-position: -32px 0;}
+#menu-country-wide-menu li a[href*="t.in"] .flag{background-position: -32px -18px;}
+#menu-country-wide-menu li a[href*="t.uk"] .flag{background-position: -32px -35px;}
+#menu-country-wide-menu li a[href*="t.ca"] .flag{background-position: -32px -52px;}
+.flag {background-image: url("images/flags.png");height: 11px;width: 18px;background-repeat: no-repeat;margin:0 0 10px 10px;}
+.country_navigation.countrydropdownmenu:hover #menu-country-wide-menu{display: block !important; visibility:visible; opacity:1;}
+
+.trigger {display: block;height: 100%;padding:18px 0 18px 13px; border-left:1px solid #4b4b4b}
+.trigger a#trigger{ position: relative;right: auto;top: auto; display:block}
+.trigger #trigger .lines, #trigger .lines::before, #trigger  .lines::after{background:#fff;}
+
+/*.#header-main nav .menu>li a {   
+    display: inline-block;
+    font-family: 'Raleway',sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 8px;
+    opacity: 0.8;
+    padding: 28px 6px;
+    position: relative;
+    text-transform: uppercase;
+}
+#header-main nav .sub-menu li a{padding: 10px !important;}*/
+
+#vibe_bp_login{ top:114%; right:138px;}
+#vibe_bp_login:after{ right:auto; left:45%;}
+#vibe_bp_login .wp-social-login-widget { padding-top: 7px;}
+#headertop #vbp-login-form { padding-top: 0; margin-top: -10px; }
+#headertop #vibe_bp_login label{ text-transform:capitalize;}
+#vibe_bp_login label.half{ width:50%;}
+#vibe_bp_login .vbpregister {float: right;}
+#vibe_bp_login.active {display: block !important;}
+label.forgotpass a {opacity: 1 !important; border-bottom: 1px dotted #fff;padding-bottom: 2px;}
+label.rememberme {display: inline-table; vertical-align: top; line-height: 17px;}
+label.rememberme input { margin-top: 3px;}
+
+
+/****************************************************************************
+
+	1.3 Browse course
+	
+*****************************************************************************/
+
+#browse_courses .white-link {
+    color: #f68220;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    height: 40px;
+    line-height: 1.5;
+	margin-right:25px;
+    padding:12px 6px;
+    text-transform: uppercase;
+}
+#browse_courses .dropdown-menu-list > li > a {padding:4px 5px !important;}
+.nav-bars {
+    display: inline-block;
+    overflow: hidden;
+	margin-top: 1px;
+	margin-bottom:0;
+    margin-right: 10px
+}
+.nav-bars span {
+    background:#f68220;
+    display: block;
+    height: 3px;
+    margin-bottom: 3px;
+    width: 20px;
+}
+#browse_courses:hover .white-link, #browse_courses.open .white-link{color:#222 !important;background-color:#fff;}
+#browse_courses:hover .nav-bars span , #browse_courses.open .nav-bars span { background-color: #222;}
+#header-main.fixed .white-link.button {
+    background: none repeat scroll 0 0 #fff;
+    border: medium none;
+    color: #817da8 !important;
+    margin: 4px 0 0;
+    text-shadow: none;
+}
+#header-main.fixed .white-link.button span.nav-bars span { background: #817da8;}
+
+#browse_courses > .dropdown-menu {border-top: medium none; border-top-left-radius: 0;box-shadow: none;left: 14px; margin-top: 0;}
+
+.cats-dropdown .dropdown-menu { min-width: 220px; padding-bottom: 0;}
+.cats-dropdown .dropdown-menu ul {  padding: 5px 10px;}
+.cats-dropdown .dropdown-menu li.divider { padding: 0;}
+.cats-dropdown .dropdown-menu a {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    color: #293f4f;
+    display: inline-block;
+    padding: 5px;
+}
+.cats-dropdown .dropdown-menu a:hover, .cats-dropdown .dropdown-menu a.maintainHover { background: #0b99bc;color: #fff !important;}
+.cats-dropdown .dropdown-menu a:hover i, .cats-dropdown .dropdown-menu a.maintainHover i { color: #fff;}
+.cats-dropdown .dropdown-menu a:hover + .sub, .cats-dropdown .dropdown-menu a.maintainHover + .sub {
+    opacity: 1;
+    visibility: visible;
+    width: 330px;
+	overflow-y:auto;
+}
+.cats-dropdown .dropdown-menu a.main-cat {align-items: center;display: flex; width: 100%;}
+.cats-dropdown .dropdown-menu span { flex: 1 1 0; min-width: 1px;}
+.cats-dropdown .dropdown-menu i { color: #999fa3;font-size:10px;}
+.cats-dropdown .dropdown-menu .cat-icon { margin-right: 5px; width: 20px;}
+.cats-dropdown .sub {
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    bottom: -1px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    display: block;
+    left: 100%;
+    margin-left: -2px;
+    opacity: 0;
+    top: -1px;
+    transition: opacity 0.2s ease 0s, width 0.2s ease 0s;
+    visibility: hidden;
+    width: 300px;
+}
+.cats-dropdown .sub:before { display: none;}
+.cats-dropdown .sub-list {flex: 1 1 0; min-width: 1px;padding-bottom: 25px !important;}
+.cats-dropdown h4 { margin: 5px 15px 0;}
+.cats-dropdown .sidebar-dropdown-menu {
+    border: 0 none;
+    border-radius: 0;
+    box-shadow: none;
+    display: block;
+    position: relative;
+}
+ul.browse-sub-menu{	float:left;	width:300px;}
+
+/****************************************************************************
+
+	1.4 top search
+	
+*****************************************************************************/
+#search-form{ margin-top:6px}
+#search-form > div{	position:relative;}
+#search-form #s{padding:3px 30px 3px 10px; background:#f1f1f1; min-width: 250px;}
+#search-form #s:focus {background:#fff;}
+#search-form button[type="submit"]{background:none;color:#3c3c3c;font-size: 20px;line-height: 100%;margin: 0;padding: 5px 8px 1px; position: absolute;right: 0 !important;top: 0;}
+header #searchicon{	color: #3239B7 !important;}
+
+#top_searches { font-size: 12px;padding-top: 2px; color:#f68220; margin:10px 10px 0 20px; font-weight:600;}
+#top_searches a {font-weight: 300;}
+#top_searches a {color:#eaeaea !important;}
+#query {border: 1px solid #cbc7c7;color: #888;text-indent: 10px;}
+
+
+#bpavatar img{ width:60px !important;}
+a.smallimg.vbplogin, a.smallimg.iplogin #vibe_bp_login a { color: #fff;}
+
+/****************************************************************************
+
+	1.5 Fixed Header
+	
+*****************************************************************************/
+
+
+#headertop.fixed #logo {margin-top: 1px;}
+#headertop.fixed #logo img{ max-height:34px !important; height:34px !important;}
+#headertop.fixed .topmenu li > a {height: 36px; padding-bottom: 10px; padding-top: 10px;}
+#headertop.fixed #countrydropdownmenu > li > a {height: 36px; padding-bottom: 12px; padding-top: 12px;}
+#headertop.fixed .topmenu .menu-item.woo-cart-menu a i {font-size: 24px;left: 13px;top: 6px;}
+#headertop.fixed .topmenu .menu-item.woo-cart-menu a span.cart_count { margin-top: -3px;}
+
+#header-main.fixed #search-form {padding-top: 4px;}
+#header-main.fixed #search-form #s {padding-bottom: 3px; padding-top: 3px;}
+#header-main.fixed #search-form button {font-size: 22px; padding-top: 3px;}
+#header-main.fixed #top_searches{ display:none;}
+#header-main.fixed #browse_courses .white-link {padding-top: 15px;}
+
+
+/*----- rules for after scrolling page down----*/
+#header-main.fixed {
+    left: 0;
+    position: fixed;
+    top: 30px;
+    transition: all 0.2s ease 0s;
+    width: 100%;
+    z-index: 9991;
+	height:40px;
+	box-shadow:0 2px 5px rgba(35, 35, 35, 0.7);
+}
+#headertop.fixed + header.fixed{margin:0;}
+#headertop.fixed + header.fixed + #content{margin-top: 120px;}
+.fixed nav .menu>li a {
+    display: inline-block;
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px !important;
+    font-weight: 600;
+    margin: 0 8px;
+    opacity: 0.8;
+    padding: 17px 6px !important;
+    position: relative;
+    text-transform: uppercase;
+}
+.fixed #searchicon {   
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    padding: 10px 0 !important;
+}
+
+#headertop.fixed .homeicon{	display:none !important;}
+
+#header-main.fixed nav .menu > li a {
+    display: inline-block;
+    font-family: "open sans";
+    font-size: 11px !important;
+    font-weight: 400 !important;
+    margin: 0 8px;
+    opacity: 0.8;
+    padding: 12px 6px !important;
+    position: relative;
+    text-transform: uppercase;
+	margin:0 6px 0 0;
+}
+#header-main.fixed nav .menu > li a strong{font-weight: 400 !important;}
+/*-----END rules for after scrolling page down----*/
+
+/****************************************************************************
+
+	2. Footer
+	
+*****************************************************************************/
+
+body { padding-bottom: 35px; }
+
+#info-stripe{ background-color:rgba(0, 0, 0, 0.85); min-height:35px; border:none}
+.info-stripe-container{margin: 0 auto; max-width: 1298px;}
+#info-stripe, #info-stripe a{color: white; overflow:hidden}
+
+
+/*---------Comntact details --------------*/
+.contact-no {padding:7px 5px 4px; font-family: Lato,"Open Sans","Helvetica Neue",sans-serif;font-size: 14px;font-weight: 400; line-height: 24px;}
+.contact-no strong {margin-left: 8px;}
+.hdmaito{padding-left: 30px;position: relative;margin-left:10px;overflow:hidden}
+.india-number {padding-left: 25px;position: relative;}
+.phone {font-size: 18px;left: 0;position: absolute;top: -3px;}
+i.mail { font-size: 23px;left:0px;position: absolute;top: -3px;}
+
+/*---------Live chat & how it works button -----------------*/
+#how-it-works, #live_chat{margin:0;padding:7px 15px;}
+#how-it-works a, #live_chat a{padding:7px 15px 9px; line-height: 20px;}
+
+#how-it-works a {background: #000;font-weight: 600; position:relative; padding-left:45px}
+#how-it-works i{font-size: 22px;left: 15px; position: absolute;top: 6px;}
+
+#live_chat i{font-size: 22px;left: 15px; position: absolute;top: 6px;}
+#live_chat a{background:#0b99bc;font-weight:800;padding-left: 45px;position: relative;}
+#how-it-works a:hover, #how-it-works.active a{background:#054859;color:#fff !important;}
+#live_chat a:hover{background:#0b99bc;color:#fff !important;}
+
+#support-process-wrap{ position:fixed; top:95px; padding-top:55px; bottom:35px; left:0; right:0; background-color:#054859; text-align:center;}
+#support-process-wrap.fixed{top:70px}
+.support-process { position: relative;}
+#support-process-wrap .close-popup { position: absolute; right: 0; top: 0; background:none;}
+#support-process-wrap .close-popup i{color: #54b7d2; font-size: 32px;}
+
+.olrk-state-compressed #habla_topbar_div.habla_topbar_div_compressed{display: none !important;}
+#habla_middle_div + div {display: none !important;}
+
+/* Footer posts */
+#recent-posts .footertitle { margin: 0 0 20px;}
+.footer_posts .post_title a {font-family: Lato;font-size: 15px; font-weight: 700;}
+.footer_posts .post_title { margin: 0 0 10px;}
+.footer_posts .excerpt p {font-size: 12px;}
+
+/*-- Footer Menu --*/
+#footermenu ul li { }
+.footermenu li a {font-family: Lato,"Open Sans","Helvetica Neue",sans-serif;font-size: 13px;font-weight: 400; text-transform: capitalize;}
+
+#scrolltop { bottom: 50px; right: 40px;cursor: pointer;}
+#scrolltop a:hover{ color:#fff !important;}
+
+
+/****** footer payment methods ******/
+.secure-pay{display: block; margin: 20px 0 0px;border-top:1px solid #323232; padding:20px 15px 0; color:#C1C1C1; font-family: Lato,"Open Sans","Helvetica Neue",sans-serif;}
+.secure-pay p{text-align:center; text-transform:none}
+.secure-pay-info{line-height:1.5em;vertical-align:middle;}
+.pay_methods{min-height:33px;margin-bottom:0;}
+.pay_methods span {background: url("images/footer_sprite.png") no-repeat center center;display: block;margin:0 auto; height: 33px;width: 434px; max-width:100%; background-size:contain}
+
+
+/****************************************************************************
+
+	3. Home
+	
+*****************************************************************************/
+#slider-strip{background:url("images/slider-bg.jpg") repeat-x scroll center center #3c3c3c;background-size:cover;display: block;height:100%;width: 100%;}
+#slider-strip *{color:#FFF}
+
+#slider-strip .highlights{text-align:center;margin-bottom:35px}
+#slider-strip .highlights h2{margin-top:30px; font-size:32px;font-family: Lato,"Open Sans","Helvetica Neue",sans-serif;font-weight:300;}
+#slider-strip .highlights h4{font-size:20px;font-family: Lato,"Open Sans","Helvetica Neue",sans-serif}
+#slider-strip .highlights .heading-title {font-family: Lato,"Open Sans","Helvetica Neue",sans-serif; font-size:24px;}
+#slider-strip .highlights .heading-title h1{ display:inline;}
+#slider-strip .highlights #jump_to{margin:30px auto 15px}
+#slider-strip .highlights .browse_course_link{font-size:14px; text-transform:capitalize; padding:10px 70px}
+#slider-strip .highlights .browse_course_link:hover{color:#0b99bc}
+#slider-strip .highlights .jump_to_menu li{ float:left; margin-bottom: 10px; margin-left: 10px; }
+#slider-strip .highlights .jump_to_menu li a{ display:block; padding:3px 10px;border:1px solid #fff;font-size:13px;}
+
+#features_list{}
+.feature_icon{position:relative;float: left; margin-right: 10px;}
+.feature_icon i{font-size:42px}
+.feature_icon + h4{padding-top: 4px;}
+.feature_icon.last {margin-top: -9px;}
+.feature_icon.last i{font-size:56px}
+
+
+.stripe.course_tabs{background: #fff;}
+.courseitem .block_media img {border-radius: 0; display: block; width: 100%;}
+.course_tabs .all_course_link{ font-size:18px; padding:15px 40px; width:100%}
+.home .course_tabs .nav.nav-tabs li a {
+	font-weight: 700;
+	font-size: 13.5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform:capitalize;
+}
+.grid-course-img .block_media a img {width: 100% !important;}
+.grid-img-ul {margin-top: 15px;}
+
+.home #clients{ background:#3c3c3c}
+.home #media{ background:#ececec; padding-top:15px}
+.home #clients .heading, .home #media .heading{border: none;font-size: 14px;}
+.home #clients .heading {color: #fff;}
+.home h3 .button.plain {background-color: transparent;margin:-5px 0 0;padding: 3px 15px;text-transform: none;font-size: 12px;}
+.home #clients h3 .button.plain {border-color: #fff;}
+.home #media h3 .button.plain {border-color: #3c3c3c; color:#3c3c3c}
+.home #featured-video{padding-top: 3.5%;}
+
+.home #reviews .review-body {background:#f8f8f8; border: 1px solid #cdcdcd; padding: 9px 15px 7px; position: relative;min-height:160px; margin-right:25px;}
+.home #reviews .star-rating{width:100px;}
+.home #reviews .author-img {position: absolute;right: -25px;top: 50px;}
+.home #reviews .author-img img {border: 1px solid #d7d7d7;border-radius: 30px;}
+.home #reviews .review-header {margin-bottom: 14px;}
+.home #reviews .comment-author cite {font-style: italic;font-weight: 700;}
+.home #reviews .comment-author .linkedin {font-size: 13px;font-style: italic;}
+.home #reviews .comment-content {margin-bottom: 20px;padding-right: 5px;min-height:50px}
+
+.home #follow_us{margin-top:25px}
+.home #follow_us > div{margin-top:15px;}
+.home ul.socialicons { margin-top: 23px !important;}
+.home ul.socialicons li{ margin-left:10px !important;}
+.home ul.socialicons.color li a {font-size: 24px;}
+
+
+.home #newlsetter .newsletter-email{background:#a0a0a0;border: medium none;color: #fff;font-weight: 600;padding: 12px 90px 12px 20px;width: 100%;}
+.home #newlsetter form { margin-top: 15px; position: relative;}
+.home #newlsetter .newsletter-submit {background:#2f2f2f;border:none;color: #fff;font-weight: 600;margin: 0;padding: 12px 10px 12px 15px; position: absolute;right: 0; top:0}
+
+.home #newlsetter .newsletter-email::-webkit-input-placeholder { /* WebKit browsers */ color:#EAEAEA;}
+.home #newlsetter .newsletter-email:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color:#EAEAEA;opacity: 0.9;}
+.home #newlsetter .newsletter-email::-moz-placeholder { /* Mozilla Firefox 19+ */color:#EAEAEA; opacity:0.9;}
+.home #newlsetter .newsletter-email:-ms-input-placeholder { /* Internet Explorer 10+ */color:#EAEAEA;}
+
+
+/*----------- news and testimonials(this two top attribute was -52px changed it to 10) ----------
+.home-page .widget_carousel .flex-direction-nav a.flex-prev, .vibe_carousel .flex-direction-nav a.flex-prev { top: 10px; }
+.home-page .widget_carousel .flex-direction-nav a.flex-next, .vibe_carousel .flex-direction-nav a.flex-next { top: 10px; }
+.widget_carousel.review_carousel{ position:static;}*/
+/*-----------------end---------------------*/
+
+/* review carsoul 
+.flexslider.review_carousel  .slides img { width: 80px;  border-radius: 100px;display: block;}*/
+
+/*-- Intellipaat for org buttons --*/
+#footer-right{ padding-top:15px;text-transform: lowercase;}
+#footer-right .btns{display:block; font-size:16px;font-weight:bold; padding:10px;text-align: center; position:relative}
+#footer-right .btns i{font-size: 30px; left: 30px; position: absolute; top: 2px;}
+#footer-right .ufo{ background-color: #2470a2;color:#fff !important}
+
+/*newletter
+#footerbottom .widget_newsletterwidget > p {
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: none;
+}
+#footerbottom .widget_newsletterwidget form .newsletter-email {
+    border: medium none;
+    color: #887878;
+    height: 35px;
+    padding: 4px;
+    text-indent: 7px;
+    width: 80%;
+}
+#footerbottom .widget_newsletterwidget form .newsletter-submit {
+    background-color: #42a142;
+    border: medium none;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    padding: 5px 19px;
+}*/
+
+footer{margin-top: 0;}
+.footerbottom { margin-top: 0;  padding: 0;   border: none;}
+
+/****************************************************************************
+
+	4. Course Page
+	
+*****************************************************************************/
+
+
+#item-header-avatar{border-bottom:0 !important;}
+#item-header-avatar img {  width: 100%;}
+
+.course_curriculum .course_section{ font-weight:600}
+.course_curriculum .unit_desc{margin-bottom:10px; padding: 8px 0 0 25px; border-bottom:1px solid #EFEFEF; text-align: left !important;}
+.course_curriculum .unit_desc ul{ margin:5px 0 0 40px; list-style-type:disc}
+.course_lesson h6 { text-align: left;}
+
+.review_title{ margin-top:0;}
+#related-courses{ margin:20px auto;}
+#related-courses .title{ border-bottom:2px solid #efefef; margin-top:5px; padding-bottom:10px;   font-weight: 600;}
+.related-courses li{ line-height:25px;}
+.related-courses li:last-child{ border-bottom:none;}
+.related-courses li:before {
+  padding-top: 3px;
+  color: #0A97B9;
+  position: absolute;
+}
+.related-courses li a{ padding-left:23px;}
+
+.play-video {background-color: white; border: 2px solid #cbcbcb;  border-radius: 50px; box-shadow: 0 0 5px #292929; color: rgba(0, 0, 0, 0.89); font-size: 51px; left:50%;line-height: 86%; position: absolute; top:47%;margin-left: -25px;  margin-top: -25px;}
+.thumb_course_links .play-video {font-size: 30px;box-shadow: 0 0 2px #292929; margin-left: -12px;  margin-top: -34px;}
+.tab-pane .about-course h2{ font-size:14px; font-weight:600;}
+.single-course .tab-content{ text-align:justify;}
+.single-course .block.courseitem { margin-bottom: 0;}
+
+.contact-title{margin-top: 0;padding-bottom:5px;}
+.offer-wrapper{ background:#F1F1F1; display:block; width:100%; margin:5px auto; padding:3px 10px; font-family: "Open Sans","Helvetica Neue",sans-serif; font-size:11px; font-weight:600}
+.offer-wrapper .offer-title{ text-transform:uppercase;font-size: 10px;  line-height: 10px;  padding: 0.5px 5px;border-radius: 1px;}
+.offer-wrapper .offer-text{ margin-left:2px}
+
+/*Magnific lightbox */
+
+.white-popup-block {background:#fafafa;margin: 40px auto;position: relative;text-align: left;}
+.white-popup-block.com {max-width: 750px;padding:0 30px 20px;border: 1px solid #3a3a3a;}
+.white-popup-block.non-com {max-width: 650px;padding: 20px 30px;}
+
+.white-popup-block a { color: #0b97ba;}
+.white-popup-block  .mfp-title{ margin:0 -30px 30px; background:#3C3C3C;}
+.white-popup-block  .mfp-title h3{font-size:14px; color:#FFF; font-weight: 600; padding: 10px 20px; margin:0}
+.white-popup-block.com .mfp-close { background: #e0e0e0; height: 25px; line-height: 20px; opacity: 1; padding: 0; right: -19px; top: 7px; width: 25px;}
+.white-popup-block .login-div {margin-bottom: 15px;}
+.white-popup-block .login-div form {margin-bottom: 15px; padding-bottom: 35px; padding-top:5px;}
+.white-popup-block input[type="submit"] { margin-top: -10px;}
+.white-popup-block .signup-div {margin-bottom: 10px;}
+
+.white-popup-block .mfp-footer {background:#eaeaea; margin: 0 -30px -30px; padding: 15px; text-align:center}
+.white-popup-block .mfp-footer p {margin: 0; padding: 0;}
+
+.tab_content_login .wp-social-login-widget, .tab_content_signup .wp-social-login-widget {  margin-top: 0;}
+.featur-img { margin-right: 9px;}
+.hs-rsp-popup.popup-youtube.hiddendiv > p {font-size: 13px; margin-top: 6px; text-align: center;}
+
+.course_icon_hover .block_media img{ border-radius:0;}
+.thumbnail-video .thumb_course_links { position: relative;}
+
+.widget.woocart .buttons{ margin: 10px -20px -10px;padding: 5px 15px;}
+.widget .credits .icon-wallet-money{ display: none;}
+.credits > strong > span > span{ font-size:16px !important; line-height:1.35em;}
+
+.course-breadcrumb { margin-top: 10px;}
+.review.link{ border-bottom:1px solid #fff;color:#fff; margin-left:5px;padding:0;}
+.single-course #buddypress {margin-top: 5px !important;}
+.widget-contact ul li {font-size: 11px;}
+
+.accordion-heading a.accordion-toggle:after{ font-weight:400; font-size:11px; color:#6B6B6B;}
+
+.upcoming_batches .button.add_to_cart_button {float: right;}
+.upcoming_batches .product.woocommerce {display: block;overflow: hidden;}
+
+.slideshare-presentation {clear: both;display: inline-block;width: 100%;margin-bottom:10px;}
+.slideshare-presentation  i{float: left;margin-right: 15px;font-size: 16px;}
+.slideshare-presentation a{font-size: 12px;	text-transform: uppercase;display:block;padding: 8px 0;	border-bottom: 1px dotted #DDD;	margin-bottom:1px;}
+.sample-pdf {clear: both;display: inline-block;width: 100%;margin-bottom:10px;}
+.sample-pdf i{float: left;margin-right: 15px;font-size: 16px;}
+.sample-pdf a{font-size: 12px;text-transform: uppercase;display:block;padding: 8px 0;border-bottom: 1px dotted #DDD;margin-bottom:1px;}
+.sample-pdf a > span {font-weight: 600;}
+.sample-pdf a > span:after {float: right;content: "\"";margin-left:10px;font-family: "fonticon" !important;}
+.sample-quiz {clear: both;display: inline-block;width: 100%;margin-bottom:10px;}
+.sample-quiz  i{float: left;margin-right: 15px;font-size: 16px;}
+.sample-quiz a{font-size: 12px;	text-transform: uppercase;display:block;padding: 8px 0;	border-bottom: 1px dotted #DDD;	margin-bottom:1px;}
+/*p.loading { color: #028e00;}
+p.loading i {animation: 2.5s linear 0s normal none infinite running nprogress-spinner;float: left;font-size: 18px;line-height: 0.8; margin-right: 10px;}*/
+
+
+#course-mobile-details { background: #fff; margin: 0 0 20px;}
+.mobile-heading > .accordion-toggle {background: #0b99bc;color: #fff;font-family: Lato,"Open Sans","Helvetica Neue",sans-serif;   font-size: 13px; padding:15px 15px 15px 20px;}
+.mobile-heading + .accordion-body {padding: 10px 15px;}
+.mobile-heading > .accordion-toggle::after { color: #fff !important;}
+.mobile-heading > .accordion-toggle.collapsed {background:#3c3c3c;}
+.mobile-heading > .accordion-toggle:hover {    color: #fff !important;}
+
+
+/****************************************************************************
+
+		4.1 Course Widgets
+	
+*****************************************************************************/
+.blog-list{margin-top:15px;}
+
+.single-course div#item-body { color: #000000;}
+.single-course div#item-body p a, .single-course div#item-body p + ul li a{ color:#0b99bc; font-weight:600;}
+.single-course div#item-body b, .single-course div#item-body strong { font-weight:600;}
+
+.crop_thumb img.thumb-img{margin: -4.9% 0;}
+.thumbnail-video .crop_thumb img.thumb-img{margin:-5% 0;}
+.thumb-img {width: 100%;}
+.thumb_course_links .crop_thumb {border: 1px solid #cdcdcd;}
+.crop_thumb {display: block;overflow: hidden;}
+
+.course_curriculum h3 + ul, .course_curriculum p + ul, .course_curriculum > ul, .about-course ul, .course_curriculum h3 + ol, .course_curriculum li > ol, .course_curriculum p + ol, .about-course ol{ padding-left:25px; margin-bottom:25px; list-style-position:outside;}
+.course_curriculum li > ol{ margin-top:5px; margin-bottom:10px;}
+.course_curriculum h3 + ul > li, .course_curriculum > ul, .course_curriculum p + ul > li{ list-style:outside disc none;}
+.course_curriculum ol > li, .course_curriculum p + ol > li{ list-style:outside decimal none;}
+.course_title {	margin-bottom: 20px;margin-top: 15px;}
+.course_title h1{ text-align:left;}
+h4.block_title a { word-wrap: break-word;}
+.reset_answer, .reset_answer:hover ,#question #submit, #question #submit:hover{ background:#3c3c3c !important;color: #3c3c3c !important;}
+
+.thumb_course_links p {text-align: center;	font-weight: 600;font-size: 12px;margin-top: 6px;}
+.table.upcoming_batches {border:1px solid #E1E1E1;}
+.upcoming_batches tbody.context {background: #fafafa;  font-size:11px;}
+.upcoming_batches thead {background: #E7E7E7; font-size:11px; text-transform:uppercase;}
+.upcoming_batches .events.blogpost { overflow:hidden; margin-bottom:20px;}
+.events h3 { border-bottom:1px solid #EFEFEF; padding-bottom:10px; margin-bottom:10px; font-weight:600;}
+.online_batch_meta{ border-bottom:1px solid #EFEFEF; font-weight:600; padding: 4px 0; margin: 4px 0 10px;}
+.online_batch_meta label { opacity: 0.5; font-weight: 400; }
+.widget.pricing .accordion-heading a{ padding-right:2px;}
+.widget.recommended_course{margin-top:40px;}
+
+.credits  span > span.amount {float: left;}
+.credits span > span.amount:first-child {margin-right: 5px;}
+
+.course-cart.widget.woocart.pricing, .course-cart.widget.woocart.pricing span.amount{color: #cd5f00;font-weight: 700;}
+span.amount {text-transform: none;}
+.widget.pricing.hide + .widget { margin-top: 0 !important;}
+.widget.pricing.course-discount{ padding-left: 15px; padding-right: 15px;}
+.widget .nav-tabs li {
+    padding-bottom: 0;
+    text-align: center;
+    width: 44%!important;
+}
+.nav-tabs > li.active > a:hover, #buddypress div.item-list-tabs ul li.selected a:hover{color:#FFF !important;}
+
+
+/****************************************************************************
+
+		4.2 Course reviews
+	
+*****************************************************************************/
+.scontent .buddypress-course-search-widget.widget ul li{ max-width:220px !important;}
+.linkedin_url{ color:#7899D6; text-transform:uppercase;}
+.commentlist {margin: 30px 0 0;}
+.reviewlist.commentlist cite{ text-align:right;}
+.reviewlist.commentlist .position{ max-width:160px; font-style:italic; color:#a6a6a6; display:inline-block;}
+.comment-body > p{ min-height:80px;}
+
+/****************************************************************************
+
+		4.3 Course Category Page
+	
+*****************************************************************************/
+
+.woocommerce  a.button.course_cat_page{ margin-top:10px !important;}
+.widget .single_course .block.courseitem {margin-bottom: 0;}
+
+
+/****************************************************************************
+
+		4.4	Start course
+	
+*****************************************************************************/
+.unit_title {margin-bottom: 5px;}
+.main_unit_content .unit_desc{ margin-bottom: 15px; text-align:left;}
+.main_unit_content .unit_desc ul { margin-left: 40px; margin-bottom: 20px;}
+/*.main_unit_content .unit_desc h4 { margin-bottom: 10px; text-transform: capitalize;}*/
+.more_course {    margin-bottom: 30px;}
+/*#quiz { border: 1px solid #cfcfd0;width: 76px;}
+.quiz_bar .ques_link:hover { color: #fff !important;}*/
+
+.unit_content #unit .print_unit, .unit_content #unit .instructor, 
+body.page-template-start nav#info-stripe, body.page-template-start #icon_wrapper, 
+.quiz_result a.print_results, .quiz_result ul.socialicons {display:none !important;}
+.quiz_result h3.heading {    margin-top: 0;}
+
+
+/****************************************************************************
+
+		4.5	Course Certificate
+	
+*****************************************************************************/
+
+.bp-user.my-profile .mfp-auto-cursor .mfp-content{max-width:900px !important;}
+.mfp-content #certificate.certificate_generated { width: auto !important;}
+
+/****************************************************************************
+
+	5. Woocommerce
+	
+*****************************************************************************/
+
+
+
+
+/****************************************************************************
+
+		5.1 Product page
+		
+*****************************************************************************/
+
+div.upsells.products{ clear:both;}
+
+/****************************************************************************
+
+		5.2 Cart
+		
+*****************************************************************************/
+
+
+
+/****************************************************************************
+
+		5.3 Checkout page
+	
+*****************************************************************************/
+
+
+.woocommerce .loginwrapper {
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    border-bottom: 1px dashed #EFEFEF;
+}
+.woocommerce  .login input.button[name="login"] {float: right;}
+#showlogin:hover{ color:#333 !important}
+.createaccount p { display:none;}
+.createaccount #account_password_field{ width:100%;}
+
+.coupon .woocommerce-message, .woocommerce-cart .woocommerce-message { display: block;}
+
+.credits del span span {text-decoration: line-through;opacity:0.9;}
+p.terms a { color: #817DA8 !important; text-transform: capitalize !important;}
+
+.coupon-form{ position:relative;}
+.coupon-form #coupon_code {padding-right: 60px;	padding-left:10px;font-size:13px;}
+.widget.pricing.course-discount button, .checkout_coupon button {border-bottom-left-radius: 0;border-top-left-radius: 0;    padding-bottom: 8px;padding-top: 8px;position: absolute;right: -10px;top: 0;}
+
+form.checkout_coupon { margin-bottom: 0 !important;}
+.about_paypal { display: none;}
+.woocommerce-checkout #content .widget { background: #fff; margin-bottom: 20px; padding: 10px 15px 20px;}
+.woocommerce-checkout #content .widget:first-child{margin-top: 30px;}
+#order_review_heading {  margin-top: 0;	position:relative;}
+#order_review_heading > select, #order_review_heading > p{ float: right; position: absolute;}
+#order_review_heading > p{ font-size: 13px; right: 125px;color: #3b385f; top: 0;}
+#order_review_heading > select {font-size: 14px;right: 0; top: 0;}
+.order_details .course_name + .button {  margin-bottom: 7px;}
+.order_details .course_name { margin: 0 0 10px;  display: inline-block;}
+
+/****************************************************************************
+
+		5.4 Thank you page
+	
+*****************************************************************************/
+
+.account_creation_steps{ padding:15px; background:#fcfcfc; margin-bottom:25px;}
+.account_creation_steps .order_details {background-color: #fafafa; }
+.order_details { margin-left: 0 !important;}
+
+/****************************************************************************
+
+	6. Widgets
+	
+*****************************************************************************/
+
+
+
+/****************************************************************************
+
+	7. Search Page
+
+*****************************************************************************/
+
+
+
+/****************************************************************************
+
+	8. All course page
+
+*****************************************************************************/
+
+/* all course page contact form*/
+#all_courses_header .ajax-loader[style="visibility: hidden;"] , #contact-form .ajax-loader[style="visibility: hidden;"]{display: none;}
+#all_courses_header .button{
+    border: medium none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 1.6;
+    padding: 7px 12px;
+    text-transform: uppercase;
+	margin:0;
+}
+#all_courses_header #contact-form{ padding-top:6px !important}
+#all_courses_header #contact-form form input{ margin-bottom:7px;}
+
+/*All course page*/
+.content-columns{ padding-top:15px; padding-bottom:17px;}
+.bg-white{background:#FFF;}
+.nav.nav-pills > li > a.filter {  padding: 5px 15px;}
+.nav-pills > li > a:hover, .nav-pills > li > a:focus{border-radius:0;}
+.nav-pills > li > a:focus { background-color: #FFF; color: #1a1a1a;border-radius:0;}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {background-color: #eaeaea;color: #1a1a1a;border-radius:0;}
+.nav-pills > li > a > span  {
+    background: #a363e2;
+    border-radius: 228px;
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 3px 1px 7px;
+    width: 26px;
+}
+.nav-stacked > li {border-color: #eaeaea;border-style: solid;border-width: 1px;margin-left: 0;margin-top: 0;}
+.nav-stacked > li + li { margin-left: 0;  margin-top: -1px;}
+
+h4.block_title a { font-family:Lato,"Open Sans","Helvetica Neue",sans-serif;}
+
+.block.courseitem .extra_details {
+    background: none repeat scroll 0 0 #292929;
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    margin: -1px -1px 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    width: auto;
+    transition: all 700ms ease-out;
+}
+.block.courseitem .extra_details > span { color: #fff; display: block; margin: 15px 15px 0;}
+.block.courseitem:hover .extra_details {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: all 200ms ease-in;
+}
+
+.block_media .yith-wcwl-add-to-wishlist, .block_media .yith-wcwl-wishlistexistsbrowse, .block_media .yith-wcwl-wishlistaddedbrowse { position: absolute; top: 0;  right: 0;}
+.block_media .yith-wcwl-add-to-wishlist .add_to_wishlist i , .block_media .yith-wcwl-wishlistexistsbrowse a, .block_media .yith-wcwl-wishlistaddedbrowse a{ font-size: 16px; line-height:20px; /* -webkit-text-stroke: 1px #fff; color: #666;*/ text-shadow:  1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,-1px  1px 0 #fff,  1px  1px 0 #fff;}
+
+.block_media .summary .yith-wcwl-add-button .add_to_wishlist:hover, .block_media .summary .yith-wcwl-wishlistexistsbrowse a:hover, .block_media .summary .yith-wcwl-wishlistaddedbrowse a:hover { text-decoration: underline; background: none!important; }
+	
+.block_media .yith-wcwl-wishlistexistsbrowse a, .block_media  .yith-wcwl-wishlistaddedbrowse a {	color:#0b99bc;}
+.yith-wcwl-wishlistexistsbrowse a i, .yith-wcwl-wishlistaddedbrowse a i{	margin-right:10px;}
+
+.block_media .summary .yith-wcwl-add-button .add_to_wishlist:after, .block_media .summary .yith-wcwl-wishlistexistsbrowse a:after, .block_media .summary .yith-wcwl-wishlistaddedbrowse a:after { display: none; }
+.block_media .yith-wcwl-wishlistexistsbrowse .feedback, .block_media .yith-wcwl-wishlistaddedbrowse .feedback, .block_media .yith-wcwl-add-to-wishlist .ajax-loading { display: none !important; }
+.block_media .yith-wcwl-wishlistexistsbrowse a span, .block_media  .yith-wcwl-wishlistaddedbrowse a span{
+    float: left;
+    text-indent: -3000em;
+}
+.widget.pricing a.add_to_wishlist, .widget.pricing a.remove_course_from_wishlist {
+    padding: 5px 15px;    display: inline-block;
+   /* background: #EAEAEA;
+    border: 2px solid #E0E0E0;*/
+}
+.wishlist_items > table {
+    margin-bottom: 20px;
+    margin-top: -31px;
+}
+.wishlist_items > table td a.remove, .wishlist_items > table td a.add_to_cart_button{ font-size: 14px; position: relative;   line-height: 25px;}
+.wishlist_items > table td a.add_to_cart_button{ padding-left: 25px;}
+.wishlist_items > table td a.remove{ padding-left: 20px;     margin-left: 10px;}
+.wishlist_items > table td a.remove i, .wishlist_items > table td a.add_to_cart_button i{ position: absolute;  top: 0;   left: 0;}
+.wishlist_items > table td a.add_to_cart_button i {   font-size: 20px;}
+.wishlist_items > table td a.remove i {  font-size: 16px;}
+#yith-wcwl-popup-message {
+    background: none repeat scroll 0 0 #fff;
+    border: 3px solid #a6efff;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+.add_to_cart_both_wrap {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #cdcdcd;
+    padding: 15px 25px 10px;
+    position: absolute;
+    z-index: 9999;
+}
+.add_to_cart_both_wrap a {
+    display: block;
+    margin: 5px auto;
+    text-align: left;
+}
+
+
+#loading-course {  margin: 30px auto 50px;}
+
+.sitemap li.course{ margin-bottom:10px; list-style:none inside none;}
+
+
+
+/****************************************************************************
+
+	9. Pages
+		
+*****************************************************************************/
+
+.single .featured-video {
+  margin: 20px auto;
+}
+.single .featured-video .crop_thumb {
+    border: 10px solid #cdcdcd;
+    position: relative;
+}
+/**********9.1 Tutorial pages*************************/
+
+.single-tutorial .home #media {
+  background: none;
+  padding: 0;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.tuts-ads{ margin-bottom:20px; max-width:96%;}
+.single-tutorial .home #reviews .review-body {
+    background-color: #fff;
+}
+.single-tutorial .content p, .single-tutorial .content ul{
+    line-height: 24px;
+    text-align: justify;
+}
+.widget.tutorial-widget {
+  background-color: #ffffff;
+  padding: 10px 15px 20px;
+}
+.archive-link {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #EFEFEF;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.pagelist ul{
+  list-style-type:disc;
+}
+.pagelist ul li{
+  line-height:25px;
+}
+.pagelist ul li::before {
+    color: #d56f18;
+    content: "\00bb";
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 5px 0 0;
+}
+.pagelist ul li:last-child {
+  border: none;
+}
+
+/****************************************************************************
+
+		9.2 Job & inteview Page
+
+*****************************************************************************/
+
+
+.single-interview-question #contact-form {
+    margin-top: 0;
+}
+.single-interview-question .sidebar-left .item-header-content:first-child > h3 {
+    margin-top: 0;
+}
+.single-interview-question .sidebar-left .item-list-tabs ul li a {
+    color: #fff !important;
+}
+
+div#iq-tabs .ui-tabs-nav {
+    background: #f5f5f5;
+    clear: both;
+    display: block;
+    padding: 5px 5px 0;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+div#iq-tabs .ui-tabs-nav li {
+    width: 50%;
+    /* padding: 10px 4%; */
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+
+div#iq-tabs .ui-tabs-nav li.ui-tabs-active {
+    background: #0B99BC;
+}
+
+div#iq-tabs .ui-tabs-nav li.ui-tabs-active a, div#iq-tabs .ui-tabs-nav li.ui-tabs-active a:hover {
+    color: #fff !important;
+}
+
+div#iq-tabs .ui-tabs-nav .ui-tabs-anchor {
+    width: 100%;
+    padding: 10px;
+    display: block;
+}
+
+/****accordion css start here****/
+ dl
+{
+	padding: 10px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+ dl dt
+{
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	margin: 0;*/
+	background: #f4f4f4 none repeat scroll 0 0;
+	border-left: 3px solid #cccccc;
+	margin-bottom:5px;
+	position:relative;
+}
+ dl dt a
+{
+	color: #464646;
+	text-decoration: none;
+	font-weight:600;
+	padding: 10px 10px;
+	display: block;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	position:relative;
+	cursor:pointer;
+}
+ dl dt.active_arrow_remove:before{ content:""; border-bottom:6px solid transparent; border-top:6px solid transparent; border-left:6px solid #c6c6c6; margin-top:15px; display:inline-block; width:auto; height:auto; position:absolute; right:10px;}
+ /*dl dt.active_arrow:before{  content:""; border-right: 6px solid transparent; border-top: 6px solid #000; border-right: 6px solid transparent;border-left: 6px solid transparent; margin-top:15px; display:inline-block; width:auto; height:auto; position:absolute; right:10px;}*/
+ dl dd
+{
+	padding:0 10px 10px;
+	margin: 0;
+	display:none;
+	overflow: hidden;
+	-webkit-transition: height 0.5s ease;
+	-moz-transition: height 0.5s ease;
+	-o-transition: height 0.5s ease;
+}
+ dl dd p
+{
+	padding: 10px !important;
+	margin: 0;
+	font-size:13px !important;
+	color:#4a4a4a !important;
+
+}
+  dl dd { height: 0; }
+.accordian_active { display:block;height: auto;  overflow-x:hidden; overflow-y:hidden;}
+ dl a.ie:hover dd,
+ dl a.ie:focus dd{	height: auto;	color: #cccccc !important;}
+ 
+.job-list{border-bottom:1px solid;padding:1em 0px;}
+.job-footer {
+	clear: left;
+	margin-left: 0;
+	padding-left: 0;
+}
+.job-footer li {
+	color: #15700d;
+	display: inline;
+}
+.job-days, .job-source {
+	border-right: 1px dotted #aaaaaa;
+	padding-left: 0px;
+	padding-right:2px;
+}
+.single-interview-question #item-header-content li,  .page-template-jobs #item-header-content li, {
+	line-height: 24px;
+}
+.single-interview-question #item-body h1, .page-template-jobs #item-body h1{
+	font-size: 2em;
+	font-weight: normal;
+	margin-bottom: 1em;
+	padding-bottom: 0.3em !important;
+	text-align: center;
+	text-shadow: 2px 2px 3px #cccccc;
+}
+.comment {
+    list-style: none;
+}
+
+/****************************************************************************
+
+		9.3 Forums
+
+*****************************************************************************/
+
+li.bbp-header,  li.bbp-header #subscription-toggle a, li.bbp-header a.favorite-toggle { color: #fff !important; }
+
+/****************************************************************************
+
+	10. Forms and fields
+
+*****************************************************************************/
+
+.alert.alert-danger {background-color: #f2dede;}
+.alert.alert-success {background-color: #dff0d8;}
+
+#contact-form { margin-top: 20px; padding-top: 17px !important;}
+.contact-submit {margin-bottom: 0;}
+.contact-submit input {width: 100%;}
+#contact-form form input, #contact-form form select , .contact-form select {border: 1px solid #cbc7c7;margin-bottom: 9px;   margin-top: 0}
+#country_chosen{ margin-bottom: 9px;}
+
+.posttype-search #search-form button[type="submit"]{ background:#0b99bc;color: #fff; padding: 7px 10px 3px;}
+.posttype-search .input-text { border-color: #0b99bc;}
+
+#signup_form label[for="account_password"] {position: absolute; right: 15px; top: 7px;}
+
+.form_field, .input-text, .ninja-forms-field, .wpcf7 input.wpcf7-text, #s , .chosen-container-active.chosen-with-drop .chosen-single, .chosen-container-single .chosen-single{  border: 1px solid #dadada; }
+
+.contact-form input {border: 1px solid #cfcfd0 !important; border-radius: 4px; margin-bottom: 10px;}
+.contact-form textarea {background: none ; border: 2px solid #efefef;border-radius: 4px; color: #888;font-weight: normal;}
+.contact-form #contact-submit { background-color: #e4894c; border: medium none; border-radius: 0;color: white;font-weight: bold;   margin-top: 5px; padding: 10px 20px;}
+
+.newsletter-email{
+border: 1px solid #dadada;
+border-radius: 4px;
+color: #888;
+    padding: 6px 20px;
+    width: 100%;}
+
+.newsletter-submit {
+    background-color: #e4894c;
+    border: medium none;
+    border-radius: 0;
+    color: white;
+    font-weight: bold;
+    margin-top: 5px;
+    padding: 10px 20px;
+}
+.register .sidebar .wp-social-login-widget {
+    background-color: #FFFFFF;
+    padding: 30px 0;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/****************************************************************************
+
+	11. Responsive
+	
+*****************************************************************************/
+
+@media (max-width: 1052px) {
+	#how-it-works .text { display: none;}
+}
+@media (min-width: 801px) and (max-width: 1024px) {
+	
+}
+@media (min-width: 992px) {
+	#slider-strip {min-height:480px;}
+	.jump_to_menu > p { min-height: 100px;}
+	.footermenu li:first-child{margin-left: 0;}
+	.hidden-title {display: block;width: 50px;height: 15px;	}
+	
+	#all_courses_header .wpcf7 .col-md-6 {padding: 0 0 0 15px;width: 47%;}
+	/* For drop a query here form at course pages */ 
+	#name .col-md-6 input.last-name, #name .col-md-6 input.first-name {	padding-left: 17px;	padding-right: 10px;}
+	#name .col-md-6 {margin-right: 0;padding-right: 0;width: 47%;}
+	#name .col-md-6:last-child {padding-left: 2px;}
+	/*ends herer*/
+
+}
+@media (max-width: 991px) {
+	.country_navigation{ display:none;}
+	#headertop li.menu-item.menu-item-type-post_type {  display: none;}
+	#headertop.fixed .trigger{padding:6px 0 10px 20px}
+	#browse_courses > .dropdown-menu { margin-top: 39px;}
+	
+	.unit_content iframe{height:auto;    min-height: 250px;}
+	
+	.name.row > div:first-child{margin-bottom: 20px;}
+	
+	#slider-strip .highlights h2 {font-size: 28px;margin-top: 40px;}
+	#slider-strip .highlights {margin-bottom: 10px;}
+	#slider-strip .highlights #jump_to {margin: 30px auto 10px;}
+	#slider-strip .highlights h4 {font-size: 16px;}
+	.feature_icon.last { margin-left: -10px;}
+	#featured-video iframe{ height:219px}
+	#follow_us #newlsetter { padding: 0 10px;}
+
+	#copyright{text-align:center}
+	.secure-pay .pay_methods { padding-top:10px;}
+	.contact-no {font-size: 13px;}
+	
+	.woocommerce-checkout .coupon { margin: 30px 0 0;}
+
+}
+@media (max-width: 866px) {
+	.india-number .phone-2{ display:none}
+}
+@media (min-width: 769px) {
+	.filterable_course_container .col-md-3{ padding:0 7px;}
+	.block.courseitem .block_title{ min-height: 65px;}
+}
+@media (min-width: 768px) {
+	.hidden-desktop{ display:none !important;}
+}
+@media (min-width: 768px) and (max-width: 800px) {
+}
+
+@media (max-width: 768px) {
+	h2#sidelogo img{ opacity:1;}
+	#icon_wrapper{display:none !important;}
+}
+
+@media (max-width: 767px) {
+	.hidden-mobile{ display:none !important;}
+	#logo {margin-top: 3px;padding:0px;}
+	.top-navigation li.menu-item-type-post_type , .top-navigation li.menu-item-type-custom{display:none;}
+	#top_searches {
+	  float: none;
+	  margin: 5px auto;
+	  text-align: center;
+	}
+	#top_searches a { margin:4px 1px; display: inline-block;}
+	#header-main.fixed{ display:none;}
+	#headertop .top-navigation {  padding-left: 0;}
+	#vibe_bp_login::after { left: 80px;}
+	#vibe_bp_login{right: 30px;}
+	
+	#searchbox {margin-left: 10%; width: 80%; float:none; margin-bottom:6px;}
+	#search-form #s {padding: 5px 30px 5px 10px;}
+	#search-form button[type="submit"] { padding: 5px 8px;}
+	
+	#breadcrumbs a { margin:3px 0 4px; display: inline-block;}
+	#breadcrumbs {overflow: hidden; margin-bottom: 15px;}
+	
+	#live_chat .text { display: none;}
+	
+	#slider-strip {min-height: auto;padding-bottom: 15px;}
+	#slider-strip .highlights h2 {font-size: 22px;margin-top: 20px;}
+	#slider-strip .highlights h4 {font-size: 16px;}
+	#slider-strip .highlights .browse_course_link {padding: 7px 30px;}
+	.feature_icon {margin-right: 6px;}
+	.feature_icon i {font-size: 21px;}
+	.feature_icon + h4 {font-size: 14px;margin-top: 0;padding-top: 0;}
+	.feature_icon.last {margin-left: -8px;}
+	.feature_icon.last i {font-size: 28px;}
+	.feature_icon.last + h4 {font-size: 12px; margin-right:-5px;}
+	#slider-strip .highlights {	margin-bottom: 15px;}
+	
+	.loginwrapper .wp-social-login-widget::after { bottom: -15px; right: 46.2%; top: auto;}
+	.loginwrapper .wp-social-login-widget {border-bottom: 1px solid #bfbfbf;border-right: medium none;margin-bottom: 50px;padding-bottom: 35px;padding-top: 0;}
+	
+	#featured-video {margin-top: 20px;}
+	#reviews .review-body {margin-bottom: 25px;}
+	#media .media img , #clients .clients img {margin: 0 auto;}
+	.home .heading {font-size: 18px !important;text-align: center;}
+	
+	.woocommerce-cart .woocommerce{ padding:0;}
+	.coupon label {display: none;}
+	.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {width: 80% !important;}
+	
+	#all_courses_header .contact-title.collapsed::after {content: "+";float: right;font-size: 28px;font-weight: 800;}
+	#all_courses_header .contact-title.collapsed { cursor: pointer;margin-top: 15px}
+	#all_courses_header .contact-title.collapsed + .wpcf7 {display: none;}
+	
+	.intell_filterable li.active .filterable_course_container {margin: 20px -5px -25px;}
+	.intell_filterable > li > a:after {float: right; font-family: "fonticon" !important;content: attr(data-icon); font-style: normal !important; font-weight: normal !important; font-variant: normal !important; text-transform: none !important; speak: none;  line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; padding-top:10px;}
+	.intell_filterable > li > a::after, .intell_filterable > li.collapsed.active > a::after{content: "\e05d";}
+	.intell_filterable > li.active > a:after{ content: "\e092";}
+	.intell_filterable > li.collapsed > #course_container { height:0px !important;}
+
+}
+
+@media (max-width: 640px) {
+	#customer_details .col-2 {padding-left: 0;}
+	#headertop .smallimg.vbplogin img , #headertop .smallimg.iplogin img{ margin:0}
+	#headertop .smallimg.vbplogin span.name, #headertop .smallimg.iplogin span.name { display: none;}
+
+}
+
+@media (max-width: 543px) {
+	#live_chat { display: none;}
+	#order_review_heading > p, #order_review_heading > select {top: 45px;}
+	#order_review_heading {margin-bottom: 70px;	}
+}
+
+@media (max-width: 532px) {	
+	.browse_courses_container{ width:16.6667%;}
+	.browse_courses_container span.text{ display:none; }
+	.browse_courses_container .nav-bars{ margin-right:0;}
+}
+
+@media (min-width: 480px) and (max-width: 605px) {	
+	.contact-no {font-size: 12px;}
+}
+@media (min-width: 480px) and (max-width:767px) {
+	.course_tabs .course_items, #course_container .course_items {float: left;width: 50%;}
+}
+
+@media (max-width: 480px) {	
+	#vibe_bp_login::after { left: 130px;}
+	.trigger{ padding-left:0px; border:none}
+	#headertop .loggedinuser { border: medium none !important;}
+	#headertop.fixed .trigger {padding: 7px 0 7px 1px;width: 24px;}
+	#headertop.fixed .topmenu .menu-item.woo-cart-menu a {padding: 12px 10px 0 40px !important;}
+}
+@media (max-width: 479px) {	
+	#headertop .topmenu .menu-item.woo-cart-menu { border: medium none;}
+	#headertop .topmenu .menu-item.woo-cart-menu a { padding: 18px 15px 0 37px !important;}
+	#headertop .topmenu .menu-item.woo-cart-menu a i { font-size: 24px; top: 15px;}
+	#headertop .topmenu .menu-item.woo-cart-menu a span.cart_count { padding: 1px 5px;}
+	#headertop .topmenu .menu-item.woo-cart-menu a:hover {background:none;border:none;}
+	#headertop{background:#222 !important}
+	#slider-strip {background: #1f1f1f;}
+	#header-main{background:#3c3c3c !important}
+	span.us-toll { display: none;} 
+	
+	.stripe.course_tabs {padding-left: 15px;padding-right: 15px;}
+	
+	.coupon {display: block !important;float: none !important;margin: 5px 2% !important;width: 96% !important;}
+	.coupon + input[type="submit"] {display: block !important;margin: 0 auto !important;}
+	.payment_method_ebs img { width: 100%;}
+
+}
+@media (max-width: 399px) {
+	#vibe_bp_login::after { left: 190px;}
+	.logged-in #headertop .topmenu .menu-item.woo-cart-menu{ display:none}
+}
+@media (max-width: 359px) {	
+	.woocommerce-cart .woocommerce{ margin: -25px -20px;}
+	#headertop .topmenu .menu-item.woo-cart-menu{ display:none}
+}
+@media (max-width: 319px) {	
+	#headertop .topmenu .menu-item.woo-cart-menu a {height: 40px;padding: 16px 8px 0 0 !important;}
+	#headertop .topmenu .menu-item.woo-cart-menu a i {left: -25px;top: 13px;}
+	#headertop.fixed .topmenu .menu-item.woo-cart-menu {display:none !important;}
+	.trigger {overflow: hidden;	padding: 14px 0 12px 1px;width: 26px;}
+}
+
+
+.refer_heading{color:#000;font-size: 16px;font-weight:bold;}
+.refer_sub_heading{color:#000;font-size: 14px;font-weight:bold;margin-top: -5px;}
+.refer_banner{}
+.link_rf{color:#000 !important;}
+.link_rf:hover{text-decoration:underline;}
+.loginsection{  font-size: 21px;    margin: 20px;    text-align: center;color:#000;}
+.refer_login_text{  font-size: 17px;    margin: 20px;    text-align: center; font-weight:bold;}
+.tcraf-stats_container{}
+.tcraf-stats_container table{  width:100%;}
+.tcraf-stats_container table thead{     background-color: #eee;}
+.seprator_new{margin-top:20px;margin-bottom:10px;border-top:1px solid #eee; }
+.seprator_new_one{margin-top:0px;margin-bottom:10px;border-top:1px solid #eee; }
+
+/* LIST #3 */
+
+#content  .content  #list3  ul  {  margin-left: 0px !important; }
+#list3 {   margin-top: 8px;
+  padding: 0;}
+#list3 ul {  font-size:15px; margin-left: 0px !important; margin-top:18px!important; }
+#list3 ul li { color:#000 !important; line-height:30px; height:37px;   background: url('next-icon.png') no-repeat top left;  margin: 0;  padding: 4px 0 4px 25px;
+  list-style: none; width:100%;     margin-left: 0px !important;}
+#list3 ul li span { top:-11px; position:relative;}
+
+.tcraf-social-container_kovit_sv{position: relative;    float: left;    width: 13%;}
+.li_left{ position: relative;    float: left;  width: 27%;top:-11px; }
+.li_right{ position: relative;    float: left; width: 60%;top:-11px;}
+
+/****************************************Start By Kovit 24-12-2015***********************************/
+
+/**************************************** Course Title H1 Tag ***********************************/
+.course_title .title {margin: 0; font-weight: 600;    font-family: "Open Sans";    color: #474747; text-align: left;   font-size: 28px;}
+.course_title .title > h1 {display:inline; text-align: left; margin-left:5px;}
+.small_desc_heading > h1 { display:inline; color: #000000;font-size: 14px; font-family: "Open Sans";  margin:0x;	margin-left:5px;  text-align: left;}
+
+/**************************************** Course Roll over task ***********************************/
+/* tooltip */
+
+
+.tool-tip{
+	color: #fff;
+	background-color: rgba( 0, 0, 0, .7);
+	text-shadow: none;
+	font-size: .8em;
+	visibility: hidden;
+	-webkit-border-radius: 7px; 
+	-moz-border-radius: 7px; 
+	-o-border-radius: 7px; 
+	border-radius: 7px;	
+	text-align: left;	
+	opacity: 0;
+	z-index: 999;
+	padding: 3px 8px;	
+	position: absolute;
+	cursor: default;
+	-webkit-transition: all 240ms ease-in-out;
+	-moz-transition: all 240ms ease-in-out;
+	-ms-transition: all 240ms ease-in-out;
+	-o-transition: all 240ms ease-in-out;
+	transition: all 240ms ease-in-out;	
+}
+.tool-tip > ul > li:first-child { list-style: none; }
+.tool-tip > ul { list-style-type: circle !important;}
+.tool-tip > ul > li { border:none !important;}
+
+
+.tool-tip,
+.tool-tip.top{
+	top: auto;
+	bottom: 114%;
+	left: 50%;		
+}
+
+.tool-tip.top:after,
+.tool-tip:after{
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	margin-left: -7px;
+	content: ' ';
+	height: 0px;
+	width: 0px;
+	border: 6px solid transparent;
+    border-top-color: rgba( 0, 0, 0, .7);	
+}
+
+/* default heights, width and margin w/o Javscript */
+
+.tool-tip,
+.tool-tip.top{
+	width: 450px;
+	height: 135px;
+	margin-left: -43px;
+}
+
+/* tool tip position left */
+
+.tool-tip.left{
+	top: 50%;
+	left: auto;
+	right: 105%;
+	margin-top: -70px;	
+	margin-left: auto;	
+}
+
+.tool-tip.left:after{
+	left: auto;
+	right: -12px;
+	top: 50%;
+	margin-top: -6px;
+	bottom: auto;
+	border-top-color: transparent;	
+    border-left-color: rgba( 0, 0, 0, .7);	
+}
+
+
+/* tooltip on focus left and right */
+
+.on-focus .tool-tip.left,
+.on-focus .tool-tip.right{
+	margin-top: -19px;
+}
+
+/* on hover of element containing tooltip default*/
+
+*:not(.on-focus):hover > .tool-tip,
+.on-focus input:focus + .tool-tip{
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: all 240ms ease-in-out;
+	-moz-transition: all 240ms ease-in-out;
+	-ms-transition: all 240ms ease-in-out;
+	-o-transition: all 240ms ease-in-out;
+	transition: all 240ms ease-in-out;		
+}
+
+
+/* tool tip slide out */
+
+*:not(.on-focus) > .tool-tip.slideIn,
+.on-focus > .tool-tip{
+	display: block;
+}
+
+.on-focus > .tool-tip.slideIn{
+	z-index: -1;
+}
+
+.on-focus > input:focus + .tool-tip.slideIn{
+	z-index: 1;
+}
+
+/* left slideIn */
+
+*:not(.on-focus) > .tool-tip.slideIn.left,
+.on-focus > .tool-tip.slideIn.left{
+	right: 50%;	
+}
+
+*:not(.on-focus):hover > .tool-tip.slideIn.left,
+.on-focus > input:focus + .tool-tip.slideIn.left{
+	right: 105%;		
+}
+
+/****************************************End By Kovit 24-12-2015***********************************/

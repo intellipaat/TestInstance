@@ -1,0 +1,481 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Categories but exclude\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-13 11:08+0100\n"
+"PO-Revision-Date: 2012-06-13 16:01+0100\n"
+"Last-Translator: QuentinTurquet.com <quentin.turquet@gmail.com>\n"
+"Language-Team: TradPress <tradpress@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: categories-but-exclude.php:46
+#: categories-but-exclude-widget/trunk/categories-but-exclude.php:46
+msgid "Categories but exclude"
+msgstr "Catégories, sans les exclues"
+
+#: categories-but-exclude.php:47
+#: categories-but-exclude-widget/trunk/categories-but-exclude.php:47
+msgid "List all categories except some"
+msgstr "Liste toutes les catégories, sauf les exclues."
+
+#: categories-but-exclude.php:97
+#: categories-but-exclude-widget/trunk/categories-but-exclude.php:97
+msgid "Categories"
+msgstr "Catégories"
+
+#: categories-but-exclude.php:102
+#: categories-but-exclude-widget/trunk/categories-but-exclude.php:102
+msgid "Title:"
+msgstr "Titre :"
+
+#: categories-but-exclude.php:106
+#: categories-but-exclude-widget/trunk/categories-but-exclude.php:106
+msgid "Categories to exclude:"
+msgstr "Catégories à exclure :"
+
+#: categories-but-exclude.php:109
+#: categories-but-exclude-widget/trunk/categories-but-exclude.php:109
+msgid "Enter a comma-separated list of category ID numbers to display all of your categories except these ones"
+msgstr "Entrer la liste des ID de catégories à exclure, séparés d'une virgule. Les catégories exclues ne seront pas affichées dans le widget."
+
+#~ msgid "Custom Field Template"
+#~ msgstr "Custom Field Template"
+
+#~ msgid "Media Picker"
+#~ msgstr "Selector de Media"
+
+#~ msgid "Use this"
+#~ msgstr "Utiliza esto"
+
+#~ msgid "Load"
+#~ msgstr "Cargar"
+
+#~ msgid "read more"
+#~ msgstr "leer más"
+
+#~ msgid "Custom Fields"
+#~ msgstr "Campos Personalizados"
+
+#~ msgid "Settings"
+#~ msgstr "Configuración"
+
+#~ msgid "Default Template"
+#~ msgstr "Plantilla predeterminada"
+
+#~ msgid ""
+#~ "You can not use the following words as the field key: `content`, "
+#~ "`post_title`, and `excerpt`, and `action`."
+#~ msgstr ""
+#~ "No puedes utilizar las siguientes palabras como claves: `content`, "
+#~ "`post_title`, `excerpt`y `action`."
+
+#~ msgid "Options updated."
+#~ msgstr "Opciones actualizadas exitosamente"
+
+#~ msgid "Value Counts rebuilt."
+#~ msgstr "Conteo de valores reconstruido"
+
+#~ msgid "Tags rebuilt."
+#~ msgstr "Etiquetas reconstruidas"
+
+#~ msgid "Options imported."
+#~ msgstr "Opciones importadas"
+
+#~ msgid "Options resetted."
+#~ msgstr "Opciones reiniciadas exitosamente"
+
+#~ msgid "Options deleted."
+#~ msgstr "Opciones eliminadas exitosamente"
+
+#~ msgid "Click to toggle"
+#~ msgstr "Haz clic para intercambiar"
+
+#~ msgid "Custom Field Template Options"
+#~ msgstr "Opciones de campos personalizados"
+
+#~ msgid "Disable"
+#~ msgstr "Deshabilitar"
+
+#~ msgid "Template Title"
+#~ msgstr "Título de la plantilla"
+
+#~ msgid "Template Instruction"
+#~ msgstr "Instrucciones de la plantilla"
+
+#~ msgid "Post Type"
+#~ msgstr "Tipo de publicación"
+
+#~ msgid "Both"
+#~ msgstr "Ambos"
+
+#~ msgid "Post"
+#~ msgstr "Entrada"
+
+#~ msgid "Page"
+#~ msgstr "Página"
+
+#~ msgid "Custom Post Type (comma-deliminated)"
+#~ msgstr "Tipo de Entrada (Delimitado por comas)"
+
+#~ msgid "Post ID (comma-deliminated)"
+#~ msgstr "ID de entrada (Delimitado por comas)"
+
+#~ msgid "Category ID (comma-deliminated)"
+#~ msgstr "ID de Categoría (Delimitado por comas)"
+
+#~ msgid "Page Template file name(s) (comma-deliminated)"
+#~ msgstr "Nombre(s) de Archivo(s) de Plantilla(s) (Delimitado por comas)"
+
+#~ msgid "Template Content"
+#~ msgstr "Contenido de la plantilla"
+
+#~ msgid "Update Options &raquo;"
+#~ msgstr "Actualizar opciones &raquo;"
+
+#~ msgid "Global Settings"
+#~ msgstr "Ajustes Globales"
+
+#~ msgid ""
+#~ "In case that you would like to replace custom keys by labels if `label` "
+#~ "is set"
+#~ msgstr ""
+#~ "En caso de que desees reemplazar claves personalizadas por etiquetas si "
+#~ "'etiqueta' está configurado"
+
+#~ msgid "Use labels in place of custom keys"
+#~ msgstr "Usar etiquetas en lugar de claves personalizadas"
+
+#~ msgid ""
+#~ "In case that you would like to add p and br tags in textareas "
+#~ "automatically"
+#~ msgstr ""
+#~ "En caso de que desees añadir etiquetas 'p' y 'br' automáticamente en "
+#~ "áreas de texto"
+
+#~ msgid "Use wpautop function"
+#~ msgstr "Usar función 'wpautop'"
+
+#~ msgid ""
+#~ "In case that you would like to save values automatically in switching "
+#~ "templates"
+#~ msgstr ""
+#~ "En caso de que desees guardar valores automáticamente en la conmutación "
+#~ "de plantillas"
+
+#~ msgid "Use the auto save in switching templates"
+#~ msgstr "Usar auto-guardado al conmutar plantillas"
+
+#~ msgid ""
+#~ "In case that you would like to disable input fields of the custom field "
+#~ "template temporarily"
+#~ msgstr ""
+#~ "En caso de que desees deshabilitar temporalmente los campos "
+#~ "personalizados."
+
+#~ msgid ""
+#~ "Use the `Disable` button. The default custom fields will be superseded."
+#~ msgstr ""
+#~ "Usar el botón `Deshabilitar`. Los campos predeterminados serán sustituidos"
+
+#~ msgid "In case that you would like to forbid to use the initialize button."
+#~ msgstr "En caso de que desees prohibir la el botón Inicializar"
+
+#~ msgid "Disable the initialize button"
+#~ msgstr "Deshabilitar el botón Inicializar"
+
+#~ msgid "In case that you would like to forbid to use the save button."
+#~ msgstr "En caso de que desees prohibir el botón Guardar"
+
+#~ msgid "Disable the save button"
+#~ msgstr "Deshabilitar el botón Guardar"
+
+#~ msgid ""
+#~ "In case that you would like to forbid to use the default custom fields."
+#~ msgstr "En caso de que desees prohibir el uso de los campos predeterminados"
+
+#~ msgid "Disable the default custom fields"
+#~ msgstr "Deshabilitar campos predeterminados"
+
+#~ msgid "In case that you would like to forbid to use the quick edit."
+#~ msgstr "En caso de que desees prohibir la edición rápida"
+
+#~ msgid "Disable the quick edit"
+#~ msgstr "Deshabilitar edición rápida"
+
+#~ msgid ""
+#~ "In case that you would like to forbid to display the custom field column "
+#~ "on the edit post list page."
+#~ msgstr ""
+#~ "En caso de que desees ocultar la columna Campos Personalizados de la "
+#~ "lista de entradas"
+
+#~ msgid "Disable the custom field column (The quick edit also does not work.)"
+#~ msgstr ""
+#~ "Deshabilitar la columna Campos Personalizados (La edición rápida también "
+#~ "se desactivará)"
+
+#~ msgid ""
+#~ "In case that you would like to replace the box title with the template "
+#~ "title."
+#~ msgstr ""
+#~ "En caso de que desees reemplazar el título de la caja por el título de la "
+#~ "plantilla"
+
+#~ msgid "Replace the box title"
+#~ msgstr "Reemplazar caja de título"
+
+#~ msgid "In case that you would like to use the shortcode in the widget."
+#~ msgstr "En caso de que desees utilizar abreviación de código en el widget"
+
+#~ msgid "Use the shortcode in the widget"
+#~ msgstr "Utilizar abreviaciones de código en el widget"
+
+#~ msgid "In case that you would like to use the shortcode in the excerpt."
+#~ msgstr "En caso de que desees utilizar abreviación de código en el extracto"
+
+#~ msgid "Use the shortcode in the excerpt"
+#~ msgstr "Utilizar abreviaciones de código en el extracto"
+
+#~ msgid "Text to place before every list which is called by the cft shortcode"
+#~ msgstr ""
+#~ "Texto a colocar antes de que cada lista sea llamada por el shortcode CTF"
+
+#~ msgid "Text to place after every list which is called by the cft shortcode"
+#~ msgstr ""
+#~ "Texto a colocar después de que cada lista sea llamada por el shortcode CTF"
+
+#~ msgid ""
+#~ "Text to place before every value which is called by the cft shortcode"
+#~ msgstr ""
+#~ "Texto a colocar antes de que cada valor sea llamado por el shortcode CTF"
+
+#~ msgid "Text to place after every value which is called by the cft shortcode"
+#~ msgstr ""
+#~ "Texto a colocar después de que cada valor sea llamado por el shortcode CTF"
+
+#~ msgid "ADMIN CSS"
+#~ msgstr "ADMIN CSS"
+
+#~ msgid "[cft] and [cftsearch] Shortcode Format"
+#~ msgstr "Abreviaciones de código [cft] y [cftsearch]"
+
+#~ msgid "For [cft], [key] will be converted into the value of [key]."
+#~ msgstr "Para [cft], [key] se convertirá en un valor de [key]."
+
+#~ msgid "For [cftsearch], [key] will be converted into the input field."
+#~ msgstr "Para [cftsearch], [key] se convertirá en campo de entrada."
+
+#~ msgid "Use PHP"
+#~ msgstr "Usar PHP"
+
+#~ msgid "PHP CODE (Experimental Option)"
+#~ msgstr "CÓDIGO PHP (Opción en Experimentación)"
+
+#~ msgid "Are you sure to save PHP codes? Please do it at your own risk."
+#~ msgstr ""
+#~ "¿Estás seguro de querer guardar los códigos PHP? Házlo a tu propio riesgo"
+
+#~ msgid "For `text` and `textarea`, you must set $value as an string."
+#~ msgstr "Para `text` y `textarea`, debes configurar $value como una cadena."
+
+#~ msgid ""
+#~ "For `checkbox`, `radio`, and `select`, you must set $values as an array."
+#~ msgstr ""
+#~ "Para `checkbox`, `radio`, y `select`, debes configurar tus $valores como "
+#~ "un array"
+
+#~ msgid "Auto Hook of `the_content()` (Experimental Option)"
+#~ msgstr "Auto Hook para `the_content()` (Opción experimental)"
+
+#~ msgid "Position"
+#~ msgstr "Posición"
+
+#~ msgid "Before the content"
+#~ msgstr "Antes del contenido"
+
+#~ msgid "After the content"
+#~ msgstr "Después del contenido"
+
+#~ msgid "Inside the content ([cfthook hook=%d])"
+#~ msgstr "Dentro del contenido ([cfthook hook=%d])"
+
+#~ msgid "Content"
+#~ msgstr "Contenido"
+
+#~ msgid "Apply to feeds"
+#~ msgstr "Aplicar a los avances"
+
+#~ msgid "Rebuild Value Counts"
+#~ msgstr "Reconstruir Conteo de Valores"
+
+#~ msgid "Are you sure to rebuild all value counts?"
+#~ msgstr "¿Seguro que deseas reconstruir los Conteos de Valores?"
+
+#~ msgid ""
+#~ "Value Counts are used for temporarily saving how many values in each key. "
+#~ "Set `valueCount = true` into fields."
+#~ msgstr ""
+#~ "Los Conteos de Valores son utilizados para guardar temporalmente los "
+#~ "valores en cada clave. Ajusta `valueCount = true` en los campos."
+
+#~ msgid "Rebuild Value Counts &raquo;"
+#~ msgstr "Actualizar Conteo de Valores $raquo;"
+
+#~ msgid "Rebuild Tags"
+#~ msgstr "Reconstruir etiquetas"
+
+#~ msgid "Are you sure to rebuild tags?"
+#~ msgstr "¿Seguro que deseas reconstruir las etiquetas?"
+
+#~ msgid "Rebuild Tags &raquo;"
+#~ msgstr "Actualizar Etiquetas $raquo;"
+
+#~ msgid "Option List"
+#~ msgstr "Lista de opciones"
+
+#~ msgid "Export Options"
+#~ msgstr "Opciones de Exportación"
+
+#~ msgid "Export Options &raquo;"
+#~ msgstr "Opciones de Exportación &raquo;"
+
+#~ msgid "Import Options"
+#~ msgstr "Opciones de Importación"
+
+#~ msgid "Are you sure to import options? Options you set will be overwritten."
+#~ msgstr ""
+#~ "¿Estás seguro de importar opciones? Las que hayas configurado serán "
+#~ "sobreescritas"
+
+#~ msgid "Import Options &raquo;"
+#~ msgstr "Opciones de Importación &raquo;"
+
+#~ msgid "Reset Options"
+#~ msgstr "Reiniciar opciones"
+
+#~ msgid ""
+#~ "Are you sure to reset options? Options you set will be reset to the "
+#~ "default settings."
+#~ msgstr ""
+#~ "¿Estás seguro de querer reiniciar las opciones?. Las opciones que habías "
+#~ "configurado serán reiniciadas a la configuración predeterminada."
+
+#~ msgid "Reset Options &raquo;"
+#~ msgstr "Reiniciar Opciones &raquo;"
+
+#~ msgid "Delete Options"
+#~ msgstr "Eliminar opciones"
+
+#~ msgid "Are you sure to delete options? Options you set will be deleted."
+#~ msgstr ""
+#~ "¿Estás seguro de querer eliminar las opciones?. Tus configuraciones serán "
+#~ "suprimidas."
+
+#~ msgid "Delete Options &raquo;"
+#~ msgstr "Eliminar opciones &raquo;"
+
+#~ msgid "Donation"
+#~ msgstr "Donaciones"
+
+#~ msgid ""
+#~ "If you liked this plugin, please make a donation via paypal! Any amount "
+#~ "is welcome. Your support is much appreciated."
+#~ msgstr ""
+#~ "Si te agrada este plugin, por favor efectúa una donación vía paypal. "
+#~ "Cualquier cantidad será bien recibida y agradecida. Tu apoyo será muy "
+#~ "bien apreciado."
+
+#~ msgid "Add New"
+#~ msgstr "Añadir Nuevo"
+
+#~ msgid "Clear"
+#~ msgstr "Borrar"
+
+#~ msgid "Select"
+#~ msgstr "Seleccionar"
+
+#~ msgid "Add an Image"
+#~ msgstr "Añadir una Imagen"
+
+#~ msgid "Add Video"
+#~ msgstr "Añadir Video"
+
+#~ msgid "Add Audio"
+#~ msgstr "Añadir Audio"
+
+#~ msgid "Add Media"
+#~ msgstr "Añadir Media"
+
+#~ msgid "Toggle"
+#~ msgstr "Intercambiar"
+
+#~ msgid " OR "
+#~ msgstr "O"
+
+#~ msgid "Select by Media Picker"
+#~ msgstr "Elegir por el Selector de Media"
+
+#~ msgid "Delete"
+#~ msgstr "Eliminar"
+
+#~ msgid "Enable"
+#~ msgstr "Habilitar"
+
+#~ msgid "Initialize"
+#~ msgstr "Inicializar"
+
+#~ msgid "Are you sure to reset current values? Default values will be loaded."
+#~ msgstr ""
+#~ "¿Estás seguro de reiniciar los valores actuales? Los valores "
+#~ "predeterminados será cargados"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
+#~ msgid "Search &raquo;"
+#~ msgstr "Buscar &raquo;"
+
+#~ msgid "Use multiple image inset"
+#~ msgstr "Usar inclusión de múltiples imágenes"
+
+#~ msgid "Caution:"
+#~ msgstr "Advertencia:"
+
+#~ msgid ""
+#~ "You need to edit `wp-admin/includes/media.php`. Delete or comment out the "
+#~ "code in the function media_send_to_editor."
+#~ msgstr ""
+#~ "Necesitas editar el archivo `wp-admin/includes/media.php`. Elimina o "
+#~ "descomenta el código en la función media_send_to_editor"
+
+#~ msgid "CSS"
+#~ msgstr "CSS"
+
+#~ msgid "Recent Posts Ext"
+#~ msgstr "最近の投稿 Ext"
+
+#~ msgid "camera"
+#~ msgstr "機種"
+
+#~ msgid "aperture"
+#~ msgstr "絞り値"
+
+#~ msgid "focal_length"
+#~ msgstr "焦点距離"
+
+#~ msgid "ISO"
+#~ msgstr "ISO"
+
+#~ msgid "shutter_speed"
+#~ msgstr "シャッタースピード"
+
+#~ msgid "created_timestamp"
+#~ msgstr "撮影日時"
