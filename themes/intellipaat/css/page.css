@@ -1,0 +1,116 @@
+.cc_your_trainer { text-transform:uppercase; }
+.cc_your_trainer h2 {font-size:24px; font-weight:bold; }
+.cc_top_students h2 {color:#04579d;background:url(../images/flag.jpg) no-repeat; font-size:24px;font-weight: bold; padding-left: 40px;padding-bottom: 15px; }
+.cc_top_students div {  }
+.cc_awards{ text-align:center; }
+.cc_awards h2{ color:#bfa631; font-size:30px; font-weight:bold; }
+.cc_judging_panel{ background:#cfd0d2; }
+.cc_judging_panel h2 { text-align:center; }
+.cc_judging_panel .thumbnails { background:#cfd0d2;text-align: center; display:inline-block; width:100%;}
+.cc_judging_panel .thumbnails .thumbnail { background: #cfd0d2 none repeat scroll 0 0;
+    float: left;
+    margin: 5px 20px;
+    padding: 5px;
+    width: 150px; }
+.cc_judging_panel .thumbnails .thumbnail img{ width:100px; }
+.cc_how_to_participate h2 { font-size:24px;font-weight: bold; padding-left: 40px;}
+.cc_how_to_participate h2.how { background:url(../images/how.jpg) no-repeat;  }
+.cc_how_to_participate h2.who { background:url(../images/who.jpg) no-repeat; }
+.cc_get_started_now div{ float:right; }
+.cc_get_started_now h2{ text-align:center; color:#bfa631; padding-top:100px; }
+.cc_get_started_now a{background: #df5553 none repeat scroll 0 0;
+    color: #fff !important;
+    font-size: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;}
+	
+.floatleft{float:left;}
+.head_portion{margin:0 auto; padding:0; background:url(../images/head_bdr.png) 0 0 no-repeat; width:900px; height:407px; text-align:center;}
+.head_portion_college{background:url(../images/college_banner.jpg) 0 0 no-repeat;}
+.head_portion h1{font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:25px; font-weight:bold; margin:80px 0 35px; line-height:30px;}
+.head_portion p{font-family:monospace,Helvetica,sans-serif; color:#fff; font-size:25px; font-weight:normal; text-align:center;}
+.head_portion a{background:#fa9f58; border:5px solid #fff; padding:12px 30px; font-family:Arial, Helvetica, sans-serif; font-size:30px; color:#fff !important; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; margin:0 auto; display:inline-block; text-decoration:none;}
+.addclient{width:900px; margin:20px auto;}
+.addclient h2{font-size:18px; color:#949292; text-align:center; margin:0 0 15px;;}
+.addclient img{margin:0 0 0 27px;}
+.brdright{border-right:2px solid #cccccc;}
+.contner{width:900px; margin:0 auto; text-align:center;}
+.contner h2{text-align:center; color:#000;font-size: 32px;font-weight: bold;}
+.contner a{display:block; font-weight:bold; color:#02718e;}
+.contner p{font-size:12px; color:#000; text-align:left;}
+.getstart{margin:0; font-size:40px; font-family:Arial, Helvetica, sans-serif; text-decoration:none !important; color:#fff !important; background:#0082a4; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; display:inline-block !important; padding:5px 10px; border:5px solid #fff;}
+.sucstory{width:900px; margin:20px auto 0; text-align:center; background:#f1f1f1;}
+.sucstory h3{color:#0f4d5d; font-size:32px; font-weight:bold;}
+.sucstory h5{background:#fff; display:inline-block; margin:0; padding:20px 230px; font-size:40px; color:#0082a4; margin:30px 0 0;}
+.sucstory .whitebg{background:#fff; color:#5a585b; display:block; font-weight:normal; font-size:24px; padding:5px 0; margin:0 0 35px;}
+.ic_arrow1{width:56px; height:44px; background:url(../images/arrow1.png) 0 0 no-repeat; float:left; margin: 0 30px 150px 0;}
+.ic_arrow2{width:56px; height:44px; background:url(../images/arrow2.png) 0 0 no-repeat; float:right; margin:200px 0 0 30px;}
+.arodetail p{margin:0 color:#5a585b; font-size:17px; text-align:left;}
+.arodetail .author{background:inherit; padding:0; float:right; font-size:18px;}
+.footerr{width:900px; margin:0 auto; text-align:center; padding:25px 0;}
+.footerr a{color:#004253; font-size:20px;}
+.footerr p{margin:14px 0 10px; color:#8c8c8c; font-size:14px; text-align:left;}
+.redbtn{background:#df5553; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; padding:7px 10px; color:#fff !important; font-size:12px !important; text-decoration:none; text-transform:uppercase; margin:10px 0 0; display:inline-block;}
+
+/* service2 */
+.postbtn{margin:0 auto; padding:0 30px; background:url(../images/head_bdr2.png) 0 0 no-repeat; width:900px; height:407px;}
+.postbtn p{font-family:Arial, Helvetica, sans-serif; color:#fff; margin:80px 0 0; font-size:20px;}
+.postbtn h1{font-family:Arial, Helvetica, sans-serif; color:#fff; font-size:30px; line-height:38px;}
+.postbtn a{background:#fff; color:#0082a4; border:2 px solid #2591ae; padding:14px 30px; text-decoration:none; font-size:26px; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; display:inline-block; margin:30px 0 0; font-weight:bold; box-shadow:0px 3px 5px #000; border:5px solid #2591ae;}
+.paragraph{width:900px; margin:10px auto 0; text-align:center; font-size:17px;}
+.hiringporton{width:1000px; margin:10px auto 0; text-align:center;}
+.hiringporton h2{font-size:40px; color:#0082a4; position:relative; margin:0 0 50px;}
+.bdr{position:absolute; background:#0082a4; width:315px; height:1px; content:""; top:12%; left:30%;}
+.hiringporton a{display:block; font-size:13px; font-weight:bold; margin:10px 0 5px;; text-decoration:none; color: #337ab7;}
+.hiringporton img, p{text-align:left; display:block;}
+.getbtn{background:#0082a4; border:5px solid #fff; font-size:40px !important; display:inline-block !important; color:#fff !important; padding:0 10px; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; border:5px solid #fff; box-shadow:0px 3px 5px #888888;}
+
+/* formpage */
+.formpage{margin:0; padding:0;}
+.formpage h2{font-size:16px;}
+.formpage [type="text"], [type="email"]{margin:0 0 10px;}
+.formpage textarea{margin:0 0 10px; resize:none; height:60px;}
+.formpage h3{ font-size:18px;}
+.formpage span{display:block; font-size:16px;}
+.formpage p{line-height:40px;}
+#wpcf7-f32573-p32570-o1 input.wpcf7-text { /*padding:0 20px;*/ }
+#wpcf7-f32573-p32570-o1 input[type="submit"]{background:#f37052; text-transform:uppercase; color:#fff; padding: 2px 30px; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; text-decoration:none; margin:5px 0 0; display:inline-block;}
+#wpcf7-f32573-p32570-o1 select{height:34px;}
+#wpcf7-f2129-p273-o3 input.wpcf7-text {padding: 6px 20px;}
+.page-template-contact h3.heading { padding:0; }
+.page-template-contact .col-md-8 h3.heading { padding-bottom:13px; }
+.page-template-contact h3.heading b { text-transform:lowercase; font-size:13px; color:#052b61; }
+.hiringporton .col-lg-4, .hiringporton .col-md-5, .hiringporton .col-md-6, .contner .col-md-3, .hiringporton img {text-align:center;}
+.contner .col-md-3 img{text-align:left; height:67px;}
+#wpcf7-f32573-p32570-o1 .wpcf7-textarea { height:100px; }
+
+#coverJobForm{ position:fixed; top:0; left:0; background:rgba(0,0,0,0.6); z-index:1000; width:100%; height:100%; display:none; } 
+#coverDisclaimer{ position:fixed; top:0; left:0; background:rgba(0,0,0,0.6); z-index:1000; width:100%; height:100%; display:none; } 
+#postjobScreen { background:#fff; border: 5px solid #cccccc;border-radius: 10px;    display: none;    height: 600px;padding:0 20px;    left: 300px; margin-top: 10px;   position: fixed;    top: 10px;    width: 800px;    z-index: 1000; } 
+#disclaimerData { background:#fff; border: 5px solid #cccccc;border-radius: 10px;    display: none;   padding:0 20px;    left: 350px; margin-top: 40px;   position: fixed;    top: 10px;    width: 700px;    z-index: 1000; } 
+#disclaimerData:target, #disclaimerData:target + #coverDisclaimer{ display:block; opacity:2; } 
+#postjobScreen:target, #postjobScreen:target + #coverJobForm{ display:block; opacity:2; } 
+.cancelJob { display:block; position:absolute; top:3px; right:2px; background:rgb(245,245,245); color:black; height:30px; width:35px; font-size:20px; text-decoration:none; text-align:center; font-weight:bold; }
+.bigdata-heading .bg{background:url(../images/ala_big-data_banner.jpg); }
+.bigdata-heading-main .bg{background:url(../images/tutorials.jpg); height:122px; }
+.bigdata-heading-main .bg-interview{background:url(../images/interview-quesetions.jpg); height:122px; }
+.bigdata-heading-main .bg-job{background:url(../images/jobs.jpg); height:122px; }
+.bigdata-heading h4, .bigdata-heading-main h4  {background-color:#fff; padding:5px 15px; text-align:center; margin:0;}
+.bigdata-heading h4 a, .bigdata-heading-main h4 a{font-weight:bold;}
+.bigdata-heading p, .bigdata-heading-main p {padding:0px 15px; text-align:center;}
+.tutorial_main .col-md-3 {padding:0 3px; }
+.tutorial_main .col-md-3 .inner { border:1px solid #aaa; padding:0; display:block; margin:3px 0px; }
+.tutorial_main .col-md-3 ul li{border-bottom:dashed 1px #ddd; padding:5px;}
+.tutorial_main .col-md-3 ul li:hover{background:#ddd;}
+.tutorial_main .links a {color:#06F; }
+#headertop .topmenu li ul.sub-menu li a {padding:10px 15px; height:auto; }
+.reply a, .link, .ahref { text-transform:lowercase !important; }
+@media (max-width:500px){
+.page-id-32565 .head_portion, .page-id-32565 .addclient, .page-id-32565 .contner, .page-id-32565 .sucstory, .page-id-32565 .footerr, .page-id-32567 .head_portion, .page-id-32567 .addclient, .page-id-32567 .contner, .page-id-32567 .sucstory, .page-id-32567 .footerr, .page-id-32570 .postbtn, .page-id-32570 .paragraph, .page-id-32570 .hiringporton  { height: auto; width: auto; }
+}
+.single-tutorial #comments ol.commentlist, .single-interview-question #comments ol.commentlist, .single-jobs #comments ol.commentlist { list-style:none !important; }
+.single-tutorial .footerwidget .item-list img, .vcard img, .single-interview-question .footerwidget .item-list img, .single-jobs .footerwidget .item-list img { display:none !important; }
+.single-tutorial .comment-meta, .single-interview-question .comment-meta, .single-jobs .comment-meta { margin-left: 0 !important; }
+.single-tutorial .comment-body p, .single-interview-question .comment-body p, .single-jobs .comment-body p { margin-left: 0 !important; }
+.single-tutorial #commentform  #url, .single-interview-question #commentform  #url, .single-jobs #commentform  #url { display: none !important; }
+#comments .commentlist .says {font-style:italic !important; }

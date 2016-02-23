@@ -1,0 +1,28 @@
+
+
+.refer_heading{color:#000;font-size: 16px;font-weight:bold;}
+.refer_sub_heading{color:#000;font-size: 14px;font-weight:bold;margin-top: -5px;}
+.refer_banner{}
+.link_rf{color:#1874CD !important;}
+.link_rf:hover{text-decoration:underline;}
+.loginsection{  font-size: 21px;    margin: 20px;    text-align: center;color:#000;}
+.refer_login_text{  font-size: 17px;    margin: 20px;    text-align: center; font-weight:bold;}
+.tcraf-stats_container{}
+.tcraf-stats_container table{  width:100%;}
+.tcraf-stats_container table thead{     background-color: #eee;}
+.seprator_new{margin-top:20px;margin-bottom:10px;border-top:1px solid #eee; }
+.seprator_new_one{margin-top:0px;margin-bottom:10px;border-top:1px solid #eee; }
+
+/* LIST #3 */
+
+#content  .content  #list3  ul  {  margin-left: 0px !important; }
+#list3 {   margin-top: 8px;
+  padding: 0;}
+#list3 ul {  font-size:15px; margin-left: 0px !important; margin-top:18px!important; }
+#list3 ul li { color:#000 !important; line-height:30px; height:37px;   background: url('next-icon.png') no-repeat top left;  margin: 0;  padding: 4px 0 4px 25px;
+  list-style: none; width:100%;     margin-left: 0px !important;}
+#list3 ul li span { top:-11px; position:relative;}
+
+.tcraf-social-container_kovit_sv{position: relative;    float: left;    width: 13%;}
+.li_left{ position: relative;    float: left;  width: 27%;top:-11px; }
+.li_right{ position: relative;    float: left; width: 60%;top:-11px;}
