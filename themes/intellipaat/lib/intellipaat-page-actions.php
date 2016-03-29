@@ -42,7 +42,7 @@ function jose_extractUTubeVidId($url){
 }
 
 function jose_related_course($postId,$perPost){
-	$categories = get_the_category($orig_post);
+	$categories = get_the_category($postId);
 
 	if ($categories) {
 	$category_ids = array();
@@ -66,32 +66,122 @@ function jose_related_course($postId,$perPost){
         'post__not_in' => array ($postId),
         );
 	$my_query = new wp_query( $args );
-	
 
+	$intellipaat_recommended_courses = get_post_meta( $postId, 'intellipaat_recommended_courses',true );
+	$countRelated = count($intellipaat_recommended_courses);
+	if(isset($intellipaat_recommended_courses[0]) && $intellipaat_recommended_courses[0] != 'null'){
+		$recommendStatus = true;
+	}else{
+		$recommendStatus = false;
+	}
 	echo '<aside id="related_course" class="widget"><h3 class="widget-title">Related Courses</h3><ul>';
-	if( $my_query->have_posts() ) {
+	if($recommendStatus == false) {
+		if( $my_query->have_posts() ) {
+		
+			while( $my_query->have_posts() ) {
+				$my_query->the_post();
+				$st 		= get_post_meta($my_query->post->ID,'vibe_students',true);
+				$students 	= apply_filters('vibe_thumb_student_count','<strong>'.$st.' '.__('Students','vibe-customtypes').'</strong>');
+				$jose_rating = get_post_meta($my_query->post->ID,'average_rating',true);
+				$jose_rating_count = get_post_meta($my_query->post->ID,'rating_count',true);
+				$jose_display_rating = '<div class="star-rating">';
+				$featured_style = '';
+				for($i=1;$i<=5;$i++){
+
+					if(isset($jose_rating)){
+					if($jose_rating >= 1){
+					$jose_display_rating .='<span class="fill"></span>';
+					}elseif(($jose_rating < 1 ) && ($jose_rating > 0.4 ) ){
+					$meta .= '<span class="half"></span>';
+					}else{
+					$jose_display_rating .='<span></span>';
+					}
+					$jose_rating--;
+					}else{
+					$jose_display_rating .='<span></span>';
+					}
+				}
+				$jose_display_rating =  apply_filters('vibe_thumb_rating',$jose_display_rating,$featured_style,$jose_rating);
+				$jose_display_rating .= apply_filters('vibe_thumb_reviews','(&nbsp;'.(isset($jose_rating_count)?$jose_rating_count:'0').'&nbsp;'.__('REVIEWS','vibe-customtypes').'&nbsp;)',$featured_style).'</div>';
+?>
+				<li>
+
+					<div class="col-md-4 col-sm-12 col-xs-12 padjust">
+						<a href="<?php the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'>
+						<?php echo get_the_post_thumbnail($my_query->post->ID); ?>
+						</a>
+					</div>
+					<div class="col-md-8 col-sm-12 col-xs-12 padjust1">
+						<a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'><?php the_title(); ?></a>
+					<div style='padding-top:0px;display:inline-block;width:46%;margin-top:17px;'><?php echo $students;?></div>
+					<div style='padding-top:5px;display:inline-block;width:40%;margin-left:10px;'><?php echo $jose_display_rating;?></div>
+					</div>
+				</li>
+<?php 
+			}
+			
+		} 
+	}else{
+		$args_related = array(
+			'post_type' => 'course',
+			'post_status' => 'publish',
+			'orderby' => 'rand',
+			'post__in' => $intellipaat_recommended_courses,
+			'post__not_in' => array ($postId),
+			);
+		$my_query_related = new wp_query( $args_related );
+		while( $my_query_related->have_posts() ) {
+			$my_query_related->the_post();
+			$st 		= get_post_meta($my_query_related->post->ID,'vibe_students',true);
+			$students 	= apply_filters('vibe_thumb_student_count','<strong>'.$st.' '.__('Students','vibe-customtypes').'</strong>');
+			$jose_rating = get_post_meta($my_query_related->post->ID,'average_rating',true);
+			$jose_rating_count = get_post_meta($my_query_related->post->ID,'rating_count',true);
+			$jose_display_rating = '<div class="star-rating">';
+			$featured_style = '';
+			for($i=1;$i<=5;$i++){
+
+				if(isset($jose_rating)){
+				if($jose_rating >= 1){
+				$jose_display_rating .='<span class="fill"></span>';
+				}elseif(($jose_rating < 1 ) && ($jose_rating > 0.4 ) ){
+				$meta .= '<span class="half"></span>';
+				}else{
+				$jose_display_rating .='<span></span>';
+				}
+				$jose_rating--;
+				}else{
+				$jose_display_rating .='<span></span>';
+				}
+			}
+			$jose_display_rating =  apply_filters('vibe_thumb_rating',$jose_display_rating,$featured_style,$jose_rating);
+			$jose_display_rating .= apply_filters('vibe_thumb_reviews','(&nbsp;'.(isset($jose_rating_count)?$jose_rating_count:'0').'&nbsp;'.__('REVIEWS','vibe-customtypes').'&nbsp;)',$featured_style).'</div>';
+?>
+			<li>
+
+				<div class="col-md-4 col-sm-12 col-xs-12 padjust">
+					<a href="<?php the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'>
+					<?php echo get_the_post_thumbnail($my_query_related->post->ID); ?>
+					</a>
+				</div>
+				<div class="col-md-8 col-sm-12 col-xs-12 padjust1">
+					<a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'><?php the_title(); ?></a>
+				<div style='padding-top:0px;display:inline-block;width:46%;margin-top:17px;'><?php echo $students;?></div>
+				<div style='padding-top:5px;display:inline-block;width:40%;margin-left:10px;'><?php echo $jose_display_rating;?></div>
+				</div>
+			</li>
+<?php 
+		}
 	
-	while( $my_query->have_posts() ) {
-	$my_query->the_post(); ?>
-	<li>
-	<a href="<?php the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'>
-	<?php the_post_thumbnail( 'related-course' ); ?>
-	</a>
-	<div class="related_content">
-	<a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'><?php the_title(); ?></a>
-	</div>
-	</li>
-	<?php }
-	
-	} 
+	}
 	echo '</ul></aside>';
 	}
-
 	wp_reset_query();
 }
 
+
+
 function jose_related_ebook($postId,$perPost){
-	$categories = get_the_category($orig_post);
+	$categories = get_the_category($postId);
 	$catName = $categories[0]->slug;
 
 	if ($categories) {
@@ -106,120 +196,229 @@ function jose_related_ebook($postId,$perPost){
 }
 
 function jose_related_tutorial($postId,$perPost){
-	$categories = get_the_category($orig_post);
+	$categories = get_the_category($postId);
+	
 
 	if ($categories) {
-	$category_ids = array();
-	foreach($categories as $individual_category){ 
-		$catTermId_tutorial = get_term_by('slug', $individual_category->slug, 'tuts-category');
-		$catTermId_iq = get_term_by('slug', $individual_category->slug, 'iq-category');
-		$category_ids_tutorial[] = $catTermId_tutorial->term_id;
-		$category_ids_iq[] = $catTermId_iq->term_id;
+		$category_ids = array();
+		foreach($categories as $individual_category){ 
+			$catTermId_tutorial = get_term_by('slug', $individual_category->slug, 'tuts-category');
+			$catTermId_iq = get_term_by('slug', $individual_category->slug, 'iq-category');
+			$category_ids_tutorial[] = $catTermId_tutorial->term_id;
+			$category_ids_iq[] = $catTermId_iq->term_id;
+		}
+
+		$args = array(
+			'post_type' => 'tutorial',
+			'post_status' => 'publish',
+			'posts_per_page' => $perPost, // you may edit this number
+			'orderby' => 'rand',
+			'tax_query' => array(
+				array(
+					'taxonomy' => 'tuts-category',
+					'field' => 'id',
+					'terms' => $category_ids_tutorial
+				)
+			),
+			'post__not_in' => array ($postId),
+			);
+
+		$args_iq = array(
+			'post_type' => 'interview-question',
+			'post_status' => 'publish',
+			'posts_per_page' => $perPost, // you may edit this number
+			'orderby' => 'rand',
+			'tax_query' => array(
+				array(
+					'taxonomy' => 'iq-category',
+					'field' => 'id',
+					'terms' => $category_ids_iq
+				)
+			),
+			'post__not_in' => array ($postId),
+			);
+		$my_query = new wp_query( $args );
+		$my_query_iq = new wp_query( $args_iq );
+		
+		$intellipaat_recommended_questions = get_post_meta( $postId, 'interview_questions',true );
+		$countRelated = count($intellipaat_recommended_questions);
+		if(isset($intellipaat_recommended_questions[0]) && $intellipaat_recommended_questions[0] != 'null'){
+			$recommendStatus = true;
+		}else{
+			$recommendStatus = false;
+		}
+		
+		if($recommendStatus == false) {
+		
+			if( $my_query_iq->have_posts() ) {
+				echo '<aside id="related_tutorial" class="widget"><h3 class="widget-title">Related Interview Questions</h3><ul>';
+				while( $my_query_iq->have_posts() ) {
+					$my_query_iq->the_post(); ?>
+					<li>
+					<div class="related_content">
+					<i class="fa fa-arrow-right adjustSize"></i>
+					<a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'><?php the_title(); ?></a>
+					</div>
+					</li>
+		<?php 
+				}
+				echo '</ul></aside>';			
+			} 
+
+		}else{
+			$args_related = array(
+			'post_type' => 'interview-question',
+			'post_status' => 'publish',
+			'orderby' => 'rand',
+			'post__in' => $intellipaat_recommended_questions,
+			'post__not_in' => array ($postId),
+			);
+			$my_query_related = new wp_query( $args_related );
+
+			echo '<aside id="related_tutorial" class="widget"><h3 class="widget-title">Related Interview Questions</h3><ul>';
+			while( $my_query_related->have_posts() ) {
+				$my_query_related->the_post(); ?>
+				<li>
+					<div class="related_content">
+					<i class="fa fa-arrow-right adjustSize"></i>
+					<a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'><?php the_title(); ?></a>
+					</div>
+				</li>
+			<?php
+			}
+			echo '</ul></aside>';	
+		}
 	}
-
-	$args = array(
-        'post_type' => 'tutorial',
-        'post_status' => 'publish',
-        'posts_per_page' => $perPost, // you may edit this number
-        'orderby' => 'rand',
-        'tax_query' => array(
-            array(
-                'taxonomy' => 'tuts-category',
-                'field' => 'id',
-                'terms' => $category_ids_tutorial
-            )
-        ),
-        'post__not_in' => array ($postId),
-        );
-
-	$args_iq = array(
-        'post_type' => 'interview-question',
-        'post_status' => 'publish',
-        'posts_per_page' => $perPost, // you may edit this number
-        'orderby' => 'rand',
-        'tax_query' => array(
-            array(
-                'taxonomy' => 'iq-category',
-                'field' => 'id',
-                'terms' => $category_ids_iq
-            )
-        ),
-        'post__not_in' => array ($postId),
-        );
-	$my_query = new wp_query( $args );
-	$my_query_iq = new wp_query( $args_iq );
-	echo '<aside id="related_tutorial" class="widget"><h3 class="widget-title">Related IQ & Tutorials</h3><ul>';
-	if( $my_query_iq->have_posts() ) {
-	
-	while( $my_query_iq->have_posts() ) {
-	$my_query_iq->the_post(); ?>
-	<li>
-	<div class="related_content">
-	<i class="fa fa-pencil-square-o adjustSize"></i>
-	<a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'><?php the_title(); ?></a>
-	</div>
-	</li>
-	<?php }
-	
-	} 
-
-	if( $my_query->have_posts() ) {
-	
-	while( $my_query->have_posts() ) {
-	$my_query->the_post(); ?>
-	<li>
-	<div class="related_content"><i class="fa fa-book adjustSize"></i>
-	<a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'><?php the_title(); ?></a>
-	</div>
-	</li>
-	<?php }
-	
-	} 
-	echo '</ul></aside>';
-	}
-
 	wp_reset_query();
 }
 
 function jose_related_blog($postId,$perPost){
-	$categories = get_the_category($orig_post);
-	$tags = wp_get_post_tags($postId);
-	if ($categories) {
-	$category_ids = array();
-	foreach($categories as $individual_category){ 
-		$catTermId = get_term_by('slug', $individual_category->slug, 'course-cat');
-		$category_ids[] = $catTermId->term_id;
-	}
-
-	$tag_ids = array();
-	foreach($tags as $individual_tag) $tag_ids[] = $individual_tag->term_id;
-	$args=array(
-	'tag__in' => $tag_ids,
-	'post__not_in' => array($postId),
-	'posts_per_page'=>$perPost, // Number of related posts to display.
-	'caller_get_posts'=>1
-	);
-	$my_query = new wp_query( $args );
-	echo '<aside id="related_blog" class="widget"><h3 class="widget-title">Related Blog</h3><ul>';
-	if( $my_query->have_posts() ) {
-	$count = 1;
-	while( $my_query->have_posts() ) {
-	$my_query->the_post(); ?>
-	<li>
-	<div class="related_content"><span class='badge'><?php echo $count;?></span>
-	<a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'><?php the_title(); ?></a>
-	</div>
-	</li>
-	<?php 
-	$count++;
-	}
 	
+	$blog_db = new wpdb('intellipaat_blog', 'jKLv5JqVAtFFcKxE', 'intellipaat_alpha_blog', 'localhost');
+	
+	$link = mysql_connect('localhost', 'intellipaat_blog', 'jKLv5JqVAtFFcKxE');
+	$selected = mysql_select_db("intellipaat_alpha_blog",$link);
+	$blog_prefix_post = 'fpp7vnh3_posts p';
+	$blog_prefix_term_r = 'fpp7vnh3_term_relationships r';
+	$blog_prefix_term_t = 'fpp7vnh3_term_taxonomy t';
+	$blog_prefix_post_meta = 'fpp7vnh3_postmeta m';
+	$query = '
+		SELECT p1.*, wm2.meta_value FROM fpp7vnh3_posts p1 LEFT JOIN fpp7vnh3_postmeta wm1 ON ( wm1.post_id = p1.id AND wm1.meta_value IS NOT NULL AND wm1.meta_key = "_thumbnail_id") LEFT JOIN fpp7vnh3_postmeta wm2 ON ( wm1.meta_value = wm2.post_id AND wm2.meta_key = "_wp_attached_file" AND wm2.meta_value IS NOT NULL) WHERE p1.post_status="publish" AND p1.post_type="post" ORDER BY p1.post_date DESC limit 5
+	';
+	$result = mysql_query($query,$link);
+	echo '<aside id="related_blog" class="widget"><h3 class="widget-title">Related Articles</h3><ul>';	
+	
+
+	while ($row = mysql_fetch_array($result)) {
+		$blogId = $row['ID'];
+		$blogTitle = $row['post_title'];
+		$blogUrl = $row['guid'];
+		$attached_Url = $row['meta_value'];
+		$result_attached = mysql_query($attach_query,$link);
+		$rows1=mysql_num_rows($result_attached);
+		$siteUrl = site_url( '/blog/wp-content/uploads/', 'http' );
+		$displayImage = $siteUrl.$attached_Url;
+		$imageFile = ABSPATH.'blog/wp-content/uploads/'.$attached_Url;
+		if(!file_exists($imageFile)){
+			$displayImage = get_bloginfo('template_directory').'/images/placeholder.png';
+		}
+	?>
+		<li>
+			<div class="col-md-4 col-sm-12 col-xs-12 padjust">
+				<a href="<?php echo $blogUrl;?>" rel="bookmark" title="<?php echo $blogTitle; ?>" target='_blank'>
+				<img src='<?php echo $displayImage;?>' />
+				</a>
+			</div>
+			<div class="col-md-8 col-sm-12 col-xs-12 padjust1">
+				<a href="<?php echo $blogUrl;?>" rel="bookmark" title="<?php echo $blogTitle; ?>" target='_blank'><?php echo  $blogTitle;; ?></a>
+			</div>
+		</li>
+<?php
+	}
 	echo '</ul></aside>';
-	}
-
-
-	}
-
 	wp_reset_query();
+}
+
+function jose_related_certification($postId,$perPost){
+	$categories = get_the_category($postId);
+	if ($categories) {
+		$category_ids = array();
+		foreach($categories as $individual_category){ 
+			$catTermId = get_term_by('slug', $individual_category->slug, 'course-cat');
+			$category_ids[] = $catTermId->term_id;
+		}
+
+		$args = array(
+			'post_type' => 'course',
+			'post_status' => 'publish',
+			'posts_per_page' => $perPost, // you may edit this number
+			'orderby' => 'rand',
+			'tax_query' => array(
+				array(
+					'taxonomy' => 'course-cat',
+					'field' => 'id',
+					'terms' => $category_ids
+				)
+			),
+			'meta_query'		=> array(
+				array(
+					'key'	 	=> 'intellipaat_course_certification',
+					'value'	  	=> array(''),
+					'compare' 	=> 'NOT IN',
+				),
+			),
+			'post__not_in' => array ($postId),
+			);
+		$my_query = new wp_query( $args );
+
+		if( $my_query->have_posts() ) {
+			echo '<aside id="related_certification" class="widget"><h3 class="widget-title">Related Certification</h3><ul>';
+			while( $my_query->have_posts() ) {
+				$my_query->the_post();
+				$st 		= get_post_meta($my_query->post->ID,'vibe_students',true);
+				$students 	= apply_filters('vibe_thumb_student_count','<strong>'.$st.' '.__('Students','vibe-customtypes').'</strong>');
+				$jose_rating = get_post_meta($my_query->post->ID,'average_rating',true);
+				$jose_rating_count = get_post_meta($my_query->post->ID,'rating_count',true);
+				$jose_display_rating = '<div class="star-rating">';
+				$featured_style = '';
+				for($i=1;$i<=5;$i++){
+
+					if(isset($jose_rating)){
+						if($jose_rating >= 1){
+						$jose_display_rating .='<span class="fill"></span>';
+						}elseif(($jose_rating < 1 ) && ($jose_rating > 0.4 ) ){
+						$meta .= '<span class="half"></span>';
+						}else{
+						$jose_display_rating .='<span></span>';
+						}
+						$jose_rating--;
+					}else{
+						$jose_display_rating .='<span></span>';
+					}
+				}
+				$jose_display_rating =  apply_filters('vibe_thumb_rating',$jose_display_rating,$featured_style,$jose_rating);
+				$jose_display_rating .= apply_filters('vibe_thumb_reviews','(&nbsp;'.(isset($jose_rating_count)?$jose_rating_count:'0').'&nbsp;'.__('REVIEWS','vibe-customtypes').'&nbsp;)',$featured_style).'</div>';
+		?>
+				<li>
+
+					<div class="col-md-4 col-sm-12 col-xs-12 padjust">
+						<a href="<?php the_permalink()?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'>
+						<?php echo get_the_post_thumbnail($my_query->post->ID); ?>
+						</a>
+					</div>
+					<div class="col-md-8 col-sm-12 col-xs-12 padjust1">
+						<a href="<?php the_permalink();?>" rel="bookmark" title="<?php the_title(); ?>" target='_blank'><?php the_title(); ?></a>
+					<div style='padding-top:0px;display:inline-block;width:43%;margin-top:17px;'><?php echo $students;?></div>
+					<div style='padding-top:5px;display:inline-block;width:40%;margin-left:10px;'><?php echo $jose_display_rating;?></div>
+					</div>
+
+
+				</li>
+			<?php }
+			echo '</ul></aside>';
+		} 
+
+	
+	}
 }
 ?>

@@ -162,6 +162,8 @@ if ( !class_exists('vibe_bp_login') ) {
 					<?php do_action( 'bp_sidebar_login_form' ); ?>
 					<input type="submit" name="wp-submit" id="sidebar-wp-submit" value="<?php _e( 'Log In','vibe' ); ?>" tabindex="100" />
 					<input type="hidden" name="testcookie" value="1" />
+					<input type="hidden" name="redirect_to" value="<?php echo site_url();?>" />
+
 					<?php if ( bp_get_signup_allowed() ) :
 						printf( __( '<a href="%s" class="vbpregister" title="'.__('Create an account','vibe').'" tabindex="5" >'.__( 'Sign Up','vibe' ).'</a> ', 'vibe' ), site_url( BP_REGISTER_SLUG . '/' ) );
 					endif; ?>

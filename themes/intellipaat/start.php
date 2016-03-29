@@ -14,7 +14,7 @@
 // 2 : CONTINUE COURSE
 // 3 : FINISH COURSE : COURSE UNDER EVALUATION
 // 4 : COURSE EVALUATED
-
+global $current_user;
 do_action('wplms_before_start_course');
 
 get_header('buddypress');
@@ -54,6 +54,60 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
 <link rel="stylesheet" type="text/css" href="<?php echo site_url(); ?>/wp-content/themes/intellipaat/custom_css.css" media="screen" />
 
 <style>
+.mailthread{
+	position: relative;
+	min-height: 80px;
+	padding: 10px;
+	padding-left: 70px;
+	margin: 0 12px 20px 12px;
+	border: 1px solid transparent;
+	border-radius: 0;
+	background-color: #c0e7f5;
+	border-color: #a1e8f0;
+}
+.mailthread:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 60px;
+	height: 100%;
+	content: "\f145";
+	background-repeat: no-repeat;
+	background-position: 50% 15px;
+	background-color: #0284b4;
+	font-family: FontAwesome;
+	color: #fff;
+    font-size: 42px;
+	text-align:center;
+	padding-top:10px;
+	
+}
+.mailthread h3{
+	font-weight:bold;
+	margin-top:0px;
+}
+
+.mailtreadReply{
+	border-color:#f6b25b;
+	background-color:#fcebd6;
+}
+.mailtreadReply:before{
+	background-color: #f6b25b;
+	content: "\f112";
+}
+#DisplayTickets{
+	border-top: 1px solid #e5e5e5;
+}
+
+#myModalHorizontal .modal-body{
+	height:500px;
+	overflow-y: scroll;
+}
+
+#myModalHorizontal #myModalLabel img {
+	margin-top:4px;
+}
 </style>
 
 <section id="content" class=" mynew_block">
@@ -268,7 +322,14 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
 <input type="radio" id="tab-3" name="tab">
   <span href="#tab-item-3"> <img class="imgleft" src="<?php echo site_url(); ?>/wp-content/themes/intellipaat/images/lms_nicon5.png" title="<?php _e('My Course', 'vibe'); ?>"  /></span>
   <!-- tab-content -->
-  <div class="tab-content">
+<div style='width: 40px; height:40px; display: inline-block; float: right; background-color: #ebeff0; text-align: center; border-radius: 50%;'>
+	<div>
+	<a href="javascript:void('0');" id='FreshDeskPostTicket' style='font-size: 27px; color: rgb(9, 176, 231);' title='Post Your Query'><i class="fa fa-ticket"></i></a>
+	<span class="badge" id='freshDeskCount' style='position:absolute;font-size:11px;'>0</span>
+	</div>
+</div>
+
+  <div class="tab-content" style='padding-top:55px;'>
     <section id="tab-item-1">
         <div class="course_list" > <?php  echo the_course_timeline($course_id,$unit_id); ?>
 		<?php if(isset($course_curriculum) && is_array($course_curriculum)){
@@ -329,14 +390,162 @@ if ( have_posts() ) : while ( have_posts() ) : the_post();
 				</div>
 	 
     </section>
+
 	<script>
 	jQuery(document).ready(function() {
+		jQuery('#searchbox').hide();
     jQuery(window).resize(function() {
         var bodyheight = jQuery(document).height();
 		jQuery("#unit_content").height(bodyheight);
 		
     }).resize();
+	
+	jQuery('#FreshDeskPostTicket').click(function(){
+		jQuery('#myModalHorizontal').modal('show');
+		if ( jQuery('#myModalHorizontal .modal-content').css('display') == 'none' ){
+			jQuery('#myModalHorizontal .modal-content').show();
+			
+		}
+	});
+	
+	$.ajax(
+	  {
+		url: "https://intellalpha.freshdesk.com/helpdesk/tickets.json",
+		type: 'GET',
+		contentType: "application/json; charset=utf-8",
+		dataType: "json",
+		headers: {
+		  "Authorization": "Basic " + btoa('aY5THhJ4sI1pmYeboOf' + ":" + 'X')
+		  // Example, "Authorization": "Basic " + btoa('jhfbdjhfbwie6623h' + ":" + 'X')
+		},
+		success: function(data, textStatus) {
+			var ticketCount = 0;
+			var displayTickets = '';
+			displayTickets += "<div><h2>Mail Thread</h2><ul>";
+			jQuery(data).filter(function (i,n){
+				//alert(n.custom_field.couse_id_355877)
+				if(n.status_name == 'Open' && n.custom_field.couse_id_355877 == '<?php echo $course_id;?>' && n.requester_name == '<?php echo $current_user->user_firstname;?>'){
+					ticketCount++;
+					var dateCreated = new Date(n.created_at);
+					var ticketId = n.display_id;
+					displayTickets += "<li class='mailthread' id='ticket_"+ticketId+"'><h3>"+n.subject+"</h3><p>"+n.description_html+"</p><p>"+dateCreated.toLocaleFormat('%d-%b-%Y')+"</p></li>";
+					
+					readTickets(ticketId);
+			
+					//var notesCount = n.notes.length;
+					//console.log(notesCount);
+				}
+			});
+			displayTickets += "</ul></div>";
+			if(ticketCount > 0){
+				jQuery('#DisplayTickets').show();
+				jQuery('#DisplayTickets').html(displayTickets);
+			}
+			
+			jQuery('#freshDeskCount').text(ticketCount);
+			
+		},
+		error: function(jqXHR, tranStatus) {
+		  //alert(jqXHR.status);
+		}
+	  }
+	);
+	jQuery('#freshDesk-email').val('');
+	jQuery('#freshDesk-Subject').val('');
+	jQuery('#freshDesk-Course').val('');
+	jQuery('#freshDesk-Description').val('');
+	jQuery('#myModalHorizontal').on('shown.bs.modal', function (e) {
+		jQuery('#freshDesk-email').val('<?php echo $current_user->user_email;?>');
+		jQuery('#freshDesk-name').val('<?php echo $current_user->user_firstname;?>');
+		var display = '';
+		jQuery('.course_timeline ul li.unit_line a').each(function(){
+			var coursename = jQuery(this).text();
+			display += "<option value ='"+coursename+"'>"+coursename+"</option>";
+			
+		});
+		jQuery('#freshDesk-Course').append(display);
+	});
+	jQuery('#freshDeskSubmit').click(function(){
+		var email = jQuery('#freshDesk-email').val();
+		var uName = jQuery('#freshDesk-name').val();
+		var subject = jQuery('#freshDesk-Subject').val();
+		var course = jQuery('#freshDesk-Course').val();
+		var courseId = jQuery('#course_id').val();
+		var description = jQuery('#freshDesk-Description').val();
+		var formStatus = true;
+		if(subject == ''){
+			jQuery('#errorMsg').html('Please enter valid subject');
+			formStatus = false;
+			
+		}
+		if(course == ''){
+			jQuery('#errorMsg').html('Please enter valid lecture');
+			formStatus = false;
+		}
+		if(description == ''){
+			jQuery('#errorMsg').html('Please enter valid decription');
+			formStatus = false;
+		}
+		if(formStatus == true){
+			ticket_data = '{ "helpdesk_ticket" : { "requester_name" : "'+uName+'", "description" : "'+description+'", "email" : "'+email+'", "subject" : "'+subject+'", "priority" : 1, "status" : 2, "custom_field" : { "course_name_355877" : "'+course+'", "couse_id_355877" : "'+courseId+'" } } }';
+        $.ajax(
+          {
+            url: "https://intellalpha.freshdesk.com/helpdesk/tickets.json",
+            type: 'POST',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            headers: {
+              "Authorization": "Basic " + btoa('aY5THhJ4sI1pmYeboOf' + ":" + 'X')
+              // Example, "Authorization": "Basic " + btoa('jhfbdjhfbwie6623h' + ":" + 'X')
+            },
+            data: ticket_data,
+            success: function(data, textStatus) {
+			  jQuery('#freshDeskForm').hide();
+			  jQuery('#freshDeskSuccess').show();
+			  jQuery('#freshDeskSuccess').html("<h1>Your Query Is Posted Successfully</h1><p>Our support team will analyze your query and contact you shortly.</p>");
+            },
+            error: function(jqXHR, tranStatus) {
+              alert(jqXHR.status);
+            }
+          }
+        );
+		}
+	});
 });
+
+function readTickets(ticketId){
+	var displayReply = '';
+	$.ajax(
+	  {
+		//url: "https://intellalpha.freshdesk.com/helpdesk/tickets/view/14000545774?format=json",
+		url: "https://intellalpha.freshdesk.com/helpdesk/tickets/"+ticketId+".json",
+		type: 'GET',
+		contentType: "application/json; charset=utf-8",
+		dataType: "json",
+		headers: {
+		  "Authorization": "Basic " + btoa('aY5THhJ4sI1pmYeboOf' + ":" + 'X')
+		  // Example, "Authorization": "Basic " + btoa('jhfbdjhfbwie6623h' + ":" + 'X')
+		},
+		success: function(data, textStatus) {
+			var notesLength = data.helpdesk_ticket.notes.length;
+			var notesTicket = data.helpdesk_ticket.notes;
+			
+			jQuery.each(notesTicket, function(key,val) {
+				//var ticketBody = notesTicket[key].val.body_html;
+				var deletedSatus = val.note.deleted;
+				if(key > 0 && !deletedSatus){
+					displayReply += "<li class='mailthread mailtreadReply'>"+val.note.body_html+"</li>";
+				}
+				
+			});
+			jQuery("#DisplayTickets ul li[id='ticket_"+ticketId+"']").append(displayReply);
+		},
+		error: function(jqXHR, tranStatus) {
+		  alert(jqXHR.status);
+		}
+	  }
+	);
+}
 	/*$(".lmsnote").keypress(function(event) {
     if (event.which == 13) {
         event.preventDefault();
@@ -425,6 +634,84 @@ function get_lms_ratting(value)
         </div> </div>
     </div>
 </section>
+<!-- Modal -->
+<div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog" 
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close" 
+                   data-dismiss="modal">
+                       <span aria-hidden="true">&times;</span>
+                       <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Intellipaat Help Desk <img src='<?php echo get_bloginfo('template_url').'/images/icon-new-login.png';?>' alt='new ticket' />
+                </h4>
+            </div>
+            
+            <!-- Modal Body -->
+            <div class="modal-body">
+                
+                <form class="form-horizontal" role="form" id='freshDeskForm'>
+				<input type="hidden" id="freshDesk-name" placeholder="" value='<?php echo $current_user->user_firstname;?>' />
+				<div id='errorMsg' style='color:#ba0902;font-size:11px;margin-left:100px;'></div>
+                  <div class="form-group" style='display:none;'>
+                    <label  class="col-sm-2 control-label"
+                              for="freshDesk-email">Email</label>
+                    <div class="col-sm-10">
+                        <input type="hidden" class="form-control" 
+                        id="freshDesk-email" placeholder="Email"/>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-sm-2 control-label"
+                          for="freshDesk-Subject" >Subject</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control"
+                            id="freshDesk-Subject" placeholder="Subject"/>
+                    </div>
+                  </div>
+				  <div class="form-group">
+                    <label class="col-sm-2 control-label"
+                          for="freshDesk-Course" >Lecture</label>
+                    <div class="col-sm-10">
+						<select class="form-control"
+                            id="freshDesk-Course" placeholder="Course Name">
+							<option value=''>Select Lecture</option>
+						</select>
+                    </div>
+                  </div>
+				  <div class="form-group">
+                    <label class="col-sm-2 control-label"
+                          for="freshDesk-Description" >Description</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="freshDesk-Description" placeholder="Description" rows='8'></textarea>
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="button" class="btn btn-success" id='freshDeskSubmit'>Post Your Query</button>
+                    </div>
+                  </div>
+                </form>
+            
+                <div id='freshDeskSuccess' style='display:none;'></div>
+
+				<div id='DisplayTickets' style='display:none;'></div>
+            
+            <!-- Modal Footer -->
+				<div class="modal-footer">
+					<button type="button" class="btn btn-warning" data-dismiss="modal">
+								Close
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 <?php
 get_footer();
 ?>

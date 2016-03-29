@@ -70,6 +70,7 @@
         ?>
         <div class="search_results">
             <?php
+
                 if ( have_posts() ) : while ( have_posts() ) : the_post();
                 //if($post->post_type == 'course'){
                     if(function_exists('thumbnail_generator')){

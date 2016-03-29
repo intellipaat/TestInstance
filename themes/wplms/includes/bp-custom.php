@@ -104,7 +104,8 @@ function show_profile_snapshot(){
           echo '<div class="certifications"><h6>'.__('Certifications','vibe').'</h6><ul class="slides">';
           if(isset($certis) && is_Array($certis)) 
            foreach($certis as $certi){
-                  echo '<li><a href="'.bp_get_course_certificate('user_id='.$user_id.'&course_id='.$certi).'" class="ajax-certificate"><i class="icon-certificate-file"></i><span>'.get_the_title($certi).'</span></a></li>';
+                  //echo '<li><a href="'.bp_get_course_certificate('user_id='.$user_id.'&course_id='.$certi).'" class="ajax-certificate"><i class="icon-certificate-file"></i><span>'.get_the_title($certi).'</span></a></li>';
+echo '<li><a href="'.get_site_url().'/certificates/course-completion/?c='.$certi.'&u='.$user_id.'" class="ajax-certificate"><i class="icon-certificate-file"></i><span>'.get_the_title($certi).'</span></a></li>';
 
            }
          echo '</ul></div>';  

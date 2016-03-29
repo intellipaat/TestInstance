@@ -3956,3 +3956,213 @@ hr{
 		margin-top:10px;
 	}
 }
+
+/* Video Page */
+.page-template-page-video{
+	font-family: "Open Sans", Sans-Serif;
+}
+.page-template-page-video p{
+	line-height: 1.50;
+	font-size: 13px;
+}
+
+.page-template-page-video h1{
+	margin-top: 5px;
+	padding-top:0px;
+	font-size:24px;
+}
+.page-template-page-video .video_content_back h2{
+	position: relative;
+	padding-left:20px;
+	font-size:20px;
+}
+.page-template-page-video .video_content_back h2:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	background: #0AF;
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 5px;
+	border-radius: 2px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.5), 0 1px 1px rgba(255,255,255,0.3);
+}
+
+.page-template-page-video .videoH1:after{
+	content: "";
+	width: 100%;
+	height: 1px;
+	display: block;
+	margin: 15px 0 0;
+	background: #e2ded5;
+}
+.page-template-page-video .video-container{padding: 5px 0px;}
+
+.page-template-page-video #content #buddypress {margin-top:-2px;}
+
+.page-template-page-video  .socialicons {float:right;}
+
+.page-template-page-video #related_course h3, .page-template-page-video #related_ebooks h3, .page-template-page-video #related_tutorial h3, .page-template-page-video #related_blog h3, .page-template-page-video #related_certification h3{
+	background-color:#3c3c3c;
+	color:#fff;
+	padding:5px 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:16px;
+}
+
+.page-template-page-video #related_course .attachment-post-thumbnail,.page-template-page-video #related_certification .attachment-post-thumbnail {
+	max-width:100%;
+}
+.page-template-page-video #related_course, .padjust,.page-template-page-video #related_certification .padjust {
+	padding-right:0px;
+	padding-left:0px;
+}
+.page-template-page-video #related_course .padjust1,.page-template-page-video #related_certification .padjust1 {
+	padding-left:10px;
+	padding-right:0px;
+	font-size:12px;
+}
+.page-template-page-video #related_course .padjust1 a, .page-template-page-video #related_certification .padjust1 a{
+	width:100%;
+	display:block;
+	font-size:14px;
+}
+.page-template-page-video #related_course .star-rating, .page-template-page-video #related_certification .star-rating{
+	margin-top:-2px;
+	margin-bottom:0px;
+}
+
+.page-template-page-video #related_course.widget ul li, .page-template-page-video #related_tutorial.widget ul li, .page-template-page-video #related_blog.widget ul li,.page-template-page-video #related_certification.widget ul li{
+	border-bottom: 1px dotted #837E7E;
+}
+.page-template-page-video #related_course li .related_content{margin-bottom:10px;}
+
+.page-template-page-video .adjustSize{font-size:16px;margin-right:5px;}
+.page-template-page-video #related_tutorial li .related_content a{
+float: right;
+display: inline-block;
+width: 92%;
+margin-top: 0px;	
+}
+
+#videoPlayButton .course-video{
+
+}
+#videoPlayButton .video-icon-span{
+	height: 120px;
+	display: block;
+}
+#videoPlayButton .course-video .course_video_ban{
+  font-size:14px;
+  font-weight:300;
+  position:relative;
+}
+#videoPlayButton .course_video_play:before{
+	background:url(../images/play1.png) no-repeat;
+	width:116px;
+	height:115px;
+	content:"";
+	display:inline-block;
+}
+#videoPlayButton .course-video span {
+	position:absolute;
+	-webkit-animation: movearound 3s ease infinite;
+	animation: movearound 3s ease infinite;
+	border-radius:50%;
+	top: 6px;
+    left: 7px;
+    width: 101px;
+    height: 101px;
+	box-shadow: 0 0 25px #fff;
+	
+}
+@keyframes movearound {
+	0% {
+
+		transform: scale(0, 0);
+		opacity:0;
+	}
+	75% {
+		opacity:0.9;
+	}
+		
+	100% {
+
+		transform: scale(1, 1);
+		opacity:0;
+	}
+}
+@-webkit-keyframes movearound {
+	0% {
+
+		-webkit-transform: scale(0, 0);
+		opacity:0;
+	}
+	75% {
+		opacity:0.9;
+	}
+		
+	100% {
+
+		-webkit-transform: scale(1, 1);
+		opacity:0;
+	}
+}
+#videoPlayButton{
+	width:120px;
+	height:120px;
+	position:absolute;
+	top: 189px;
+	left: 330px;
+}
+#videoPlayButton .course_video_play:hover{
+	outline: 0;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.course_video_play{
+	-webkit-transition: -webkit-transform .4s;
+	transition: transform .4s;
+	-webkit-animation-name: hero-in;
+	animation-name: hero-in;
+	-webkit-animation-duration: 1.4s;
+	animation-duration: 1.4s;
+	filter: alpha(Opacity=99);
+	opacity: .99;
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+
+.course_video_play:focus, .course_video_play:hover{
+	outline: 0;
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+/* Video Page Ends */
+
+/* Certificate Template */
+.page-template-page-certificate  .socialicons {float:right;}
+.page-template-page-certificate{font-family: "Open Sans", Sans-Serif;}
+.page-template-page-certificate p{line-height: 1.50;	font-size: 13px;}
+.page-template-page-certificate h1{margin-top: 5px;padding-top:0px;font-size:24px;}
+.page-template-page-certificate h1:after{
+content: "";
+width: 100%;
+height: 1px;
+display: block;
+margin: 15px 0 0;
+background: #e2ded5;
+}
+
+.page-template-page-certificate #content #buddypress {margin-top:10px;}
+/* Certificate Template Ends */

@@ -171,14 +171,14 @@ wp_head();
 							<?php intellipaat_browse_course_menu(vibe_get_option('browse_courses')); ?>
                         </div>
                         <div id="searchbox" class="fl">
-                            <form role="search" method="get" id="search-form" action="<?php echo home_url( '/' ); ?>">
+                            <!--<form role="search" method="get" id="search-form" action="<?php echo home_url( '/' ); ?>">
                                 <div>
                                     <input type="text" value="<?php the_search_query(); ?>" name="s" id="s" placeholder="<?php _e('Search For Training...','vibe'); ?>" />
                                     <input type="hidden" value="course" name="post_type" />                                      
                                     <button type="submit" role="submit"><i class="icon-search-2"></i></button>
                                 </div>
-                            </form>
-                            
+                            </form> -->
+                            <?php echo do_shortcode('[wpdreams_ajaxsearchlite]'); ?>
                         
                     	</div> 
                         

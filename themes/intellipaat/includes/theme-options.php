@@ -323,6 +323,14 @@ function intellipaat_sttings_in_wplms($args){
 											'desc'	=> "Enter Currency Conversion Rate to convert product amount into Rupees to display in front end everywhere." 
 										),
 										array(
+											'id'	=> 'dollar_to_inr_conversion_rate_ebs_global',
+											'type'	 => 'text',
+											'title'	=> 'EBS Global Dollar to INR Conversion Rate',
+											'sub_desc'	=> 'Currency Conversion Rate for Dollar to INR currency',
+											'std'	=> 67,
+											'desc'	=> "Enter Currency Conversion Rate for EBS Global Payment Gateway." 
+										),
+										array(
 											'id'	=> 'checkout_conversion_pixel_code',
 											'type'	 => 'textarea',
 											'title'	=> 'Checkout page Conversion pixel',

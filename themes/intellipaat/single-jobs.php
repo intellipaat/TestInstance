@@ -116,8 +116,11 @@ $form =  '<div class="job-box">
 <section id="title" class="clear clearfix">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-9 col-sm-8">
                 <?php vibe_breadcrumbs(); ?>
+            </div>
+            <div class="col-md-3 col-sm-4">
+            	<?php get_template_part('templates/search','form'); ?>
             </div>
         </div>
     </div>
@@ -195,7 +198,7 @@ if(isset($sub_heading_with_h1[0]) && $sub_heading_with_h1[0] !='')
                         [/tab] [tab title="<?php echo $count_text; ?>"]
                         	<?php echo $form ;?>
 							<?php if($total_records){            
-                                        echo '<h1>Found total '.$total_records.' jobs</h1>';                                    
+                                        echo '<p style="font-size:28px;margin-top:10px;font-weight:bold;">Found total '.$total_records.' jobs</p>';                                    
                                         foreach($rss->channel->item as $item)
                                         {
                                             echo '<div class="job-list">

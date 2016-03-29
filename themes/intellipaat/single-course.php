@@ -440,10 +440,10 @@ locate_template( array( 'course/single/course-header.php' ), true );
 				?>
             		
 				<div class="widget pricing <?php echo $hiddenClass; ?>" style="box-shadow:none;padding:0px 0px 0px 3px;">
-					<div style="float:left;width:95%;">
+					<div style="float:left;width:75%;">
 					<?php intellipaat_selfpaced_course_button(); ?>	
 					<?php intellipaat_online_course_button(); ?>	</div>				
-					<div style="float:left;width:5%;"><?php do_action('course_wishlist_button', get_the_ID()); ?></div>
+					<div style="float:left;width:25%;margin-top:22px"><?php do_action('course_wishlist_button', get_the_ID()); ?></div>
 				</div>  
             	
 				

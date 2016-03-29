@@ -53,7 +53,7 @@ function intellipaat_course_wishlist_button($id){
 	echo do_shortcode("[yith_wcwl_add_to_wishlist icon='fa-heart' product_id='".$id."']"); 
 }
 function intellipaat_wishlist_button_add_events(){
-	if(is_user_logged_in())
+	//if(is_user_logged_in())
 		add_action('course_wishlist_button','intellipaat_course_wishlist_button');
 }
 add_action('take_course_events', 'intellipaat_wishlist_button_add_events');

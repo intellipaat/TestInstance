@@ -198,6 +198,7 @@ function intellipaat_selfpaced_course_button($id=NULL){
 			else{
 				$product_link = point_to_com_site(get_permalink($pid));
 			}*/
+
 			$product_link = point_to_com_site(get_permalink(get_the_ID())).'?type=selfPaced&redirect';
 			echo '<div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
 					<h5 class="credits price">'.$credits.'</h5>
@@ -206,7 +207,7 @@ function intellipaat_selfpaced_course_button($id=NULL){
 					<link itemprop="availability" href="http://schema.org/'.($product->is_in_stock() ? 'InStock' : 'OutOfStock').'">
 				</div>';
        		echo '<a href="'.$product_link .'" data-product_id="'.$pid.'" class="'.((isset($id) && $id )?'':' ').'add_to_cart_button button" onClick="ga(\'send\', \'event\', { eventCategory: \'button\', eventAction: \'click\', eventLabel: \'Take Self-Paced Course\'});" '.$rel.'>'.apply_filters('wplms_take_this_course_button_label',__('Take Self Paced Course','vibe'),$course_id).apply_filters('wplms_course_button_extra',$extra,$course_id).'</a>'; 
-			
+
 			do_action('take_course_events');
 			
       }else{

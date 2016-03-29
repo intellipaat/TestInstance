@@ -1036,7 +1036,7 @@ function get_image_id($image_url) {
 add_filter('wplms_course_front_details','wplms_custom_social_sharing_links');
 
 function wplms_custom_social_sharing_links($return){
-  $vibe_extras= new vibe_extras();
+	$vibe_extras= new vibe_extras();
    $sharing = '<div class="course_sharing">'.$vibe_extras->social_sharing().'</div>';
    return $return.$sharing;
 }

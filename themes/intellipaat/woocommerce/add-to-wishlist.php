@@ -13,23 +13,22 @@ global $product;
 <div class="yith-wcwl-add-to-wishlist add-to-wishlist-<?php echo $product_id ?>">
 	<?php if( ! ( $disable_wishlist && ! is_user_logged_in() ) ): ?>
 	    <div class="yith-wcwl-add-button <?php echo ( $exists && ! $available_multi_wishlist ) ? 'hide': 'show' ?>" style="display:<?php echo ( $exists && ! $available_multi_wishlist ) ? 'none': 'block' ?>">
-
-	        <?php yith_wcwl_get_template( 'add-to-wishlist-' . $template_part . '_icon.php', $atts ); ?>
+	        <?php yith_wcwl_get_template( 'add-to-wishlist-' . $template_part . '.php', $atts ); ?>
 
 	    </div>
 
 	    <div class="yith-wcwl-wishlistaddedbrowse hide" style="display:none;">
-	        <a href="<?php echo esc_url( add_query_arg( 'remove_from_wishlist', $product_id ) ) ?>" style=" width: 27px;padding: 1px 0px; background:none;border:none;" class="remove_course_from_wishlist remove" data-product-id="<?php echo $product_id ; ?>">
-                <?php echo $icon ?>
-	          <?php /* ?>  <span><?php echo apply_filters( 'yith-wcwl-browse-wishlist-label', $browse_wishlist_text )?></span><?php */ ?>
-	        </a> 
+	        <span class="feedback"><?php echo $product_added_text ?></span>
+	        <a href="<?php echo esc_url( $wishlist_url )?>" >
+	            <?php echo apply_filters( 'yith-wcwl-browse-wishlist-label', $browse_wishlist_text )?>
+	        </a>
 	    </div>
 
 	    <div class="yith-wcwl-wishlistexistsbrowse <?php echo ( $exists && ! $available_multi_wishlist ) ? 'show' : 'hide' ?>" style="display:<?php echo ( $exists && ! $available_multi_wishlist ) ? 'block' : 'none' ?>">
-	        <a href="<?php echo esc_url( add_query_arg( 'remove_from_wishlist', $product_id ) )  ?>" class="remove_course_from_wishlist remove" data-product-id="<?php echo $product_id ; ?>" style=" width: 27px;padding: 1px 0px; background:none;border:none;" >
-	            <?php echo $icon ?>
-	        	<?php /* ?>  <span><?php echo apply_filters( 'yith-wcwl-browse-wishlist-label', $browse_wishlist_text )?></span>  <?php */ ?> 
-            </a>
+	        <span class="feedback"><?php echo $already_in_wishslist_text ?></span>
+	        <a href="<?php echo esc_url( $wishlist_url ) ?>">
+	            <?php echo apply_filters( 'yith-wcwl-browse-wishlist-label', $browse_wishlist_text )?>
+	        </a>
 	    </div>
 
 	    <div style="clear:both"></div>

@@ -22,21 +22,49 @@ add_action('bp_after_directory_course','intellipaat_meta_description' );
 //Yoast WP-SEO Canonical Fix
 
 function intellipaat_canonical_exclude( $canonical ) {
-	global $post;
+	global $post,$wpdb;
+	$currentPath = $_SERVER['REQUEST_URI'];
+	if (preg_match("/big-data/i", $currentPath)) {
+		$matchFound = true;
+	} else {
+		$matchFound = false;
+	}
 
 	if (is_page( 'all-courses' )) {
+		$pathExplode = explode('/',$currentPath);
+
+		$countExplode = count($pathExplode)-2;
+		$slugName = $pathExplode[$countExplode];
+		$slugQuery = "
+		select term_id
+		from 
+		{$wpdb->prefix}terms t
+		where 1 = 1
+		and t.slug = '".$slugName."'
+		";
+		$slugId = $wpdb->get_results($slugQuery, OBJECT);
+		$termId = isset($slugId[0]->term_id) ? $slugId[0]->term_id : '';
+
+		$meta   = get_option( 'wpseo_taxonomy_meta' );
+		$cLink = isset($meta['course-cat'][$termId]['wpseo_canonical']) ? $meta['course-cat'][$termId]['wpseo_canonical'] : '';
+		//remove_action('wp_head', 'rel_canonical');
 		//$canonical = false;
-    }
-	//echo 'test'.$meta = get_post_meta($post->ID,'wpseo_canonical',true);
+//
+    	}
+	if($post->ID == '1807' && $matchFound == true){
+		$canonical = site_url('/all-courses/big-data-hadoop-training');
+	}else{
 
+		if($cLink != ''){
+			$canonical = $cLink;
 
-if($post->ID == '1807'){
-	//$canonical = site_url('/all-courses/big-data-hadoop-training');
-}
+		}
+	}
 
     return $canonical;
 }
- 
+
+
 add_filter( 'wpseo_canonical', 'intellipaat_canonical_exclude' );
 
 

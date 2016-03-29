@@ -191,7 +191,8 @@ if($_SESSION[REMOTE_ADDR_CUREE]=='IN'){ ?> <div class="btn-group contry_outr" >
  
 <?php
 wp_footer();
-?>    
+?>  
+<script type='text/javascript' src="<?php bloginfo('template_directory'); ?>/js/jquery.table2excel.js"></script>  
 <?php
 echo vibe_get_option('google_analytics');
 ?>
@@ -201,7 +202,18 @@ echo vibe_get_option('google_analytics');
 	  jQuery("#commentform #email").attr("required","required");
 	  jQuery("#commentform #comment").attr("required","required");
 	  jQuery("#doc_referrer").val(document.referrer);
-		console.log("document referrer== "+document.referrer);
+		//console.log("document referrer== "+document.referrer);
+	jQuery('#info-stripe').hide();
+	jQuery(window).scroll(function(){  
+		if(jQuery(document).scrollTop() > 100)
+		{    
+			jQuery('#info-stripe').show();
+		}
+		else
+		{
+			jQuery('#info-stripe').hide();
+		}
+	});
    });
 
     var _taq = {"id":"2c6998ea-6e8e-4901-bb0b-beffe8e6ab35","events":[],"identify":[],"property":[]};
@@ -264,7 +276,14 @@ value=jQuery("#REMOTE_ADDR_CUREE").val();
 
 select_intellipaat_flag_currency(value);
 });
+var cCount = 0;
+jQuery("link[rel='canonical']").each(function(){
 
+if(cCount == 1){
+	jQuery(this).attr('href','');
+}
+cCount++;
+});
  </script>
 </body>
 </html>

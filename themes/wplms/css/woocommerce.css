@@ -2208,7 +2208,7 @@ padding-left: 10px;
 
 .shop_table td,.shop_table th{
     padding:10px;
-    text-align:center;
+    text-align:left;
 }
 
 #payment{

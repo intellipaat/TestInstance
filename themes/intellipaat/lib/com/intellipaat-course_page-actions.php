@@ -96,7 +96,7 @@ function intellipaat_daily_course_access_report_callback(  ) {
 						<style type="text/css">
 						</style>
 					<body>
-						<h3>Student course subscrition report created DateTime-'.$now.'</h3>
+						<h3>Student course subscription report created DateTime-'.$now.'</h3>
 						<p>Total found records : '.$wpdb->num_rows.'</p>
 						<p>Please check attachment for report.</p>
 						<p></p>
@@ -104,13 +104,13 @@ function intellipaat_daily_course_access_report_callback(  ) {
 					</body>
 					</html>' ;
 	
-	$headers = "From: reports@intellipaat.com \r\n";
-	$headers .= "Reply-To: noreply@intellipaat.com \r\n";	
+	$headers = "From: info@intellipaat.us \r\n";
+	$headers .= "Reply-To: info@intellipaat.us \r\n";	
 	$headers .= "MIME-Version: 1.0 \r\n";		
 	$headers .= "Content-type: text/html; charset=utf-8 \r\n";		
 	$headers .= "Content-Transfer-Encoding: quoted-printable \r\n";
 				
-	$mail = wp_mail( $course_report_recipient , "Student course subscrition report. DateTime-".$now , $message, $headers, $attachments);
+	$mail = wp_mail( $course_report_recipient , "Student course subscription report. DateTime-".$now , $message, $headers, $attachments);
 }
 add_action('intellipaat_daily_course_access_report', 'intellipaat_daily_course_access_report_callback', 10  );
 
@@ -434,7 +434,7 @@ function intellipaat_unit_traverse(){
       echo '<div class="clear"></div>';
       echo '</div>';
         the_intellipaat_unit($unit_id); 
-     
+      
               $unit_class='unit_button';
               $hide_unit=0;
               $nextunit_access = vibe_get_option('nextunit_access');
@@ -462,19 +462,24 @@ function intellipaat_unit_traverse(){
                 $quiz_status = get_user_meta($user_id,$units[($k)],true);
                 if(is_numeric($quiz_status)){
                   if($quiz_status < time()){
-                    echo '<a href="'.bp_loggedin_user_domain().BP_COURSE_SLUG.'/'.BP_COURSE_RESULTS_SLUG.'/?action='.$units[($k)].'" class="quiz_results_popup">'.__('Check Results','vibe').'</a>';
+                    echo '<a href="'.bp_loggedin_user_domain().BP_COURSE_SLUG.'/'.BP_COURSE_RESULTS_SLUG.'/?action='.$units[($k)].'" class="quiz_results_popup btn_qz">'.__('Check Results','vibe').'</a>';
                   }else{
                       $quiz_class = apply_filters('wplms_in_course_quiz','');
-                      echo '<a href="'.get_permalink($units[($k)]).'" class=" unit_button '.$quiz_class.' continue">'.__('Continue Quiz','vibe').'</a>';
+                      echo '<a href="'.get_permalink($units[($k)]).'" class=" unit_button btn_qz '.$quiz_class.' continue">'.__('Continue Quiz','vibe').'</a>';
                   }
                 }else{
                     $quiz_class = apply_filters('wplms_in_course_quiz','');
-                    echo '<a href="'.get_permalink($units[($k)]).'" class=" unit_button '.$quiz_class.'">'.__('Start Quiz','vibe').'</a>';
+                    echo '<a href="'.get_permalink($units[($k)]).'" class=" unit_button btn_qz '.$quiz_class.'">'.__('Start Quiz','vibe').'</a>';
                 }
               }else  {
-				  $desc_video = get_field('intellipaat_brief_unit_description', $unit_id);
+				  
+				   $desc_video = get_field('intellipaat_brief_unit_description', $unit_id);
+
+if(strlen($desc_video)>1) 
+{
+
 				  echo '<span style="float:left;text-transform:none;">
-<button type="button" class="video_dsc" data-toggle="modal" data-target="#myModal">Video description</button>
+<button type="button" class="video_dsc" data-toggle="modal" data-target="#myModal">Topics Covered</button>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
@@ -484,7 +489,7 @@ function intellipaat_unit_traverse(){
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-		<h4 class="modal-title">Video description</h4>
+		<h4 class="modal-title">Topics Covered</h4>
       </div>
 	    <div class="modal-body">
         '.$desc_video.'
@@ -494,6 +499,8 @@ function intellipaat_unit_traverse(){
 
   </div>
 </div></span>';
+}
+
 				   $reviews=0;
 			 global $wpdb;
 			$table_name = $wpdb->prefix . 'comments';

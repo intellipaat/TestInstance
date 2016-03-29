@@ -413,4 +413,31 @@ function taxonomy_slug_rewrite($wp_rewrite) {
 add_filter('generate_rewrite_rules', 'taxonomy_slug_rewrite');
 
 
+function intellipaat_upload_dir_change( $args ) {
+	global $wpdb;
+    $id = ( isset( $_REQUEST['post_id'] ) ? $_REQUEST['post_id'] : '' );
+
+    if( $id ) {    
+		$currentYear 	= date('Y',time());
+		$currentMonth 	= date('m',time());
+		$postType 		= get_post_type( $id );
+		$results 		= $wpdb->get_results( "SELECT * FROM $wpdb->posts WHERE ID = '".$id."'", OBJECT );
+		$postSlug 		= sanitize_title($results[0]->post_title);
+	   if("course" ==  $postType){
+		    if($postSlug != ''){
+				$newdir = '/' . $postType.'/'.$postSlug;
+			}else{
+				$newdir = '/' . $postType.'/'.$id;
+			}
+			
+			$args['path']    = str_replace( $args['subdir'], '', $args['path'] ); //remove default subdir
+			$args['url']     = str_replace( $args['subdir'], '', $args['url'] );      
+			$args['subdir']  = $newdir;
+			$args['path']   .= $newdir; 
+			$args['url']    .= $newdir; 	
+	   }
+	   return $args;
+   }
+}
+add_filter( 'upload_dir', 'intellipaat_upload_dir_change' );
 ?>

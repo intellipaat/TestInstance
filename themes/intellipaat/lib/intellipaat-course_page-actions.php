@@ -336,7 +336,7 @@ function intellipaat_rel_canonical()
 	if (!empty($course_category))
 		$link .= user_trailingslashit($course_category);
 
-	echo '<link rel="canonical" href="'.$link.'" />';
+	//echo '<link rel="canonical" href="'.$link.'" />';
 }
 
 
@@ -401,6 +401,7 @@ function filtered_course_loop($course_category){
 	
 	
 	$cached_course_category = get_transient( 'all_courses_'.$course_category ); 
+	$cached_course_category = false;
 	if ( false === $cached_course_category || current_user_can('edit_posts') || ((TLD =='us'|| TLD =='com') && is_user_logged_in())) {
 		
 		$cached_course_category = '';

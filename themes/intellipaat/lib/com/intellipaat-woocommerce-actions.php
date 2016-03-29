@@ -469,6 +469,7 @@ function intellipaat_email_subject_new_account_vars( $subject, $user_object ) {
  * Dual currency for .com site only ------- By Makarand Mane
  **/
 function intellipaat_dual_currency($return, $price, $args ){
+global $userCountryCode;
 					
 	/*if(isset($_SESSION['REMOTE_ADDR_CUREE'])&& $_SESSION['REMOTE_ADDR_CUREE']!="")
 	{
@@ -506,7 +507,6 @@ function intellipaat_dual_currency($return, $price, $args ){
 
 */
 
-
 	if($_SESSION['REMOTE_ADDR_CUREE'] == 'IN' && (!is_admin() || (is_admin() && isset($_REQUEST['action'])) )){
 			
 		global $wpdb;
@@ -528,7 +528,7 @@ function intellipaat_dual_currency($return, $price, $args ){
 		$price = vibe_get_option('dollar_to_inr_conversion_rate') * $price; 
 		$doller_in_inr = apply_filters( 'formatted_woocommerce_price',  number_format( $price, $decimals, $decimal_separator, $thousand_separator ), $price, $decimals, $decimal_separator, $thousand_separator );
 		
-		return '<span class="amount rupee">&#8377;'. $doller_in_inr .' </span>';
+		return '<span class="amount rupee"><i class="fa fa-inr"></i>'. $doller_in_inr .' </span>';
 	}
 	else
 		return $return;

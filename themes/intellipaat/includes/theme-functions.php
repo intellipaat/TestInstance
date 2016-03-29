@@ -22,63 +22,8 @@ function intellipaat_browse_course_menu($cats){
 							<span class="text fl"> Browse Courses</span>
 						</a>
 				</div>';
-	
-			if($cats)
-				$cats = explode(',', $cats);
-			else 
-				$cats = get_terms($taxonomy , array('orderby' => 'id'));
-	
-			$no_of_cats = count($cats);
-			$no_of_courses_shown_in_cat = $no_of_cats-1;
-			echo '<div class="dropdown-menu" >';
-				echo '<ul class="dropdown-menu-list">';
-				/*if(is_user_logged_in()){
-					echo '<li>
-								<a class="main-cat" href="'.site_url('#Discover_Courses').'">
-									<i class="icon-rocket cat-icon"></i>
-									<span>Recommended for You</span>
-								</a>
-							</li>';
-					echo '<li class="divider"></li>';
-				}*/
-				foreach($cats as $cat){
-					$term = get_term( $cat, $taxonomy );
-					echo '<li  data-submenu-id="submenu-'.$term->slug.'"><a class="main-cat menu-item" href="javascript:void(0)" title="'.$term->name.'" ><span>'.$term->name.'</span><i class="icon-arrow-1-right arr"></i></a>';
-					$courses= get_field('intellipaat_custom_category_order', get_term_by( 'slug', $term->slug , $taxonomy )  );
-					/*$courses = get_posts(array(
-									'posts_per_page' => -1,
-									'post_type' => 'course',
-									$taxonomy => $term->slug,
-									'orderby' => 'menu_order',
-									'order' => 'ASC'
-								));*/
-					$no_of_courses = count($courses );
-					$box_width = 300*(intval( $no_of_courses/$no_of_courses_shown_in_cat)+1)+30;
-					$count = 0;
-						
-						echo '<div id="submenu-'.$term->slug.'" class="dropdown-menu sub" style="width:'.$box_width.'px">';
-						echo '<h4 class="heading">All '.$term->name.' courses</h4>';
-						foreach ( $courses as $course ) : 
-							if($count%$no_of_courses_shown_in_cat == 0)
-								echo '<ul class="browse-sub-menu">';
-	
-							echo '<li>
-									<a href="'.get_permalink($course->ID).'">'.get_the_title($course->ID).'</a>
-								</li>'; 
-							$count++;
-	
-							if($count%$no_of_courses_shown_in_cat == 0 || $count == $no_of_courses)
-								echo '</ul>';
-						endforeach; 
-	
-						echo '</div>';
-					wp_reset_postdata();
-					echo '</li>';
-				}
-				echo '</ul>';
-			echo '</div>';
-		echo '</div>';
-		
+				clean_custom_menu('896','897');
+		echo "</div>";
 		$browse_course_menu = ob_get_contents();
 		ob_end_clean();
 		
@@ -355,6 +300,71 @@ function time_elapsed_string($ptime)
             return $r . ' ' . ($r > 1 ? $a_plural[$str] : $str) . ' ago';
         }
     }
+}
+
+function clean_custom_menu( $menuTermId,$menuTermId2 ) {
+        $menu_items_1 = wp_get_nav_menu_items($menuTermId);
+		$menu_items_2 = wp_get_nav_menu_items($menuTermId2);
+		$menu_items = array_merge($menu_items_1,$menu_items_2);
+
+        $menu_list  = '<div class="dropdown-menu">' ."\n";
+        $menu_list .= '<ul class="dropdown-menu-list">' ."\n";
+ 
+        $count = 0;
+        $submenu = false;
+
+         
+        foreach( $menu_items as $menu_item ) {
+            $catId 		= $menu_item->object_id;
+            $catType 	= $menu_item->object;
+            $link 		= $menu_item->url;
+            $title 		= $menu_item->title;
+			
+			$term = get_term( $catId, $catType );
+			//$mainTitle = '';
+            if ( !$menu_item->menu_item_parent ) {
+				$term 			= get_term( $catId, $catType );
+                $parent_id 		= $menu_item->ID;
+                $mainTitle 		= $menu_item->title;
+				$menuMainUrl	= $menu_item->url;
+                $menu_list .= '<li  data-submenu-id="submenu-'.$menu_item->ID.'"><a class="main-cat menu-item" href="javascript:void(0)" title="'.$title.'" ><span>'.$title.' ('.$term->count.') </span><i class="icon-arrow-1-right arr"></i></a>' ."\n";
+            }
+ 
+            if ( $parent_id == $menu_item->menu_item_parent ) {
+ 
+                if ( !$submenu ) {
+                    $submenu = true;
+					$menu_list .= '<div id="submenu-'.$menu_item->ID.'" class="dropdown-menu sub" >';
+					$menu_list .= '<h4 class="heading">All '.$mainTitle.' courses</h4>';
+                    $menu_list .= '<ul class="browse-sub-menu">' ."\n";
+                }
+ 
+                $menu_list .= '<li>' ."\n";
+                $menu_list .= '<a href="'.$link.'" title= "'.$title.'">'.$title.'</a>' ."\n";
+                $menu_list .= '</li>' ."\n";
+                     
+ 
+                if ( $menu_items[ $count + 1 ]->menu_item_parent != $parent_id && $submenu ){
+                    $menu_list .= '</ul>'."\n";
+					$menu_list .= '<div style="width:100%;text-align:center"><a href="'.$menuMainUrl.'" class="button btn-info">View All Courses</a></div>'."\n";
+					$menu_list .= '</div>' ."\n";
+                    $submenu = false;
+                }
+ 
+            }
+ 
+            if ( $menu_items[ $count + 1 ]->menu_item_parent != $parent_id ) { 
+                $menu_list .= '</li>' ."\n";      
+                $submenu = false;
+            }
+ 
+            $count++;
+        }
+         
+        $menu_list .= '</ul>' ."\n";
+        $menu_list .= '</div>' ."\n";
+
+    echo $menu_list;
 }
 
 /*
